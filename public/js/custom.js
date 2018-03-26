@@ -10,3 +10,14 @@ $("document").ready(function(){
     }
   });
 });
+
+
+/********** navagtion bar screen modal ************/
+      function LoginModal(modalId){
+        $('#'+modalId).show();
+      }
+
+/*** cancel button action on modals ***/
+      function modelClose(modalId){
+        $('#'+modalId).hide();
+      }

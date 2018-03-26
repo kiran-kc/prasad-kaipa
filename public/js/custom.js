@@ -13,7 +13,7 @@ $("document").ready(function(){
 
 
 /********** navagtion bar screen modal ************/
-      function LoginModal(modalId){
+      function navbarModal(modalId){
         $('#'+modalId).show();
       }
 

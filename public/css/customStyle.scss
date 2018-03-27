@@ -462,7 +462,6 @@ body{
 } 
 
 
-
 // NAVIGATION BAR MODAL for mobile screen
 .modalNavbar2{
    .modalNavbar-content{
@@ -504,4 +503,140 @@ body{
        		}
        	}
     }      
+} 
+
+
+
+
+
+
+// about page css
+.about-container{
+	background-color:#F3F3F3;
+	.about-heroImg{
+		background-image:url('/images/aboutPage/Heroimage_About.png');
+		height:730px;
+		width:102.2%;
+		margin-left:-1.1em;
+		h1{
+			color:white;
+			padding:3em 0 0 3em;
+			margin-top:0;
+			font-size:4em;
+		}
+		h2{
+			color:white;
+			padding:0 0 0 4em;
+			margin-top:0;
+			font-size:3em;
+		}
+		.about-icons{
+			height:118px;
+			border:2px solid white;
+			border-radius:80px;
+			margin-right:5em;
+			padding:2em;
+			i{
+				color:white;
+			}
+			&:active,&:visited,&:hover{
+				background-color:#1B5F5E;
+				border:2px solid white;
+				i{
+					color:white;
+				}
+			}
+		}
+	}
+	.about-mdesignRow{
+		margin-top:6em;
+		.about-mdesign{
+			h2{}
+			h3{
+				margin-top:-0.2em;
+			}
+			p{
+				font-size:16px;
+				text-align:justify;
+			}
+		}
+		.about-mdImageRight{
+			img{
+				margin-left:0.71em;
+			}
+		}
+		.about-mdImageLeft{
+			img{
+				margin-left:-0.91em;
+			}
+		}
+	}
+	.about-affliations{
+		padding-top:8em;
+		.about-logoBox{
+			background-color:white;
+			height:520px;
+			margin-top:1em;
+			padding-top:1em;
+			h4{
+				margin-top:1em;
+			}
+			.about-logos{
+				padding:1em 6.2em;
+				img{
+					width:250px;
+				}
+				.imgMargin{
+					margin-right:8em;
+				}
+			}
+			.imageMargin{
+				margin-top:-4em;
+				margin-right:8em;
+				padding-left:3em;
+			}
+			.img1{
+				&:active,&:visited,&:hover{
+					background-image:url('/images/aboutPage/Original/ILA.png');
+				}
+			}
+			.img2{
+
+			}
+			.img3{
+
+			}
+			.img4{
+
+			}
+			.img5{
+
+			}
+			.img6{
+
+			}
+			.img7{
+
+			}
+		}
+	}
+	.about-logoBoxt{
+		background-color:white;
+		height:350px;
+		h4{
+			margin-top:1em;
+		}
+		.about-logos{
+			padding:1em 6.2em;
+			img{
+				width:250px;
+			}
+			.imgMargin{
+				margin-right:8em;
+			}
+			.img5{}
+			.img6{}
+			.img7{}
+		}
+	}
 } 

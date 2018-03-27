@@ -322,7 +322,6 @@ body {
   .modalNavbar .modalNavbar-content .nav-item {
     margin-top: 4em; }
     .modalNavbar .modalNavbar-content .nav-item ul li {
-      font-style: 'sans serif';
       list-style-type: none;
       color: white;
       font-size: 26px;

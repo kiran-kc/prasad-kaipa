@@ -8,7 +8,7 @@
                 </a>
             </div>    
             <ul class="nav navbar-nav">
-                <li><a href="#"><b>ABOUT</b></a></li>
+                <li><a href="aboutPrasad"><b>ABOUT</b></a></li>
                 <li><a href="#"><b>WRITING</b></a></li>
                 <li><a href="#"><b>SPEAKING</b></a></li>
                 <li><a href="#"><b>ACADEMIA</b></a></li>
@@ -90,7 +90,7 @@
         </div>
         <div align="center" class="nav-item">             
             <ul class="nav navbar-nav">
-                <li><a href="#"><b>ABOUT</b></a></li>
+                <li><a href="aboutPrasad"><b>ABOUT</b></a></li>
                 <li><a href="#"><b>WRITING</b></a></li>
                 <li><a href="#"><b>SPEAKING</b></a></li>
                 <li><a href="#"><b>ACADEMIA</b></a></li>

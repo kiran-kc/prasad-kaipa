@@ -530,6 +530,7 @@ body {
         background-size: 360px 100px; }
         .about-container .about-logoBoxt .about-logos .img9:hover {
           width: 38%;
+          height: 180px;
           background-image: url("/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg");
           background-repeat: no-repeat;
           background-size: 360px 100px; }
@@ -544,5 +545,24 @@ body {
           background-image: url("/images/aboutPage/Affiliations/Original/Yoga Bharati.png");
           background-repeat: no-repeat;
           background-size: 220px 220px; }
+  .about-container .about-interviews h2 {
+    padding: 2em 0 0 0; }
+  .about-container .about-interviews .about-card {
+    background-color: white;
+    height: 300px;
+    border: none;
+    border-left: 6px solid #256F76;
+    margin-top: 4em; }
+    .about-container .about-interviews .about-card h4 {
+      margin-top: 2em; }
+      .about-container .about-interviews .about-card h4 i {
+        font-size: 2.5em;
+        margin-left: -2em;
+        color: grey; }
+    .about-container .about-interviews .about-card hr {
+      width: 60%;
+      border: none;
+      border-bottom: 1px solid grey;
+      margin-top: 4.5em; }
 
 /*# sourceMappingURL=customStyle.css.map */

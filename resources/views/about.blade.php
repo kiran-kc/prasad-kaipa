@@ -8,7 +8,8 @@
       		<h2>Prasad's Life and Contributions</h2>
       		<br><br><br><br><br><br><br><br><br><br><br>
       		<div class="col-lg-1 col-lg-offset-1 about-icons">
-      			<i class="material-icons"></i>
+               <!-- <img src="/images/aboutPage/Target_thick_white.png" style="margin-left:-0.4em;margin-top:-0.5em;width:70px;"> -->
+               <img src="/images/aboutPage/Target_thin_white.png" style="margin-left:-0.4em;margin-top:-0.5em;width:70px;">
       		</div>
       		<div class="col-lg-1 about-icons">
       			<i class="fa fa-road fa-4x"></i>
@@ -89,27 +90,42 @@
             </div>
          </div> 
       </div>
-      <!-- <div class="row" style="margin:3em 0;">
+      <div class="row about-interviews">
          <h2 align="center">INTERVIEWS WITH PRASAD</h2>
-         <div class="col-lg-offset-1 col-lg-10" style="background-color:white;height:200px;">
-            <div class="row">
-               <h4 align="center" style="margin-top:1em;">Prasad has served as a board member/advisor to several organizations</h4>
-               <div style="padding:1em 6.2em;">
-                  <img src="/images/aboutPage/Affiliations/Grey/c7.png" style="width:250px;"> 
-                  <img src="/images/aboutPage/Affiliations/Grey/c1.png" style="width:250px;margin:0 8em;">    
-                  <img src="/images/aboutPage/Affiliations/Grey/Arevo.png" style="width:250px;">
-               </div>
-               <div align="right" style="padding:1em 6.8em 0 0;">
-                  <img src="/images/aboutPage/Affiliations/Grey/c4.png" style="width:250px;"> 
-               </div>
-               <div style="padding:1em 6.2em;">
-                  <img src="/images/aboutPage/Affiliations/Grey/c8.png" style="width:250px;margin-top:-4em;"> 
-                  <img src="/images/aboutPage/Affiliations/Grey/c3.png" style="width:300px;margin:0 5.5em;">    
-                  <img src="/images/aboutPage/Affiliations/Grey/c6.png" style="width:280px;">
-               </div>
+         <div class="col-lg-offset-1 col-lg-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2">
+               <h4 align="center"> <i class="fa fa-quote-left"></i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you feel that because your idea is great and you got a large amount of money from a VC, you're invulnerable, you're quickly going to lose everything.</h4>
+               <hr align="center">
+               <h4 align="center"><b>4 Signs You Have a Superman Complex</b></h4>
+               <p align="center"><i>Inc.com</i></p>
             </div>
-         </div>  -->
-      <!-- </div> -->
+         </div> 
+         <div class="col-lg-offset-1 col-lg-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2">
+               <h4 align="center"> <i class="fa fa-quote-left"></i>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wise leaders focus on noble purpose and enlightened self-interest in order to engage with their role fully without being emotionally entangled with it.</h4>
+               <hr align="center">
+               <h4 align="center"><b>Smart and Wise Leadership:An Interview with Prasad Kaipa</b></h4>
+               <p align="center"><i>Huffington Post</i></p>
+            </div>
+         </div>
+         <div class="col-lg-offset-1 col-lg-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2">
+               <h4 align="center"> <i class="fa fa-quote-left"></i>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wisdom is when you apply intelligence toward the common good, trying to do something for other people.</h4>
+               <hr align="center">
+              <h4 align="center"><b>Mercury News interview:Prasad Kaipa, mentor to CEOs</b></h4>
+               <p align="center"><i>Mercury News</i></p>
+            </div>
+         </div>
+         <div class="col-lg-offset-1 col-lg-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2">
+               <h4 align="center"> <i class="fa fa-quote-left"></i>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have to make decisions, you have to take actions, and you have to relate to, communicate with, influence people.</h4>
+               <hr align="center">
+               <h4 align="center"><b>Q&A | Prasad Kaipa & Navi Radjou</b></h4>
+               <p align="center"><i>Live MInt</i></p>
+            </div>
+         </div>
+      </div>
+      <br><br><br><br><br><br>
 	</div>
 </section>
 

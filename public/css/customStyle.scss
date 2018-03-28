@@ -726,6 +726,7 @@ body{
          		background-size: 360px 100px;
 				&:hover{
 					width:38%;
+					height:180px;
 					background-image:url('/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg');
 					background-repeat: no-repeat;
 					background-size: 360px 100px;
@@ -745,6 +746,31 @@ body{
 				}
 			}
 
+		}
+	}
+	.about-interviews{
+		h2{
+			padding:2em 0 0 0;
+		}
+		.about-card{
+			background-color:white;
+			height:300px;
+			border:none;
+			border-left:6px solid #256F76;
+			margin-top:4em;
+			h4{
+				margin-top:2em;
+				i{
+					font-size:2.5em;
+					margin-left:-2em;
+					color:grey;
+				}
+			}
+			hr{
+				width:60%;border:none;
+				border-bottom:1px solid grey;
+				margin-top:4.5em;	
+			}
 		}
 	}
 } 

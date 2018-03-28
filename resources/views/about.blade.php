@@ -57,34 +57,34 @@
 	<div class="container-fluid">
 		<div class="row about-affliations">
 			<h2 align="center">PRASAD'S AFFILIATION</h2>
-			<div class="col-lg-offset-1 col-lg-10 about-logoBox">
-				<div class="row">
+			<div class="col-lg-offset-1 col-lg-10">
+				<div class="row about-logoBox">
                <h4 align="center">Prasad has served as a board member/advisor to several organizations</h4>
                <div class="about-logos">
-                  <img src="/images/aboutPage/Affiliations/Grey/c7.png" class="imgMargin"> 
-                  <img src="/images/aboutPage/Affiliations/Grey/c1.png" class="imgMargin">    
-                  <img src="/images/aboutPage/Affiliations/Grey/Arevo.png">
+                  <div class="col-lg-2 col-lg-offset-1 img1"></div>
+                  <div class="col-lg-2 img2"></div>
+                  <div class="col-lg-2 img3"></div>
                </div>
                <div align="right" class="about-logos">
-                  <img src="/images/aboutPage/Affiliations/Grey/c4.png"> 
+               <div class="col-lg-2 img4"></div>
                </div>
                <div class="about-logos">
-                  <img src="/images/aboutPage/Affiliations/Grey/c8.png" class="imageMargin"> 
-                  <img src="/images/aboutPage/Affiliations/Grey/c3.png" class="imgMargin">    
-                  <img src="/images/aboutPage/Affiliations/Grey/c6.png">
+                  <div class="col-lg-2 col-lg-offset-1 img5"></div>
+                  <div class="col-lg-2 img6"></div>
+                  <div class=" col-lg-2 img7"></div>
                </div>
             </div>
 			</div> 
 		</div>
       <br><br>
       <div class="row">
-         <div class="col-lg-offset-1 col-lg-10  about-logoBoxt">
+         <div class="col-lg-offset-1 col-lg-10 about-logoBoxt">
             <div class="row">
                <h4 class="col-lg-8 col-lg-offset-2" align="center">These are some not-for-profit organizations whose mission aligns well with Prasad's ideology. He serves as board member/advisor to several of them.</h4>
                <div class="about-logos">
-                  <img src="/images/aboutPage/Affiliations/Grey/c5.png" class="imgMargin"> 
-                  <img src="/images/aboutPage/Affiliations/Grey/c2.png" class="imgMargin">    
-                  <img src="/images/aboutPage/Affiliations/Grey/c9.png">
+                  <div class="col-lg-2 col-lg-offset-1 img8"></div>
+                  <div class="col-lg-2 img9"></div>
+                  <div class=" col-lg-2 img10"></div>
                </div>
             </div>
          </div> 
@@ -108,8 +108,8 @@
                   <img src="/images/aboutPage/Affiliations/Grey/c6.png" style="width:280px;">
                </div>
             </div>
-         </div> 
-      </div> -->
+         </div>  -->
+      <!-- </div> -->
 	</div>
 </section>
 

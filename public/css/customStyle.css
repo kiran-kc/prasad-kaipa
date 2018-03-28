@@ -402,33 +402,147 @@ body {
     padding-top: 8em; }
     .about-container .about-affliations .about-logoBox {
       background-color: white;
-      height: 520px;
       margin-top: 1em;
       padding-top: 1em; }
       .about-container .about-affliations .about-logoBox h4 {
         margin-top: 1em; }
       .about-container .about-affliations .about-logoBox .about-logos {
-        padding: 1em 6.2em; }
-        .about-container .about-affliations .about-logoBox .about-logos img {
-          width: 250px; }
-        .about-container .about-affliations .about-logoBox .about-logos .imgMargin {
-          margin-right: 8em; }
-      .about-container .about-affliations .about-logoBox .imageMargin {
-        margin-top: -4em;
-        margin-right: 8em;
-        padding-left: 3em; }
-      .about-container .about-affliations .about-logoBox .img1:active, .about-container .about-affliations .about-logoBox .img1:visited, .about-container .about-affliations .about-logoBox .img1:hover {
-        background-image: url("/images/aboutPage/Original/ILA.png"); }
+        padding: 2em 0; }
+        .about-container .about-affliations .about-logoBox .about-logos .img1 {
+          margin-top: -2em;
+          width: 28%;
+          height: 140px;
+          background-image: url("/images/aboutPage/Affiliations/Grey/ILA.png");
+          background-repeat: no-repeat;
+          background-size: 210px 110px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img1:hover {
+            margin-top: -2em;
+            height: 140px;
+            width: 28%;
+            padding: 5px;
+            background-image: url("/images/aboutPage/Affiliations/Original/ILA.png");
+            background-repeat: no-repeat;
+            background-size: 210px 110px; }
+        .about-container .about-affliations .about-logoBox .about-logos .img2 {
+          width: 28%;
+          height: 100px;
+          background-image: url("/images/aboutPage/Affiliations/Grey/c1.png");
+          background-repeat: no-repeat;
+          background-size: 250px 90px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img2:hover {
+            width: 28%;
+            background-image: url("/images/aboutPage/Affiliations/Original/Intellect.png");
+            background-repeat: no-repeat;
+            background-size: 250px 	90px; }
+        .about-container .about-affliations .about-logoBox .about-logos .img3 {
+          width: 28%;
+          height: 90px;
+          margin-left: 3em;
+          background-image: url("/images/aboutPage/Affiliations/Grey/Arevo.png");
+          background-repeat: no-repeat;
+          background-size: 250px 85px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img3:hover {
+            width: 28%;
+            margin-left: 3em;
+            background-image: url("/images/aboutPage/Affiliations/Original/Arevo.png");
+            background-repeat: no-repeat;
+            background-size: 250px 85px; }
+        .about-container .about-affliations .about-logoBox .about-logos .img4 {
+          margin-top: 2em;
+          margin-left: 1.5em;
+          width: 28%;
+          height: 120px;
+          background-image: url("/images/aboutPage/Affiliations/Grey/c4.png");
+          background-repeat: no-repeat;
+          background-size: 280px 70px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img4:hover {
+            width: 28%;
+            margin-left: 1.5em;
+            background-image: url("/images/aboutPage/Affiliations/Original/Transparent logo.png");
+            background-repeat: no-repeat;
+            background-size: 280px 70px; }
+        .about-container .about-affliations .about-logoBox .about-logos .img5 {
+          margin-top: -4em;
+          width: 28%;
+          height: 180px;
+          background-image: url("/images/aboutPage/Affiliations/Grey/c8.png");
+          background-repeat: no-repeat;
+          background-size: 170px 180px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img5:hover {
+            margin-top: -4em;
+            width: 28%;
+            background-image: url("/images/aboutPage/Affiliations/Original/Marico.jpg");
+            background-repeat: no-repeat;
+            background-size: 170px 180px; }
+        .about-container .about-affliations .about-logoBox .about-logos .img6 {
+          margin-left: -5em;
+          margin-top: -4em;
+          width: 28%;
+          height: 180px;
+          background-image: url("/images/aboutPage/Affiliations/Grey/c3.png");
+          background-repeat: no-repeat;
+          background-size: 360px 170px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img6:hover {
+            margin-left: -5em;
+            margin-top: -4em;
+            width: 28%;
+            background-image: url("/images/aboutPage/Affiliations/Original/SOL.png");
+            background-repeat: no-repeat;
+            background-size: 360px 170px; }
+        .about-container .about-affliations .about-logoBox .about-logos .img7 {
+          margin-left: 4em;
+          width: 28%;
+          height: 180px;
+          background-image: url("/images/aboutPage/Affiliations/Grey/c6.png");
+          background-repeat: no-repeat;
+          background-size: 340px 120px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img7:hover {
+            margin-left: 4em;
+            width: 28%;
+            background-image: url("/images/aboutPage/Affiliations/Original/Apporbit.png");
+            background-repeat: no-repeat;
+            background-size: 340px 120px; }
   .about-container .about-logoBoxt {
     background-color: white;
-    height: 350px; }
+    height: 300px; }
     .about-container .about-logoBoxt h4 {
       margin-top: 1em; }
     .about-container .about-logoBoxt .about-logos {
-      padding: 1em 6.2em; }
-      .about-container .about-logoBoxt .about-logos img {
-        width: 250px; }
-      .about-container .about-logoBoxt .about-logos .imgMargin {
-        margin-right: 8em; }
+      padding: 2em 3em; }
+      .about-container .about-logoBoxt .about-logos .img8 {
+        margin-left: 4em;
+        width: 28%;
+        height: 220px;
+        background-image: url("/images/aboutPage/Affiliations/Grey/c5.png");
+        background-repeat: no-repeat;
+        background-size: 220px 220px; }
+        .about-container .about-logoBoxt .about-logos .img8:hover {
+          width: 28%;
+          background-image: url("/images/aboutPage/Affiliations/Original/northsouth.png");
+          background-repeat: no-repeat;
+          background-size: 220px 220px; }
+      .about-container .about-logoBoxt .about-logos .img9 {
+        margin-top: 4em;
+        width: 38%;
+        height: 180px;
+        background-image: url("/images/aboutPage/Affiliations/Grey/c2.png");
+        background-repeat: no-repeat;
+        background-size: 360px 100px; }
+        .about-container .about-logoBoxt .about-logos .img9:hover {
+          width: 38%;
+          background-image: url("/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg");
+          background-repeat: no-repeat;
+          background-size: 360px 100px; }
+      .about-container .about-logoBoxt .about-logos .img10 {
+        width: 28%;
+        height: 220px;
+        background-image: url("/images/aboutPage/Affiliations/Grey/c9.png");
+        background-repeat: no-repeat;
+        background-size: 220px 220px; }
+        .about-container .about-logoBoxt .about-logos .img10:hover {
+          width: 28%;
+          background-image: url("/images/aboutPage/Affiliations/Original/Yoga Bharati.png");
+          background-repeat: no-repeat;
+          background-size: 220px 220px; }
 
 /*# sourceMappingURL=customStyle.css.map */

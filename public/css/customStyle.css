@@ -361,9 +361,11 @@ body {
   background-color: #F3F3F3; }
   .about-container .about-heroImg {
     background-image: url("/images/aboutPage/Heroimage_About.png");
-    height: 730px;
+    height: 710px;
     width: 102.2%;
-    margin-left: -1.1em; }
+    margin-left: -1.1em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; }
     .about-container .about-heroImg h1 {
       color: white;
       padding: 3em 0 0 3em;
@@ -375,11 +377,16 @@ body {
       margin-top: 0;
       font-size: 3em; }
     .about-container .about-heroImg .about-icons {
+      margin-top: 15em;
       height: 118px;
       border: 2px solid white;
       border-radius: 80px;
       margin-right: 5em;
       padding: 2em; }
+      .about-container .about-heroImg .about-icons img {
+        margin-left: -0.4em;
+        margin-top: -0.5em;
+        width: 70px; }
       .about-container .about-heroImg .about-icons i {
         color: white; }
       .about-container .about-heroImg .about-icons:active, .about-container .about-heroImg .about-icons:visited, .about-container .about-heroImg .about-icons:hover {
@@ -387,6 +394,31 @@ body {
         border: 2px solid white; }
         .about-container .about-heroImg .about-icons:active i, .about-container .about-heroImg .about-icons:visited i, .about-container .about-heroImg .about-icons:hover i {
           color: white; }
+    @media screen and (max-width: 1200px) and (min-width: 900px) {
+      .about-container .about-heroImg {
+        height: 520px;
+        width: 103%;
+        margin-left: -1.1em;
+        background-size: 100% 100%; }
+        .about-container .about-heroImg h1 {
+          padding: 3em 0 0 2em;
+          margin-top: 0;
+          font-size: 3.5em; }
+        .about-container .about-heroImg h2 {
+          padding: 0 0 0 3.5em;
+          margin-top: 0;
+          font-size: 2em; }
+        .about-container .about-heroImg .about-icons {
+          margin-top: 10em;
+          height: 88px; }
+          .about-container .about-heroImg .about-icons img {
+            margin-left: -0.95em;
+            margin-top: -0.9em;
+            width: 53px; }
+          .about-container .about-heroImg .about-icons i {
+            font-size: 3em;
+            margin-top: -0.2em;
+            margin-left: -0.2em; } }
   .about-container .about-mdesignRow {
     margin-top: 6em; }
     .about-container .about-mdesignRow .about-mdesign h3 {
@@ -394,10 +426,19 @@ body {
     .about-container .about-mdesignRow .about-mdesign p {
       font-size: 16px;
       text-align: justify; }
+      @media screen and (max-width: 1200px) and (min-width: 900px) {
+        .about-container .about-mdesignRow .about-mdesign p {
+          font-size: 14px; } }
     .about-container .about-mdesignRow .about-mdImageRight img {
       margin-left: 0.71em; }
+      @media screen and (max-width: 1200px) and (min-width: 900px) {
+        .about-container .about-mdesignRow .about-mdImageRight img {
+          width: 101%; } }
     .about-container .about-mdesignRow .about-mdImageLeft img {
       margin-left: -0.91em; }
+      @media screen and (max-width: 1200px) and (min-width: 900px) {
+        .about-container .about-mdesignRow .about-mdImageLeft img {
+          width: 101%; } }
   .about-container .about-affliations {
     padding-top: 8em; }
     .about-container .about-affliations .about-logoBox {
@@ -502,6 +543,69 @@ body {
             background-image: url("/images/aboutPage/Affiliations/Original/Apporbit.png");
             background-repeat: no-repeat;
             background-size: 340px 120px; }
+        @media screen and (max-width: 1200px) and (min-width: 900px) {
+          .about-container .about-affliations .about-logoBox .about-logos .img1 {
+            margin-top: 0em;
+            height: 100px;
+            background-size: 156px 85px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img1:hover {
+              margin-top: 0em;
+              height: 100px;
+              padding: 5px;
+              background-size: 156px 85px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img2 {
+            height: 100px;
+            background-size: 205px 75px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img2:hover {
+              background-size: 205px 	75px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img3 {
+            width: 25%;
+            height: 90px;
+            margin-left: 3em;
+            background-size: 205px 75px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img3:hover {
+              width: 25%;
+              margin-left: 3em;
+              background-size: 205px 75px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img4 {
+            margin-top: 2em;
+            margin-left: 1.5em;
+            width: 28%;
+            height: 85px;
+            background-size: 220px 55px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img4:hover {
+              width: 28%;
+              margin-left: 1.5em;
+              background-size: 220px 55px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img5 {
+            width: 18%;
+            margin-top: -3em;
+            height: 150px;
+            background-size: 125px 130px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img5:hover {
+              width: 18%;
+              margin-top: -3em;
+              background-size: 125px 130px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img6 {
+            margin-left: 0;
+            margin-top: -3em;
+            width: 40%;
+            height: 135px;
+            background-size: 315px 128px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img6:hover {
+              margin-left: 0;
+              margin-top: -3em;
+              width: 40%;
+              background-size: 315px 128px; }
+          .about-container .about-affliations .about-logoBox .about-logos .img7 {
+            margin-left: 0;
+            width: 28%;
+            height: 120px;
+            background-size: 247px 88px; }
+            .about-container .about-affliations .about-logoBox .about-logos .img7:hover {
+              margin-left: 0;
+              width: 28%;
+              background-size: 247px 88px; } }
   .about-container .about-logoBoxt {
     background-color: white;
     height: 300px; }
@@ -545,6 +649,31 @@ body {
           background-image: url("/images/aboutPage/Affiliations/Original/Yoga Bharati.png");
           background-repeat: no-repeat;
           background-size: 220px 220px; }
+      @media screen and (max-width: 1200px) and (min-width: 900px) {
+        .about-container .about-logoBoxt .about-logos .img8 {
+          margin-top: 1em;
+          margin-left: 1em;
+          height: 180px;
+          background-size: 165px 165px; }
+          .about-container .about-logoBoxt .about-logos .img8:hover {
+            margin-top: 1em;
+            background-size: 165px 165px; }
+        .about-container .about-logoBoxt .about-logos .img9 {
+          margin-top: 4em;
+          width: 38%;
+          height: 100px;
+          background-size: 275px 80px; }
+          .about-container .about-logoBoxt .about-logos .img9:hover {
+            width: 38%;
+            height: 180px;
+            background-size: 275px 80px; }
+        .about-container .about-logoBoxt .about-logos .img10 {
+          width: 28%;
+          height: 200px;
+          background-size: 180px 180px; }
+          .about-container .about-logoBoxt .about-logos .img10:hover {
+            width: 28%;
+            background-size: 180px 180px; } }
   .about-container .about-interviews h2 {
     padding: 2em 0 0 0; }
   .about-container .about-interviews .about-card {

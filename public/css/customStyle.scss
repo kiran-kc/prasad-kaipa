@@ -515,9 +515,11 @@ body{
 	background-color:#F3F3F3;
 	.about-heroImg{
 		background-image:url('/images/aboutPage/Heroimage_About.png');
-		height:730px;
+		height:710px;
 		width:102.2%;
 		margin-left:-1.1em;
+		background-size:100% 100%;
+		background-repeat:no-repeat;
 		h1{
 			color:white;
 			padding:3em 0 0 3em;
@@ -531,11 +533,17 @@ body{
 			font-size:3em;
 		}
 		.about-icons{
+			margin-top:15em;
 			height:118px;
 			border:2px solid white;
 			border-radius:80px;
 			margin-right:5em;
 			padding:2em;
+			img{
+				margin-left:-0.4em;
+				margin-top:-0.5em;
+				width:70px;
+			}
 			i{
 				color:white;
 			}
@@ -546,9 +554,41 @@ body{
 					color:white;
 				}
 			}
+			
 		}
+		@media screen and (max-width:1200px) and (min-width:900px){
+			height:520px;
+			width:103%;
+			margin-left:-1.1em;
+			background-size:100% 100%;
+			h1{
+				padding:3em 0 0 2em;
+				margin-top:0;
+				font-size:3.5em;
+			}
+			h2{
+				padding:0 0 0 3.5em;
+				margin-top:0;
+				font-size:2em;
+			}
+			.about-icons{
+				margin-top:10em;
+				height:88px;
+				img{
+					margin-left:-0.95em;
+					margin-top:-0.9em;
+					width:53px;
+				}
+				i{
+					font-size:3em;
+					margin-top:-0.2em;
+					margin-left:-0.2em;
+				}
+			}
+		}	
 	}
 	.about-mdesignRow{
+		// display: flex;
 		margin-top:6em;
 		.about-mdesign{
 			h2{}
@@ -558,16 +598,27 @@ body{
 			p{
 				font-size:16px;
 				text-align:justify;
+				@media screen and (max-width:1200px) and (min-width:900px){
+					font-size:14px;
+				}
 			}
 		}
 		.about-mdImageRight{
+			// display: flex;
 			img{
 				margin-left:0.71em;
+				@media screen and (max-width:1200px) and (min-width:900px){
+					width:101%;
+				}
 			}
 		}
 		.about-mdImageLeft{
+			// display: flex;
 			img{
 				margin-left:-0.91em;
+				@media screen and (max-width:1200px) and (min-width:900px){
+					width:101%;
+				}
 			}
 		}
 	}
@@ -691,6 +742,85 @@ body{
 						background-repeat: no-repeat;
 						background-size: 340px 120px;
 					}
+				}
+				@media screen and (max-width:1200px) and (min-width:900px){
+					.img1{
+						margin-top:0em;
+						height:100px;
+	         			background-size: 156px 85px;
+						&:hover{
+							margin-top:0em;
+							height:100px;
+							padding:5px;
+							background-size: 156px 85px;
+						}
+					}
+
+					.img2{
+						height:100px;
+	         			background-size: 205px 75px;
+						&:hover{
+							background-size: 205px 	75px;
+						}
+					}
+					.img3{
+						width:25%;
+						height:90px;
+						margin-left:3em;
+	         			background-size: 205px 75px;
+						&:hover{
+							width:25%;
+							margin-left:3em;
+							background-size: 205px 75px;
+						}
+					}
+					.img4{
+						margin-top:2em;
+						margin-left:1.5em;
+						width:28%;
+						height:85px;
+	         			background-size:220px 55px;
+						&:hover{
+							width:28%;
+							margin-left:1.5em;
+							background-size:220px 55px;
+						}
+					}
+					.img5{
+						width:18%;
+						margin-top:-3em;
+						height:150px;
+	         			background-size: 125px 130px;
+						&:hover{
+							width:18%;
+							margin-top:-3em;
+							background-size: 125px 130px;
+						}
+					}
+					.img6{
+						margin-left:0;
+						margin-top:-3em;
+						width:40%;
+						height:135px;
+	         			background-size: 315px 128px;
+						&:hover{
+							margin-left:0;
+							margin-top:-3em;
+							width:40%;
+							background-size: 315px 128px;
+						}
+					}
+					.img7{
+						margin-left:0;
+						width:28%;
+						height:120px;
+	         			background-size: 247px 88px;
+						&:hover{
+							margin-left:0;
+							width:28%;
+							background-size: 247px 88px;
+						}
+					}	
 				}				
 			}	
 		}
@@ -745,7 +875,38 @@ body{
 					background-size: 220px 220px;
 				}
 			}
-
+			@media screen and (max-width:1200px) and (min-width:900px){
+				.img8{
+					margin-top:1em;
+					margin-left:1em;
+					height:180px;
+	         		background-size: 165px 165px;
+					&:hover{
+						margin-top:1em;
+						background-size: 165px 165px;
+					}
+				}
+				.img9{
+					margin-top:4em;
+					width:38%;
+					height:100px;
+	         		background-size: 275px 80px;
+					&:hover{
+						width:38%;
+						height:180px;
+						background-size: 275px 80px;
+					}
+				}
+				.img10{
+					width:28%;
+					height:200px;
+	         		background-size: 180px 180px;
+					&:hover{
+						width:28%;
+						background-size: 180px 180px;
+					}
+				}
+			}
 		}
 	}
 	.about-interviews{

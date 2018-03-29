@@ -6,24 +6,24 @@
       	<div class="about-heroImg">
       		<h1>AN INSIGHT</h1> 
       		<h2>Prasad's Life and Contributions</h2>
-      		<br><br><br><br><br><br><br><br><br><br><br>
-      		<div class="col-lg-1 col-lg-offset-1 about-icons">
+      		
+      		<div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 about-icons">
                <!-- <img src="/images/aboutPage/Target_thick_white.png" style="margin-left:-0.4em;margin-top:-0.5em;width:70px;"> -->
-               <img src="/images/aboutPage/Target_thin_white.png" style="margin-left:-0.4em;margin-top:-0.5em;width:70px;">
+               <img src="/images/aboutPage/Target_thin_white.png">
       		</div>
-      		<div class="col-lg-1 about-icons">
+      		<div class="col-lg-1 col-md-1 about-icons">
       			<i class="fa fa-road fa-4x"></i>
       		</div>
-      		<div class="col-lg-1 about-icons" style="padding:2em 1.6em;">
+      		<div class="col-lg-1 col-md-1 about-icons" style="padding:2em 1.6em;">
       			<i class="fa fa-handshake-o fa-4x"></i>
       		</div>
-      		<div class="col-lg-1 about-icons" style="padding:2.6em 2.8em;">
+      		<div class="col-lg-1 col-md-1 about-icons" style="padding:2.6em 2.8em;">
       			<i class="fa fa-microphone fa-4x"></i>
       		</div>
       	</div>
     	</div>
     	<div class="row about-mdesignRow">
-    		<div class="col-lg-6 col-lg-offset-1 about-mdesign">
+    		<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 about-mdesign">
         		<h2 align="center">PRASAD'S PURPOSE</h2>
         		<h3 align="center">Thought Provoker.</h3>
         		<p>Prasad has worn many hats in his journey spanning decades. He is an author, leadership coach, adviser,
@@ -34,15 +34,15 @@
 				AI today is so much more than it was 20 years ago; it has the potential to give humans the emotional support 	and vulnerability shield that they so need. His current passion project is to find ways to instill compassion into Alexa, Siri, Cortana and their friends.</p>
 				<p>Prasad is always on the lookout for those who share his vision and want to collaborate with him to make these dreams a reality.</p>
       	</div>
-      	<div class="col-lg-5 about-mdImageRight">
+      	<div class="col-lg-5 col-md-5 about-mdImageRight">
         		<img src="/images/aboutPage/Purpose.png">
       	</div>
     	</div>
     	<div class="row about-mdesignRow">
-    		<div class="col-lg-5 col-lg-offset-0 about-mdImageLeft">
+    		<div class="col-lg-5 col-md-5 about-mdImageLeft">
         		<img src="/images/aboutPage/Journey.png">
       	</div>
-    		<div class="col-lg-6 about-mdesign">
+    		<div class="col-lg-6 col-md-6 about-mdesign">
         		<h2 align="center">PRASAD'S JOURNEY AND CONTRIBUTIONS</h2>
         		<h3 align="center">Spirituality, Technology and Business.</h3>
         		<p>Prasad holds a Ph.D. in physics from the University of Utah, where his team built an international research laboratory. and was an early employee at Apple as a technology advisor, manager in Apple International Product Marketing, and research fellow in Apple University.</p>
@@ -58,66 +58,66 @@
 	<div class="container-fluid">
 		<div class="row about-affliations">
 			<h2 align="center">PRASAD'S AFFILIATION</h2>
-			<div class="col-lg-offset-1 col-lg-10">
+			<div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10">
 				<div class="row about-logoBox">
                <h4 align="center">Prasad has served as a board member/advisor to several organizations</h4>
                <div class="about-logos">
-                  <div class="col-lg-2 col-lg-offset-1 img1"></div>
-                  <div class="col-lg-2 img2"></div>
-                  <div class="col-lg-2 img3"></div>
+                  <div class="col-lg-2 col-lg-offset-1 col-md-offset-1 col-md-2 img1"></div>
+                  <div class="col-lg-2 col-md-2 img2"></div>
+                  <div class="col-lg-2 col-md-2 img3"></div>
                </div>
                <div align="right" class="about-logos">
-               <div class="col-lg-2 img4"></div>
+               <div class="col-lg-2 col-md-2 img4"></div>
                </div>
                <div class="about-logos">
-                  <div class="col-lg-2 col-lg-offset-1 img5"></div>
-                  <div class="col-lg-2 img6"></div>
-                  <div class=" col-lg-2 img7"></div>
+                  <div class="col-lg-2 col-lg-offset-1 col-md-offset-1 col-md-2 img5"></div>
+                  <div class="col-lg-2 col-md-2 img6"></div>
+                  <div class=" col-lg-2 col-md-2 img7"></div>
                </div>
             </div>
 			</div> 
 		</div>
       <br><br>
       <div class="row">
-         <div class="col-lg-offset-1 col-lg-10 about-logoBoxt">
+         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 about-logoBoxt">
             <div class="row">
-               <h4 class="col-lg-8 col-lg-offset-2" align="center">These are some not-for-profit organizations whose mission aligns well with Prasad's ideology. He serves as board member/advisor to several of them.</h4>
+               <h4 class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8" align="center">These are some not-for-profit organizations whose mission aligns well with Prasad's ideology. He serves as board member/advisor to several of them.</h4>
                <div class="about-logos">
-                  <div class="col-lg-2 col-lg-offset-1 img8"></div>
-                  <div class="col-lg-2 img9"></div>
-                  <div class=" col-lg-2 img10"></div>
+                  <div class="col-lg-2 col-lg-offset-1 col-md-offset-1 col-md-2 img8"></div>
+                  <div class="col-lg-2 col-md-2 img9"></div>
+                  <div class=" col-lg-2 col-md-2 img10"></div>
                </div>
             </div>
          </div> 
       </div>
       <div class="row about-interviews">
          <h2 align="center">INTERVIEWS WITH PRASAD</h2>
-         <div class="col-lg-offset-1 col-lg-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2">
+         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8">
                <h4 align="center"> <i class="fa fa-quote-left"></i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you feel that because your idea is great and you got a large amount of money from a VC, you're invulnerable, you're quickly going to lose everything.</h4>
                <hr align="center">
                <h4 align="center"><b>4 Signs You Have a Superman Complex</b></h4>
                <p align="center"><i>Inc.com</i></p>
             </div>
          </div> 
-         <div class="col-lg-offset-1 col-lg-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2">
+         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8">
                <h4 align="center"> <i class="fa fa-quote-left"></i>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wise leaders focus on noble purpose and enlightened self-interest in order to engage with their role fully without being emotionally entangled with it.</h4>
                <hr align="center">
                <h4 align="center"><b>Smart and Wise Leadership:An Interview with Prasad Kaipa</b></h4>
                <p align="center"><i>Huffington Post</i></p>
             </div>
          </div>
-         <div class="col-lg-offset-1 col-lg-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2">
+         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8">
                <h4 align="center"> <i class="fa fa-quote-left"></i>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wisdom is when you apply intelligence toward the common good, trying to do something for other people.</h4>
                <hr align="center">
               <h4 align="center"><b>Mercury News interview:Prasad Kaipa, mentor to CEOs</b></h4>
                <p align="center"><i>Mercury News</i></p>
             </div>
          </div>
-         <div class="col-lg-offset-1 col-lg-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2">
+         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 about-card">
+            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8">
                <h4 align="center"> <i class="fa fa-quote-left"></i>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have to make decisions, you have to take actions, and you have to relate to, communicate with, influence people.</h4>
                <hr align="center">
                <h4 align="center"><b>Q&A | Prasad Kaipa & Navi Radjou</b></h4>

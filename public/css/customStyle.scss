@@ -521,12 +521,14 @@ body{
 		background-size:100% 100%;
 		background-repeat:no-repeat;
 		h1{
+			font-family: 'Lato', sans-serif;
 			color:white;
 			padding:3em 0 0 3em;
 			margin-top:0;
 			font-size:4em;
 		}
 		h2{
+			font-family: 'Lato', sans-serif;
 			color:white;
 			padding:0 0 0 4em;
 			margin-top:0;
@@ -555,6 +557,70 @@ body{
 				}
 			}
 			
+		}
+		@media screen and (max-width:550px) and (min-width:320px){
+		 	height:250px;
+			width:107.6%;
+			margin-left:-1.1em;
+			background-size:100% 100%;
+			h1{
+				padding:2em 0 0 1em;
+				margin-top:0;
+				font-size:2em;
+			}
+			h2{
+				padding:0 0 0 1.5em;
+				margin-top:0;
+				font-size:1.2em;
+			}
+			.about-icons{
+				margin-top:4em;
+				height:35px;
+				margin-right:1em;
+				padding:auto;
+				img{
+					margin-left:-1.4em;
+					margin-top:-1.5em;
+					width:40px;
+				}
+				i{
+					margin-left:-0.55em;
+					margin-top:-1em;
+					font-size:2.2em;
+				}
+			}
+		}
+		@media screen and (max-width:899px) and (min-width:551px){
+		 	height:520px;
+			width:104%;
+			margin-left:-1.1em;
+			background-size:100% 80%;
+			h1{
+				padding:3em 0 0 2em;
+				margin-top:0;
+				font-size:3.5em;
+			}
+			h2{
+				padding:0 0 0 3.5em;
+				margin-top:0;
+				font-size:2em;
+			}
+			.about-icons{
+				margin-top:3.9em;
+				height:88px;
+				padding:3em;
+				margin-right:3em;
+				img{
+					margin-left:-1.8em;
+					margin-top:-1.8em;
+					width:53px;
+				}
+				i{
+					font-size:3em;
+					margin-top:-1.2em;
+					margin-left:-0.5em;
+				}
+			}
 		}
 		@media screen and (max-width:1200px) and (min-width:900px){
 			height:520px;
@@ -590,16 +656,53 @@ body{
 	.about-mdesignRow{
 		// display: flex;
 		margin-top:6em;
+		.about-mdImageMobile{
+			display:none;	
+		}
+		@media screen and (max-width:550px) and (min-width:320px){
+			margin-top:2em;
+			.about-mdImageMobile{
+				display:block;
+				img{
+					width:240px;
+				}	
+			}
+		}		
 		.about-mdesign{
-			h2{}
+			h2{
+				font-family: 'Lato', sans-serif;
+			}
 			h3{
+				font-family: 'Lato', sans-serif;
 				margin-top:-0.2em;
 			}
 			p{
 				font-size:16px;
 				text-align:justify;
-				@media screen and (max-width:1200px) and (min-width:900px){
+				@media screen and (max-width:1240px) and (min-width:900px){
 					font-size:14px;
+				}
+			}
+			@media screen and (max-width:550px) and (min-width:320px){
+				h2{
+					font-size:20px;
+				}
+				h3{
+					font-size:14px;
+				}
+				p{
+					font-size:10px;
+				}
+			}
+			@media screen and (max-width:899px) and (min-width:551px){
+				h2{
+					font-size:24px;
+				}
+				h3{
+					font-size:18px;
+				}
+				p{
+					font-size:12px;
 				}
 			}
 		}
@@ -607,7 +710,14 @@ body{
 			// display: flex;
 			img{
 				margin-left:0.71em;
-				@media screen and (max-width:1200px) and (min-width:900px){
+				@media screen and (max-width:550px) and (min-width:320px){
+					width:232px;
+				}
+				@media screen and (max-width:899px) and (min-width:551px){
+					display:flex;
+					width:295px;
+				}
+				@media screen and (max-width:1240px) and (min-width:900px){
 					width:101%;
 				}
 			}
@@ -616,7 +726,13 @@ body{
 			// display: flex;
 			img{
 				margin-left:-0.91em;
-				@media screen and (max-width:1200px) and (min-width:900px){
+				@media screen and (max-width:550px) and (min-width:320px){
+					display:none;
+				}
+				@media screen and (max-width:899px) and (min-width:551px){
+					width:295px;
+				}
+				@media screen and (max-width:1240px) and (min-width:900px){
 					width:101%;
 				}
 			}
@@ -624,6 +740,12 @@ body{
 	}
 	.about-affliations{
 		padding-top:8em;
+		@media screen and (max-width:550px) and (min-width:320px){
+			padding-top:2em;
+			h2{
+				font-size:22px;
+			}
+		}
 		.about-logoBox{
 			background-color:white;
 			// height:520px;
@@ -631,6 +753,9 @@ body{
 			padding-top:1em;
 			h4{
 				margin-top:1em;
+				@media screen and (max-width:550px) and (min-width:320px){
+					font-size:14px;
+				}
 			}
 			.about-logos{
 				padding:2em 0;
@@ -651,7 +776,6 @@ body{
 						background-size: 210px 110px;
 					}
 				}
-
 				.img2{
 					width:28%;
 					height:100px;
@@ -743,7 +867,169 @@ body{
 						background-size: 340px 120px;
 					}
 				}
-				@media screen and (max-width:1200px) and (min-width:900px){
+				@media screen and (max-width:550px) and (min-width:320px){
+					padding:1em 1em;
+					.img1{
+						width:48%;
+						margin-top:0em;
+						height:60px;
+	         			background-size: 100px 55px;
+						&:hover{
+							width:48%;
+							margin-top:0em;
+							height:60px;
+							background-size: 100px 55px;
+						}
+					}
+
+					.img2{
+						width:42%;
+						height:60px;
+	         			background-size: 120px 41px;
+						margin-top:0.6em;
+						&:hover{
+							width:42%;
+							background-size:120px 41px;
+
+						}
+					}
+					.img3{
+						width:50%;
+						height:60px;
+						margin-left:1em;
+	         			background-size: 122px 40px;
+						&:hover{
+							width:50%;
+							margin-left:1em;
+							background-size: 122px 40px;
+						}
+					}
+					.img4{
+						width:42%;
+						margin-top:0em;
+						margin-left:0em;
+						height:60px;
+	         			background-size:128px 32px;
+						&:hover{
+							width:42%;
+							height:60px;
+							margin-left:0em;
+							background-size:128px 32px;
+						}
+					}
+					.img5{
+						margin-top:-1em;
+						width:32%;
+	         			background-size: 74px 77px;
+	         			height:80px;
+						&:hover{
+							margin-top:-1em;
+							width:32%;
+							background-size: 74px 77px;
+							height:80px;
+						}
+					}
+					.img6{
+						margin-left:0;
+						margin-top:-1.5em;
+						width:50%;
+						height:110px;
+	         			background-size: 175px 86px;
+						&:hover{
+							margin-left:0;
+							margin-top:-1.5em;
+							width:50%;
+							background-size: 175px 86px;
+						}
+					}
+					.img7{
+						width:80%;
+						height:97px;
+	         			background-size: 190px 63px;
+						&:hover{
+							width:80%;
+							background-size: 190px 63px;
+						}
+					}	
+				}
+				@media screen and (max-width:899px) and (min-width:551px){
+					.img1{
+						width:24%;
+						margin-top:0em;
+						height:100px;
+	         			background-size: 132px 80px;
+						&:hover{
+							width:24%;
+							margin-top:0em;
+							height:100px;
+							background-size: 132px 80px;
+						}
+					}
+
+					.img2{
+						width:33%;
+						height:92px;
+	         			background-size: 196px 64px;
+						margin-top:0.6em;
+						&:hover{
+							width:33%;
+							background-size: 196px 	64px;
+
+						}
+					}
+					.img3{
+						height:90px;
+						margin-left:0;
+	         			background-size: 180px 65px;
+						&:hover{
+							margin-left:0;
+							background-size: 180px 65px;
+						}
+					}
+					.img4{
+						margin-top:0em;
+						margin-left:1.5em;
+						height:85px;
+	         			background-size:162px 46px;
+						&:hover{
+							margin-left:1.5em;
+							background-size:162px 46px;
+						}
+					}
+					.img5{
+						width:20%;
+	         			background-size: 125px 133px;
+	         			height:150px;
+						&:hover{
+							width:20%;
+							background-size: 125px 133px;
+							height:150px;
+						}
+					}
+					.img6{
+						margin-left:0;
+						margin-top:-1.5em;
+						width:34%;
+						height:110px;
+	         			background-size: 231px 88px;
+						&:hover{
+							margin-left:0;
+							margin-top:-1.5em;
+							width:34%;
+							background-size: 231px 88px;
+						}
+					}
+					.img7{
+						margin-left:2em;
+						height:97px;
+	         			background-size: 185px 68px;
+						&:hover{
+							margin-left:2em;
+							background-size: 185px 68px;
+						}
+					}	
+				}
+				@media screen and (max-width:1240px) and (min-width:900px){
 					.img1{
 						margin-top:0em;
 						height:100px;
@@ -827,14 +1113,17 @@ body{
 	}
 	.about-logoBoxt{
 		background-color:white;
-		height:300px;
+		// height:300px;
 		h4{
 			margin-top:1em;
+			@media screen and (max-width:550px) and (min-width:320px){
+				font-size:12px;
+			}
 		}
 		.about-logos{
 			padding:2em 3em;
 			.img8{
-				 margin-left:4em;
+				margin-left:4em;
 				width:28%;
 				height:220px;
 				background-image:url('/images/aboutPage/Affiliations/Grey/c5.png');
@@ -875,10 +1164,74 @@ body{
 					background-size: 220px 220px;
 				}
 			}
-			@media screen and (max-width:1200px) and (min-width:900px){
+			@media screen and (max-width:550px) and (min-width:320px){
+				padding:0em 1em;
+				.img8{
+					width:28%;
+					margin-top:0.5em;
+					margin-left:0;
+					height:100px;
+	         		background-size: 80px 80px;
+					&:hover{
+						margin-top:0.5em;
+						background-size: 80px 80px;
+					}
+				}
+				.img9{
+					margin-top:1.5em;
+					width:40%;
+					height:60px;
+	         		background-size:126px 48px;
+					&:hover{
+						width:40%;
+						height:60px;
+						background-size:126px 48px;
+					}
+				}
+				.img10{
+					width:32%;
+					height:100px;
+	         		background-size: 90px 94px;
+					&:hover{
+						width:32%;
+						background-size: 90px 94px;
+					}
+				}
+			}
+			@media screen and (max-width:899px) and (min-width:551px){
 				.img8{
 					margin-top:1em;
-					margin-left:1em;
+					margin-left:0;
+					height:150px;
+	         		background-size: 140px 140px;
+					&:hover{
+						margin-top:1em;
+						background-size: 140px 140px;
+					}
+				}
+				.img9{
+					margin-top:3em;
+					width:38%;
+					height:100px;
+	         		background-size: 215px 66px;
+					&:hover{
+						width:38%;
+						height:180px;
+						background-size: 215px 66px;
+					}
+				}
+				.img10{
+					height:150px;
+	         		background-size: 160px 160px;
+					&:hover{
+						background-size: 160px 160px;
+					}
+				}
+			}
+			@media screen and (max-width:1240px) and (min-width:900px){
+				.img8{
+					margin-top:1em;
+					margin-left:3em;
 					height:180px;
 	         		background-size: 165px 165px;
 					&:hover{
@@ -931,6 +1284,43 @@ body{
 				width:60%;border:none;
 				border-bottom:1px solid grey;
 				margin-top:4.5em;	
+			}
+		}
+		@media screen and (max-width:550px) and (min-width:320px){
+			h2{
+				padding:1em 0 0 0;
+				font-size:1.3em;
+			}
+			.about-card{
+				height:160px;
+				margin-top:1em;
+				h4{
+					font-size:12px;
+					margin-top:1em;
+					i{
+						font-size:1.5em;
+					}
+				}
+				hr{
+					margin-top:1em;	
+				}
+				p{
+					margin-top:-0.5em;
+					font-size:11px;	
+				}
+			}
+		}
+		@media screen and (max-width:899px) and (min-width:551px){
+			.about-card{
+				height:210px;
+				margin-top:3em;
+				h4{
+					font-size:13px;
+					margin-top:2em;
+				}
+				hr{
+					margin-top:2.5em;	
+				}
 			}
 		}
 	}

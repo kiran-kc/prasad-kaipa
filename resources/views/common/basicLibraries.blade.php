@@ -9,6 +9,8 @@
        
     <!-- Font awesome CSS CDN Link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300i" rel="stylesheet">
 
     <!-- Bootstrap css maxcdn link -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">

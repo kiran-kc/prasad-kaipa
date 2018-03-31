@@ -38,4 +38,9 @@ class WelcomeController extends Controller {
 		return view('about');
 	}
 
+	public function writings()
+	{
+		return view('writings');
+	}
+
 }

@@ -10,9 +10,17 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+// home page
 Route::get('/', 'WelcomeController@index');
+// about tab
 Route::get('aboutPrasad', 'WelcomeController@about');
+// writings tab
+Route::get('writingsByPrasad', 'WelcomeController@writings');
+
+
+
+
+
 Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');

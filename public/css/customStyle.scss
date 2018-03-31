@@ -515,11 +515,14 @@ body{
 	background-color:#F3F3F3;
 	.about-heroImg{
 		background-image:url('/images/aboutPage/Heroimage_About.png');
-		height:710px;
+		min-height:710px;
 		width:102.2%;
 		margin-left:-1.1em;
 		background-size:100% 100%;
 		background-repeat:no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
 		h1{
 			font-family: 'Lato', sans-serif;
 			color:white;
@@ -591,10 +594,10 @@ body{
 			}
 		}
 		@media screen and (max-width:899px) and (min-width:551px){
-		 	height:520px;
+		 	height:430px;
 			width:104%;
 			margin-left:-1.1em;
-			background-size:100% 80%;
+			background-size:100% 100%;
 			h1{
 				padding:3em 0 0 2em;
 				margin-top:0;
@@ -696,6 +699,17 @@ body{
 			}
 			@media screen and (max-width:899px) and (min-width:551px){
 				h2{
+					font-size:21px;
+				}
+				h3{
+					font-size:16px;
+				}
+				p{
+					font-size:10px;
+				}
+			}
+			@media screen and (max-width:1240px) and (min-width:900px){
+				h2{
 					font-size:24px;
 				}
 				h3{
@@ -711,7 +725,7 @@ body{
 			img{
 				margin-left:0.71em;
 				@media screen and (max-width:550px) and (min-width:320px){
-					width:232px;
+					display:none;
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
 					display:flex;
@@ -745,6 +759,12 @@ body{
 			h2{
 				font-size:22px;
 			}
+		}
+		@media screen and (max-width:899px) and (min-width:551px){
+			padding-top:2em;
+			// h2{
+			// 	font-size:26px;
+			// }
 		}
 		.about-logoBox{
 			background-color:white;

@@ -21,3 +21,13 @@ $("document").ready(function(){
       function modelClose(modalId){
         $('#'+modalId).hide();
       }
+
+
+// on scroll effect in about page
+  $(window).scroll(function() {
+  $(".about-heroImg").css({
+    'opacity': 1.2 - (($(this).scrollTop()) / 500)
+     // 'transform': (scale3d(0, 0, 0) + parseInt(x / 10, 0) + '% '); 
+
+  });
+});

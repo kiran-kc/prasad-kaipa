@@ -361,11 +361,14 @@ body {
   background-color: #F3F3F3; }
   .about-container .about-heroImg {
     background-image: url("/images/aboutPage/Heroimage_About.png");
-    height: 710px;
+    min-height: 710px;
     width: 102.2%;
     margin-left: -1.1em;
     background-size: 100% 100%;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover; }
     .about-container .about-heroImg h1 {
       font-family: 'Lato', sans-serif;
       color: white;
@@ -425,10 +428,10 @@ body {
             font-size: 2.2em; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .about-container .about-heroImg {
-        height: 520px;
+        height: 430px;
         width: 104%;
         margin-left: -1.1em;
-        background-size: 100% 80%; }
+        background-size: 100% 100%; }
         .about-container .about-heroImg h1 {
           padding: 3em 0 0 2em;
           margin-top: 0;
@@ -506,6 +509,13 @@ body {
         font-size: 10px; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .about-container .about-mdesignRow .about-mdesign h2 {
+        font-size: 21px; }
+      .about-container .about-mdesignRow .about-mdesign h3 {
+        font-size: 16px; }
+      .about-container .about-mdesignRow .about-mdesign p {
+        font-size: 10px; } }
+    @media screen and (max-width: 1240px) and (min-width: 900px) {
+      .about-container .about-mdesignRow .about-mdesign h2 {
         font-size: 24px; }
       .about-container .about-mdesignRow .about-mdesign h3 {
         font-size: 18px; }
@@ -515,7 +525,7 @@ body {
       margin-left: 0.71em; }
       @media screen and (max-width: 550px) and (min-width: 320px) {
         .about-container .about-mdesignRow .about-mdImageRight img {
-          width: 232px; } }
+          display: none; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
         .about-container .about-mdesignRow .about-mdImageRight img {
           display: flex;
@@ -541,6 +551,9 @@ body {
         padding-top: 2em; }
         .about-container .about-affliations h2 {
           font-size: 22px; } }
+    @media screen and (max-width: 899px) and (min-width: 551px) {
+      .about-container .about-affliations {
+        padding-top: 2em; } }
     .about-container .about-affliations .about-logoBox {
       background-color: white;
       margin-top: 1em;

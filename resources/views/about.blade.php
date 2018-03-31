@@ -34,12 +34,15 @@
 				AI today is so much more than it was 20 years ago; it has the potential to give humans the emotional support 	and vulnerability shield that they so need. His current passion project is to find ways to instill compassion into Alexa, Siri, Cortana and their friends.</p>
 				<p>Prasad is always on the lookout for those who share his vision and want to collaborate with him to make these dreams a reality.</p>
       	</div>
-      	<div class="col-lg-5 col-md-5 col-sm-5 col-xs-8 col-xs-offset-2 about-mdImageRight">
+      	<div class="col-lg-5 col-md-5 col-sm-5 about-mdImageRight">
         		<img src="/images/aboutPage/Purpose.png">
       	</div>
+         <div class="col-xs-8 col-xs-offset-2 about-mdImageMobile">
+            <img src="/images/aboutPage/Purpose.png">
+         </div>
     	</div>
     	<div class="row about-mdesignRow">
-    		<div class="col-lg-5 col-md-5 col-sm-5 col-xs-8 col-xs-offset-2 about-mdImageLeft">
+    		<div class="col-lg-5 col-md-5 col-sm-5 about-mdImageLeft">
         		<img src="/images/aboutPage/Journey.png">
       	</div>
     		<div class="col-lg-6 col-md-6 col-sm-6 about-mdesign">
@@ -50,7 +53,7 @@
 				<p>At Center for Creative Leadership, Prasad was the Smith Richardson Visiting Fellow 2010-11. He has been an advisor to Business FAC of Fetzer Institute (2011-13). In 2016-17, Prasad contributed towards ‘Innovation & Knowledge Creation’ as a member of a panel for the Government of India.</p>
 				<p>Prasad has offered executive education programs at INSEAD, London Business School, Marshall School of Business, Tuck School of Business, and IIM Bangalore. He is a Clinical professor and founding Executive Director of the Center for Leadership, Innovation and Change (CLIC) at the Indian School of Business (ISB).</p>
       	</div>
-         <div class="col-lg-5 col-md-5 col-sm-5 col-xs-8 col-xs-offset-2 about-mdImageMobile">
+         <div class="col-xs-8 col-xs-offset-2 about-mdImageMobile">
             <img src="/images/aboutPage/Journey.png">
          </div>
     	</div>
@@ -133,8 +136,4 @@
       <br><br><br><br><br><br>
 	</div>
 </section>
-
-
-
-
 @stop

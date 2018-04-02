@@ -55,7 +55,7 @@
 
 <section class="writing-container">
     <div class="container-fluid">
-         <div class="row writing-header">
+         <div class="row writing-header" style="margin-top:4em;">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 writing-box">
                 <header>
                     <h1 align="center">PUBLISHED ARTICLES</h1>
@@ -137,65 +137,153 @@
         </div>            
     </div>
 </section>   	
-<!-- 
+
 <section class="writing-container">
     <div class="container-fluid">
-         <div class="row"  style="margin-top:8em;">
-            <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2" style="background-color:white;">
-                <header style="padding:1em;">
-                    <h1 align="center" style="font-size:4em;">RESEARCH PAPERS</h1>
-                    <hr style="width:10%;border:none;border-top:4px solid red;margin-top:-0.5em;" align="center">
+         <div class="row writing-header" style="margin-top:4em;">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 writing-box">
+                <header>
+                    <h1 align="center">RESEARCH PAPERS</h1>
+                    <hr align="center">
                 </header>
-                <div class="row" style="padding-bottom:4em;">
-                    <div class="col-lg-8 col-lg-offset-2" style="background-color:#f5f5f5;border:1px solid #D5D4D4;">
-                        <div class="col-lg-10 col-md-8 col-sm-8 col-xs-8" style="padding-top:1.4em;">
-                            <h4 style="line-height:1.2em;"><b>7 Business Decisions That Looked Bad but Turned Good</b></h4> 
-                            <h6 style="color:grey;">By Prasad Kaipa and Navi Radjou</h6>
+                 <!-- card 1 -->
+                <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Making wise decisions: Leadership lessons from Mahabharata</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa</h6>
                         </div>
                     </div>      
                 </div> 
-                 <div class="row" style="padding-bottom:4em;">
-                    <div class="col-lg-8 col-lg-offset-2" style="background-color:#f5f5f5;border:1px solid #D5D4D4;">
-                        <div class="col-lg-10 col-md-8 col-sm-8 col-xs-10" style="padding-top:1.4em;">
-                            <h4 style="line-height:1.2em;"><b>How to Gain Role Clarity and Lead from any Position</b></h4> 
-                            <h6 style="color:grey;">By Prasad Kaipa, Navi Radjou and Sarwath Khizrana</h6>
+                <!-- card 2 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Examining the relevance of Yamas and Niyamas to Toyota</b></h4> 
+                            <h6 class="researchCard">By ChandrasekaharPrasad Vemuri and Prasad Kaipa</h6>
                         </div>
                     </div>      
                 </div>
-                 <div class="row" style="padding-bottom:4em;">
-                    <div class="col-lg-8 col-lg-offset-2" style="background-color:#f5f5f5;border:1px solid #D5D4D4;">
-                        <div class="col-lg-10 col-md-8 col-sm-8 col-xs-10" style="padding-top:1.4em;">
-                            <h4 style="line-height:1.2em;"><b>Watching Wise Leaders Deal With Complexity</b></h4> 
-                            <h6 style="color:grey;">By Prasad Kaipa and Navi Radjou</h6>
+                <!-- card 3  --> 
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>The Impact of a Firm’s Financial Flexibility on its Strategic Renewal: Key Concepts with Evidential Support from Businesses Across Industries</b></h4> 
+                            <h6 class="researchCard">By S. Balasubrahmanyam, Prasad Kaipa and Katte Akhilesh</h6>
                         </div>
                     </div>      
                 </div> 
-                 <div class="row" style="padding-bottom:4em;">
-                    <div class="col-lg-8 col-lg-offset-2" style="background-color:#f5f5f5;border:1px solid #D5D4D4;">
-                        <div class="col-lg-10 col-md-8 col-sm-8 col-xs-10" style="padding-top:1.4em;">
-                            <h4 style="line-height:1.2em;"><b>Ayurveda for Building Innovative Organizations</b></h4> 
-                            <h6 style="color:grey;">By Prasad Kaipa and Navi Radjou</h6>
-                        </div>
-                    </div>      
-                </div> 
-                <div class="row" style="padding-bottom:4em;">
-                    <div class="col-lg-8 col-lg-offset-2" style="background-color:#f5f5f5;border:1px solid #D5D4D4;">
-                        <div class="col-lg-10 col-md-8 col-sm-8 col-xs-10" style="padding-top:1.4em;">
-                            <h4 style="line-height:1.2em;"><b>Apple and Tim Cook's next steps</b></h4> 
-                            <h6 style="color:grey;">By Prasad Kaipa and John Edson</h6>
+                <!-- card 4 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Empowerment, Vision, and Positive Leadership: An Interview With Alan Mulally, Former CEO, Boeing Commercial—Current CEO, Ford Motor Company</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa and Mark Kriger</h6>
                         </div>
                     </div>      
                 </div>
-                <div class="row" style="padding-bottom:4em;">
-                    <div class="col-lg-8 col-lg-offset-2" style="background-color:#f5f5f5;border:1px solid #D5D4D4;">
-                        <div class="col-lg- col-md-8 col-sm-8 col-xs-10" style="padding-top:1.4em;">
-                            <h4 style="line-height:1.2em;"><b>Recover Your Credibility</b></h4> 
-                            <h6 style="color:grey;">By Prasad Kaipa</h6>
+
+                 <!-- card 5 -->
+                <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>The inner sides of leadership and lessons from the East: an interview with Peter Senge</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa and Mark Kriger</h6>
                         </div>
                     </div>      
-                </div>    
+                </div> 
+                <!-- card 6 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Knowledge architecture for the twenty-first century</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa</h6>
+                        </div>
+                    </div>      
+                </div>
+                <!-- card 7  --> 
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Thermoluminescence Measurements of Gamma-ray Doses Attributable to Fallout from the Nevada Test Site Using Building Bricks As Natural Dosimeters</b></h4> 
+                            <h6 class="researchCard">By E. H. Haskell, Ian K. Bailiff, G. H. Kenner, Prasad Kaipa and M. E. Wrenn</h6>
+                        </div>
+                    </div>      
+                </div> 
+                <!-- card 8 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Pre-dose TL characteristics of quartz inclusions removed from bricks exposed to fallout radiation from atmospheric testing at the Nevada Test Site</b></h4> 
+                            <h6 class="researchCard">By E.H. Haskell, Prasad Kaipa and M.E. Wrenn</h6>
+                        </div>
+                    </div>      
+                </div> 
+                <!-- card 9  --> 
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Beta dose attenuation and calculations of effective grainsize in brick samples</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa, E.H. Haskell, and G.H. Kenner</h6>
+                        </div>
+                    </div>      
+                </div> 
+                <!-- card 10 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Thermoluminescence measurements of gamma rays</b></h4> 
+                            <h6 class="researchCard">By T. Maruyama, Y. Kumamoto, Y. Ichikawa, Takashi Nagatomo, Masaharu Hoshi, E. Haskell, Prasad Kaipa</h6>
+                        </div>
+                    </div>      
+                </div>  
+                <!-- card 11  --> 
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Environmental and accident dosimetry using the pre-dose TL technique</b></h4> 
+                            <h6 class="researchCard">By E.H. Haskell, Prasad Kaipa, M.E. Wrenn</h6>
+                        </div>
+                    </div>      
+                </div> 
+                <!-- card 12 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>In situ dosimetry using the sensitized 210°C TL peak of quartz</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa and E.H. Haskell</h6>
+                        </div>
+                    </div>      
+                </div>  
+                <!-- card 13  --> 
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>Two fully bleachable zero-phonon-line defects in NaF: Possible candidates for highly efficient photochemical hole burning</b></h4> 
+                            <h6 class="researchCard">By Prasad Kaipa and Fritz Lüty</h6>
+                        </div>
+                    </div>      
+                </div> 
+                <!-- card 14 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>High-efficiency photochemical hole burning for an infrared color center</b></h4> 
+                            <h6 class="researchCard">By William Esco Moerner, Frank Schellenberg, G. C. Bjorklund, Prasad Kaipa and Fritz Lüty</h6>
+                        </div>
+                    </div>      
+                </div>
+                <!-- card 15 -->
+                 <div class="row writing-card">
+                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 writing-content">
+                            <h4><b>High-sensitivity spectral hole burning (A)</b></h4> 
+                            <h6 class="researchCard">By William Esco Moerner, Gary C. Bjorklund, G. Castro, A. Gutierrez, Prasad Kaipa, Fritz Luty, Frank Schellenberg</h6>
+                        </div>
+                    </div>      
+                </div>      
             </div>
         </div>            
     </div>
-</section> -->
+</section>
 @stop

@@ -1112,7 +1112,7 @@ body {
     .writing-container .writing-header .writing-box .mdRow {
       margin-top: 4em; }
     .writing-container .writing-header .writing-box .writing-card {
-      padding-bottom: 4em; }
+      padding-bottom: 2em; }
       .writing-container .writing-header .writing-box .writing-card .writing-cardRow {
         background-color: #f5f5f5;
         border: 1px solid #D5D4D4; }
@@ -1120,11 +1120,13 @@ body {
           margin-left: -2.2em;
           width: 100%; }
         .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content {
-          padding-top: 1.4em; }
+          padding-top: 1.6em; }
           .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h4 {
             line-height: 1.2em; }
           .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h6 {
             color: grey; }
+          .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content .researchCard {
+            padding-bottom: 1.5em; }
       @media screen and (max-width: 360px) and (min-width: 320px) {
         .writing-container .writing-header .writing-box .writing-card {
           padding-bottom: 0em; }

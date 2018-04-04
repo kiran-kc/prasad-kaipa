@@ -557,6 +557,7 @@ body {
     .about-container .about-affliations .about-logoBox {
       background-color: white;
       margin-top: 1em;
+      margin-bottom: 3em;
       padding-top: 1em; }
       .about-container .about-affliations .about-logoBox h4 {
         margin-top: 1em; }
@@ -1039,7 +1040,7 @@ body {
       .writing-container .writing-header .writing-box header hr {
         width: 7%;
         border: none;
-        border-top: 4px solid red;
+        border-top: 4px solid #DA4531;
         margin-top: -0.5em; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .writing-container .writing-header .writing-box header {

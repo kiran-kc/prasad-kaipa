@@ -7,21 +7,32 @@
       		<h1>AN INSIGHT</h1> 
       		<h2><i>Prasad's Life and Contributions</i></h2>
       		
-      		<div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 about-icons">
-               <!-- <img src="/images/aboutPage/Target_thick_white.png" style="margin-left:-0.4em;margin-top:-0.5em;width:70px;"> -->
-               <img src="/images/aboutPage/Target_thin_white.png">
-      		</div>
-      		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
-      			<i class="fa fa-road fa-4x"></i>
-      		</div>
-      		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
-      			<i class="fa fa-handshake-o fa-4x"></i>
-      		</div>
-      		<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
-      			<i class="fa fa-microphone fa-4x" align='center'></i>
-      		</div>
+      		<a href="#Purpose">
+            <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 about-icons">
+              <img src="/images/aboutPage/Target_thin_white.png"> 
+        		</div>
+          </a>
+      		<a href="#Journey">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
+              <i class="fa fa-road fa-4x"></i>
+      		  </div>
+          </a>  
+      		<a href="#Affiliation">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
+      		    <i class="fa fa-handshake-o fa-4x"></i>
+      		  </div>
+          </a>  
+      		<a href="#Interviews">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
+      		    <i class="fa fa-microphone fa-4x" align='center' style="margin-left:0.2em;margin-top: 0.1em;"></i>
+      		  </div>
+          </a>
       	</div>
     	</div>
+    </div>
+  </section>  
+  <section class="about-container" id='Purpose'>
+    <div class="container-fluid">
     	<div class="row about-mdesignRow">
     		<div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 about-mdesign">
         		<h2 align="center">PRASAD'S PURPOSE</h2>
@@ -41,6 +52,10 @@
             <img src="/images/aboutPage/Purpose.png">
          </div>
     	</div>
+    </div>
+  </section>  
+  <section class="about-container" id='Journey'>
+    <div class="container-fluid">    
     	<div class="row about-mdesignRow">
     		<div class="col-lg-5 col-md-5 col-sm-5 about-mdImageLeft">
         		<img src="/images/aboutPage/Journey.png">
@@ -60,7 +75,7 @@
    </div>
 </section>
 
-<section class="about-container">
+<section class="about-container" id='Affiliation'>
 	<div class="container-fluid">
 		<div class="row about-affliations">
 			<h2 align="center">PRASAD'S AFFILIATION</h2>
@@ -82,8 +97,7 @@
                </div>
             </div>
 			</div> 
-		</div>
-      <br><br>
+		</div>   
       <div class="row">
          <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-logoBoxt">
             <div class="row">
@@ -96,43 +110,56 @@
             </div>
          </div> 
       </div>
-      <div class="row about-interviews">
-         <h2 align="center">INTERVIEWS WITH PRASAD</h2>
-         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
-               <h4 align="center"> <i class="fa fa-quote-left"></i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you feel that because your idea is great and you got a large amount of money from a VC, you're invulnerable, you're quickly going to lose everything.</h4>
-               <hr align="center">
-               <h4 align="center"><b>4 Signs You Have a Superman Complex</b></h4>
-               <p align="center"><i>Inc.com</i></p>
+    </div>
+  </section>  
+
+  <section class="about-container" id='Interviews'>
+    <div class="container-fluid"> 
+      <div class="row about-interviews" id='Interviews'>
+        <h2 align="center">INTERVIEWS WITH PRASAD</h2>
+          <a href="https://www.inc.com/minda-zetlin/4-signs-you-have-a-superman-complex.html" style="display:block;color: #333;" target="_blank">
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
+              <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                <h4 align="center"> <i class="fa fa-quote-left"></i>  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If you feel that because your idea is great and you got a large amount of money from a VC, you're invulnerable, you're quickly going to lose everything.</h4>
+                <hr align="center">
+                <h4 align="center"><b>4 Signs You Have a Superman Complex</b></h4>
+                <p align="center"><i>Inc.com</i></p>
+              </div>
             </div>
-         </div> 
-         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
-               <h4 align="center"> <i class="fa fa-quote-left"></i>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wise leaders focus on noble purpose and enlightened self-interest in order to engage with their role fully without being emotionally entangled with it.
-               <!-- <img src="/images/aboutPage/Right_Quote marks.png"> -->
-               </h4>
-               <hr align="center">
-               <h4 align="center"><b>Smart and Wise Leadership:An Interview with Prasad Kaipa</b></h4>
-               <p align="center"><i>Huffington Post</i></p>
+          </a>
+          <a href="https://www.huffingtonpost.com/phil-simon/smart-and-wise-leadership_b_3103074.html" style="display:block;color: #333;" target="_blank">   
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
+              <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                 <h4 align="center"> <i class="fa fa-quote-left"></i>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wise leaders focus on noble purpose and enlightened self-interest in order to engage with their role fully without being emotionally entangled with it.
+                 <!-- <img src="/images/aboutPage/Right_Quote marks.png"> -->
+                 </h4>
+                 <hr align="center">
+                 <h4 align="center"><b>Smart and Wise Leadership:An Interview with Prasad Kaipa</b></h4>
+                 <p align="center"><i>Huffington Post</i></p>
+              </div>
             </div>
-         </div>
-         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
-               <h4 align="center"> <i class="fa fa-quote-left"></i>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wisdom is when you apply intelligence toward the common good, trying to do something for other people.</h4>
-               <hr align="center">
-              <h4 align="center"><b>Mercury News interview:Prasad Kaipa, mentor to CEOs</b></h4>
-               <p align="center"><i>Mercury News</i></p>
+          </a> 
+          <a href="https://www.mercurynews.com/2013/05/17/mercury-news-interview-prasad-kaipa-mentor-to-ceos/" style="display:block;color: #333;" target="_blank">
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
+              <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                <h4 align="center"> <i class="fa fa-quote-left"></i>      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Wisdom is when you apply intelligence toward the common good, trying to do something for other people.</h4>
+                <hr align="center">
+                <h4 align="center"><b>Mercury News interview:Prasad Kaipa, mentor to CEOs</b></h4>
+                <p align="center"><i>Mercury News</i></p>
+              </div>
             </div>
-         </div>
-         <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
-            <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
-               <h4 align="center"> <i class="fa fa-quote-left"></i>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have to make decisions, you have to take actions, and you have to relate to, communicate with, influence people.</h4>
-               <hr align="center">
-               <h4 align="center"><b>Q&A | Prasad Kaipa & Navi Radjou</b></h4>
-               <p align="center"><i>Live MInt</i></p>
+          </a>
+          <a href="http://www.livemint.com/Leisure/54gkCafEAYxKfSXZp7nLxJ/QA--Prasad-Kaipa--Navi-Radjou.html" style="display:block;color: #333;" target="_blank">  
+            <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
+              <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
+                <h4 align="center"> <i class="fa fa-quote-left"></i>    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You have to make decisions, you have to take actions, and you have to relate to, communicate with, influence people.</h4>
+                <hr align="center">
+                <h4 align="center"><b>Q&A | Prasad Kaipa & Navi Radjou</b></h4>
+                <p align="center"><i>Live MInt</i></p>
+              </div>
             </div>
-         </div>
-      </div>
+          </a> 
+        </div>
       <br><br><br><br><br><br>
 	</div>
 </section>

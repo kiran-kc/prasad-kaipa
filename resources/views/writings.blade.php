@@ -10,12 +10,14 @@
     				<hr align="center">
     			</header>
     			<div class="row writing-mdesign">
-		    		<div class="col-lg-4 col-md-5 col-sm-5 writing-book">
-		    			<img src="/images/writingPage/Books/Book1.png" align="center">
-		    		</div>
-                    <div class="col-xs-8 col-xs-offset-2 writing-bookMobile">
-                        <img src="/images/writingPage/Books/Book1.png" align="center">
-                    </div>
+                    <a href=" http://www.fromsmarttowise.com/" target="_blank">
+		    		    <div class="col-lg-4 col-md-5 col-sm-5 writing-book">
+		    			   <img src="/images/writingPage/Books/Book1.png" align="center">
+		    		    </div>
+                        <div class="col-xs-8 col-xs-offset-2 writing-bookMobile">
+                            <img src="/images/writingPage/Books/Book1.png" align="center">
+                        </div>
+                    </a>
 		    		<div class="col-lg-8 col-md-7 col-sm-7 col-xs-12 writing-content">
 		    			<h2><b>You Can: Be Smarter and Wiser</b></h2> 
                         <h4><i>By Prasad Kaipa and Meera Shenoy</i></h4>
@@ -23,12 +25,14 @@
 		    		</div>
 		    	</div>
                 <div class="row writing-mdesign mdRow">
-                    <div class="col-lg-4 col-md-5 col-sm-5 writing-book">
-                        <img src="/images/writingPage/Books/Book2.png">
-                    </div>
-                    <div class="col-xs-8 col-xs-offset-2 writing-bookMobile">
-                        <img src="/images/writingPage/Books/Book2.png">
-                    </div>
+                    <a href=''>
+                        <div class="col-lg-4 col-md-5 col-sm-5 writing-book">
+                            <img src="/images/writingPage/Books/Book2.png">
+                        </div>
+                        <div class="col-xs-8 col-xs-offset-2 writing-bookMobile">
+                            <img src="/images/writingPage/Books/Book2.png">
+                        </div>
+                    </a>    
                     <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12 writing-content">
                         <h2><b>From Smart to Wise</b></h2> 
                         <h4><i>By Prasad Kaipa and Navi Radjou</i></h4>
@@ -36,12 +40,14 @@
                     </div>
                 </div>
                 <div class="row writing-mdesign mdRow">
-                    <div class="col-lg-4 col-md-5 col-sm-5 writing-book">
-                        <img src="/images/writingPage/Books/Book3.png">
-                    </div>
-                    <div class="col-xs-8 col-xs-offset-2 writing-bookMobile">
-                        <img src="/images/writingPage/Books/Book3.png">
-                    </div>
+                    <a href=''>
+                        <div class="col-lg-4 col-md-5 col-sm-5 writing-book">
+                            <img src="/images/writingPage/Books/Book3.png">
+                        </div>
+                        <div class="col-xs-8 col-xs-offset-2 writing-bookMobile">
+                            <img src="/images/writingPage/Books/Book3.png">
+                        </div>
+                    </a>    
                     <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12 writing-content">
                         <h2><b>Discontinuous Learning: Igniting Genius Within by Aligning Self, Work, & Family (eBook)</b></h2> 
                         <h4><i>By Prasad Kaipa</i></h4>
@@ -50,7 +56,7 @@
                 </div>
     		</div>
     	</div>
-   </div>
+    </div>
 </section>
 
 <section class="writing-container">
@@ -63,15 +69,17 @@
                 </header>
                 <!-- card 1 -->
                 <div class="row writing-card">
-                    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow" onmouseover="myOverFunction()"  onmouseout="outFunction()">
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writing-logos">
-                            <img src="/images/writingPage/PublishedArticles/CNBC.png">
+                    <a href=''>
+                        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writing-cardRow" onmouseover="myOverFunction()"  onmouseout="outFunction()">
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writing-logos">
+                                <img src="/images/writingPage/PublishedArticles/CNBC.png">
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writing-content" id="card1">
+                                <h4><b>7 Business Decisions That Looked Bad but Turned Good</b></h4> 
+                                <h6>By Prasad Kaipa and Navi Radjou</h6>
+                            </div>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writing-content" id="card1">
-                            <h4><b>7 Business Decisions That Looked Bad but Turned Good</b></h4> 
-                            <h6>By Prasad Kaipa and Navi Radjou</h6>
-                        </div>
-                    </div>      
+                    </a>      
                 </div> 
                 <!-- card 2 -->
                  <div class="row writing-card">

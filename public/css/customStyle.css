@@ -1,149 +1,11 @@
 body {
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif; }
 
-.main-header nav {
-  height: 70px; }
-  .main-header nav .navbar-list-item .homelogo {
-    margin-top: -0.8em;
-    width: 60px; }
-    .main-header nav .navbar-list-item .homelogo a img {
-      width: 60px; }
-  .main-header nav .navbar-list-item ul {
-    margin-top: 0.7em; }
-    .main-header nav .navbar-list-item ul li {
-      margin-left: 3em;
-      padding: 0 3em; }
-      .main-header nav .navbar-list-item ul li a {
-        cursor: pointer;
-        display: block;
-        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-        color: white;
-        margin-top: 0.6em;
-        float: left;
-        background-color: transparent;
-        padding: 5px;
-        font-size: 14px; }
-        .main-header nav .navbar-list-item ul li a:active, .main-header nav .navbar-list-item ul li a:visited, .main-header nav .navbar-list-item ul li a:hover {
-          background-color: transparent;
-          border-bottom: 1px solid white; }
-        @media screen and (max-width: 889px) and (min-width: 551px) {
-          .main-header nav .navbar-list-item ul li a {
-            margin-top: 4px; } }
-@media screen and (max-width: 550px) and (min-width: 320px) {
-  .main-header {
-    display: none; } }
-@media screen and (max-width: 899px) and (min-width: 551px) {
-  .main-header nav {
-    min-height: 40px;
-    height: 40px; }
-    .main-header nav .navbar-list-item .homelogo {
-      margin-top: -0.8em;
-      width: 35px; }
-      .main-header nav .navbar-list-item .homelogo a img {
-        width: 30px; }
-    .main-header nav .navbar-list-item ul {
-      margin-top: 2px; }
-      .main-header nav .navbar-list-item ul li {
-        margin-left: 3em;
-        padding: 0; }
-        .main-header nav .navbar-list-item ul li a {
-          font-size: 11px; }
-          .main-header nav .navbar-list-item ul li a:active, .main-header nav .navbar-list-item ul li a:visited, .main-header nav .navbar-list-item ul li a:hover {
-            background-color: transparent;
-            border-bottom: 1px solid white; } }
-@media screen and (max-width: 1200px) and (min-width: 900px) {
-  .main-header nav {
-    height: 50px; }
-    .main-header nav .navbar-list-item .homelogo {
-      margin-top: -0.8em;
-      width: 40px; }
-      .main-header nav .navbar-list-item .homelogo a img {
-        width: 40px; }
-    .main-header nav .navbar-list-item ul {
-      margin-top: 3px; }
-      .main-header nav .navbar-list-item ul li {
-        margin-left: 5.4em;
-        padding: 0; } }
-
-.main-header-ab {
-  display: block; }
-  @media screen and (min-width: 551px) {
-    .main-header-ab {
-      display: none; } }
-  .main-header-ab nav {
-    height: 40px;
-    min-height: 40px; }
-    .main-header-ab nav .navbar-list-item .homelogo {
-      margin-top: -0.8em;
-      width: 40px; }
-      .main-header-ab nav .navbar-list-item .homelogo a img {
-        width: 30px; }
-    .main-header-ab nav .navbar-list-item ul {
-      margin-top: -2.9em; }
-      .main-header-ab nav .navbar-list-item ul li {
-        margin-left: 3em;
-        padding: 0 3em; }
-        .main-header-ab nav .navbar-list-item ul li i {
-          font-size: 1.4em;
-          margin-left: 15.5em; }
-          @media screen and (max-width: 370px) and (min-width: 320px) {
-            .main-header-ab nav .navbar-list-item ul li i {
-              margin-left: 10em; } }
-          @media screen and (max-width: 420px) and (min-width: 371px) {
-            .main-header-ab nav .navbar-list-item ul li i {
-              margin-left: 12.5em; } }
-
-.main-footer .hp-footerArea .hp-footer {
-  background-color: #434343;
-  color: white; }
-  .main-footer .hp-footerArea .hp-footer .hp-column {
-    padding: 2em 0; }
-    @media screen and (max-width: 550px) and (min-width: 320px) {
-      .main-footer .hp-footerArea .hp-footer .hp-column .hp-brandName h3 {
-        font-size: 18px; } }
-    @media screen and (max-width: 899px) and (min-width: 551px) {
-      .main-footer .hp-footerArea .hp-footer .hp-column .hp-brandName h3 {
-        font-size: 16px; } }
-    @media screen and (max-width: 1200px) and (min-width: 900px) {
-      .main-footer .hp-footerArea .hp-footer .hp-column .hp-brandName h3 {
-        font-size: 18px; } }
-    .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul {
-      list-style-type: none;
-      margin-top: 1.8em; }
-      .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li {
-        padding-bottom: 8px;
-        font-size: 1.3em; }
-        .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li i {
-          border: 1px solid white;
-          padding: 4px 2px 0 8px;
-          border-radius: 3px;
-          background-color: white;
-          color: #434343; }
-      @media screen and (max-width: 550px) and (min-width: 320px) {
-        .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul {
-          padding-left: 0px; }
-          .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li {
-            font-size: 0.9em; }
-            .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li i {
-              padding: 3px 2px 0 5px; } }
-      @media screen and (max-width: 899px) and (min-width: 551px) {
-        .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul {
-          padding-left: 0px; }
-          .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li {
-            font-size: 0.9em; }
-            .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li i {
-              padding: 3px 2px 0 5px; } }
-      @media screen and (max-width: 1200px) and (min-width: 900px) {
-        .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li {
-          font-size: 0.9em; }
-          .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li i {
-            padding: 3px 2px 0 5px; } }
-    .main-footer .hp-footerArea .hp-footer .hp-column .hp-signature {
-      margin-top: 1.8em; }
-      .main-footer .hp-footerArea .hp-footer .hp-column .hp-signature span a {
-        display: block;
-        color: #66CCFF; }
-
+/***********************************************/
+/*        CSS for Home Page Starts here        */
+/*              By Kiran Joshi                 */
+/*              use prefix hp-*                */
+/***********************************************/
 .hp-container {
   background-color: #eeeeee;
   padding-bottom: 6em; }
@@ -297,66 +159,13 @@ body {
             .hp-container .hp-contactForm .hp-formArea .hp-inputs .submitBtn {
               width: 30%; } }
 
-.modalNavbar .modalNavbar-content {
-  background-color: rgba(0, 0, 0, 0.9);
-  width: 100%;
-  height: 100%;
-  padding-bottom: 5em; }
-  .modalNavbar .modalNavbar-content .close {
-    padding: 4px 0;
-    cursor: pointer; }
-    .modalNavbar .modalNavbar-content .close span {
-      margin-left: -1.5em;
-      color: white;
-      font-size: 3em;
-      opacity: 2; }
-    @media screen and (max-width: 1200px) and (min-width: 900px) {
-      .modalNavbar .modalNavbar-content .close span {
-        font-size: 2em;
-        opacity: 2; } }
-  .modalNavbar .modalNavbar-content .social-icons {
-    margin-top: 14em; }
-    .modalNavbar .modalNavbar-content .social-icons img {
-      width: 80px;
-      margin: 0 2em; }
-  .modalNavbar .modalNavbar-content .nav-item {
-    margin-top: 4em; }
-    .modalNavbar .modalNavbar-content .nav-item ul li {
-      list-style-type: none;
-      color: white;
-      font-size: 26px;
-      padding: 0.4em 0; }
-
-.modalNavbar2 .modalNavbar-content {
-  background-color: rgba(0, 0, 0, 0.9);
-  width: 100%;
-  height: 100%;
-  padding-bottom: 5em; }
-  .modalNavbar2 .modalNavbar-content .close {
-    padding: 4px 0;
-    cursor: pointer; }
-    .modalNavbar2 .modalNavbar-content .close span {
-      margin-left: -1.5em;
-      color: white;
-      font-size: 1.4em;
-      opacity: 20; }
-  .modalNavbar2 .modalNavbar-content .social-icons {
-    margin-top: 3em; }
-    .modalNavbar2 .modalNavbar-content .social-icons img {
-      width: 30px;
-      margin: 0 1em; }
-  .modalNavbar2 .modalNavbar-content .nav-item {
-    margin-top: 1.5em; }
-    .modalNavbar2 .modalNavbar-content .nav-item ul li {
-      font-style: 'sans serif';
-      list-style-type: none;
-      color: white;
-      font-size: 14px;
-      padding: 0.5em 0; }
-      .modalNavbar2 .modalNavbar-content .nav-item ul li a {
-        color: white;
-        padding: 5px 10px; }
-
+/**********************************************/
+/**********************************************/
+/***********************************************/
+/*       CSS for About Page Starts here        */
+/*              By Kiran Joshi                 */
+/*            use prefix about-*               */
+/***********************************************/
 .about-container {
   background-color: #F3F3F3; }
   .about-container .about-heroImg {
@@ -1019,6 +828,13 @@ body {
       .about-container .about-interviews .about-card hr {
         margin-top: 2.5em; } }
 
+/**********************************************/
+/**********************************************/
+/***********************************************/
+/*      CSS for Writing Page Starts here       */
+/*              By Kiran Joshi                 */
+/*           use prefix writing-*              */
+/***********************************************/
 .writing-container {
   background-color: #f5f5f5;
   min-height: 700px; }
@@ -1156,6 +972,8 @@ body {
               padding: 4px 0 0 0; }
             .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-rpHover h5 {
               padding: 2px 0 12px 0; }
+        .writing-container .writing-header .writing-box .writing-card a .writing-researchPaper {
+          height: 200px; }
       @media screen and (max-width: 360px) and (min-width: 320px) {
         .writing-container .writing-header .writing-box .writing-card {
           padding-bottom: 0em; }
@@ -1209,5 +1027,8 @@ body {
               line-height: 1.2em; }
             .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h6 {
               color: grey; } }
+
+/**********************************************/
+/**********************************************/
 
 /*# sourceMappingURL=customStyle.css.map */

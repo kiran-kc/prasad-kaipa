@@ -27,6 +27,8 @@
     <!-- Custom js and css -->
     <script src="/js/custom.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/customStyle.css">
+    <!-- Header and Footer css -->
+    <link rel="stylesheet" type="text/css" href="/css/common.css">
 </head>
 <body>
     @yield('body')

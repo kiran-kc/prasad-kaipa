@@ -833,199 +833,256 @@ body {
 /***********************************************/
 /*      CSS for Writing Page Starts here       */
 /*              By Kiran Joshi                 */
-/*           use prefix writing-*              */
+/*           use prefix writings-*              */
 /***********************************************/
-.writing-container {
+.writings-container {
   background-color: #f5f5f5;
   min-height: 700px; }
-  .writing-container .writing-header .pseudo-navbar {
+  .writings-container .writings-header .pseudo-navbar {
     height: 65px;
     background-color: black; }
     @media screen and (max-width: 899px) and (min-width: 320px) {
-      .writing-container .writing-header .pseudo-navbar {
+      .writings-container .writings-header .pseudo-navbar {
         height: 40px; } }
     @media screen and (max-width: 1200px) and (min-width: 900px) {
-      .writing-container .writing-header .pseudo-navbar {
+      .writings-container .writings-header .pseudo-navbar {
         height: 50px; } }
-  .writing-container .writing-header .writing-box {
+  .writings-container .writings-header .writings-box {
     background-color: white; }
-    .writing-container .writing-header .writing-box header {
+    .writings-container .writings-header .writings-box header {
       padding: 1em; }
-      .writing-container .writing-header .writing-box header h1 {
+      .writings-container .writings-header .writings-box header h1 {
         font-size: 3.8em; }
-      .writing-container .writing-header .writing-box header hr {
+      .writings-container .writings-header .writings-box header hr {
         width: 7%;
         border: none;
         border-top: 4px solid #DA4531;
         margin-top: -0.5em; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
-      .writing-container .writing-header .writing-box header {
+      .writings-container .writings-header .writings-box header {
         padding: 0em; }
-        .writing-container .writing-header .writing-box header h1 {
+        .writings-container .writings-header .writings-box header h1 {
           font-size: 1.7em; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
-      .writing-container .writing-header .writing-box header h1 {
+      .writings-container .writings-header .writings-box header h1 {
         font-size: 2.4em; } }
     @media screen and (max-width: 1240px) and (min-width: 900px) {
-      .writing-container .writing-header .writing-box header h1 {
+      .writings-container .writings-header .writings-box header h1 {
         font-size: 3em; } }
-    .writing-container .writing-header .writing-box .writing-mdesign {
+    .writings-container .writings-header .writings-box .mdRow {
+      margin-top: 4em; }
+      .writings-container .writings-header .writings-box .mdRow a {
+        color: #434343; }
+    .writings-container .writings-header .writings-box .writings-mdesign {
       padding-bottom: 4em; }
-      .writing-container .writing-header .writing-box .writing-mdesign .writing-book {
+      .writings-container .writings-header .writings-box .writings-mdesign .writing-book {
         padding-left: 1em; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-book img {
+        .writings-container .writings-header .writings-box .writings-mdesign .writing-book img {
           width: 100%; }
-      .writing-container .writing-header .writing-box .writing-mdesign .writing-bookMobile {
+      .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile {
         display: none; }
-      .writing-container .writing-header .writing-box .writing-mdesign .writing-content {
+      .writings-container .writings-header .writings-box .writings-mdesign .writings-content {
         padding: 1em 2em; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h2 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
           font-size: 2.4em; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h4 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
           color: grey; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h3 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
           line-height: 1.4em;
           margin-top: 1em;
           padding-right: 1.5em;
           font-size: 1.6em; }
       @media screen and (max-width: 550px) and (min-width: 320px) {
-        .writing-container .writing-header .writing-box .writing-mdesign {
+        .writings-container .writings-header .writings-box .writings-mdesign {
           padding-bottom: 0em; }
-          .writing-container .writing-header .writing-box .writing-mdesign .writing-book img {
+          .writings-container .writings-header .writings-box .writings-mdesign .writings-book img {
             display: none; }
-          .writing-container .writing-header .writing-box .writing-mdesign .writing-bookMobile {
+          .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile {
             display: block; }
-            .writing-container .writing-header .writing-box .writing-mdesign .writing-bookMobile img {
+            .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile img {
               width: 100%;
               align: center; }
-          .writing-container .writing-header .writing-box .writing-mdesign .writing-content h2 {
+          .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
             font-size: 1.6em; }
-          .writing-container .writing-header .writing-box .writing-mdesign .writing-content h4 {
+          .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
             font-size: 14px; }
-          .writing-container .writing-header .writing-box .writing-mdesign .writing-content h3 {
+          .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
             line-height: 1.2em;
             padding-right: 0em;
             font-size: 1.15em; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-book img {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-book img {
           width: 100%; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h2 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
           font-size: 1.5em; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h4 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
           font-size: 10px; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h3 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
           line-height: 1.2em;
           padding-right: 0.5em;
           font-size: 1.2em; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-book img {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-book img {
           width: 100%; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h2 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
           font-size: 2.2em; }
-        .writing-container .writing-header .writing-box .writing-mdesign .writing-content h3 {
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
           line-height: 1.2em;
           padding-right: 0.5em;
           font-size: 1.8em; } }
-    .writing-container .writing-header .writing-box .mdRow {
-      margin-top: 4em; }
-    .writing-container .writing-header .writing-box .writing-card {
+    .writings-container .writings-header .writings-box .writings-publishedArticle {
       padding-bottom: 2em; }
-      .writing-container .writing-header .writing-box .writing-card a {
+      .writings-container .writings-header .writings-box .writings-publishedArticle a {
         color: #434343; }
-        .writing-container .writing-header .writing-box .writing-card a .writing-cardRow {
+        .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
           background-color: #f5f5f5;
           border: 1px solid #D5D4D4; }
-          .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-logos img {
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
             margin-left: -2.2em;
             width: 100%;
             object-fit: cover; }
-          .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-content {
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content {
             padding-top: 1.6em; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-content h4 {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
               line-height: 1.2em; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-content h6 {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h6 {
               color: #AEAEAE; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-content .researchCard {
-              padding-bottom: 1.5em; }
-          .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-hoverEffect {
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-hoverEffect {
             display: none;
             padding-top: 1.6em;
             background-color: #1B5F5E;
             color: white;
             height: 121px; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-hoverEffect sup img {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-hoverEffect sup img {
               width: 55px;
               padding-right: 15px; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-hoverEffect h4 {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-hoverEffect h4 {
               vertical-align: middle;
               padding: 12px 0; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-hoverEffect sub img {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-hoverEffect sub img {
               width: 55px;
               padding-right: 15px; }
-          .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-rpHover {
+      @media screen and (max-width: 360px) and (min-width: 320px) {
+        .writings-container .writings-header .writings-box .writings-publishedArticle {
+          padding-bottom: 0em; }
+          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
+            margin-top: 1em; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-logos img {
+              width: 200%; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
+              padding-top: 0; }
+              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+                line-height: 13px;
+                font-size: 8px; }
+              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h6 {
+                font-size: 7px; } }
+      @media screen and (max-width: 550px) and (min-width: 370px) {
+        .writings-container .writings-header .writings-box .writings-publishedArticle {
+          padding-bottom: 0em; }
+          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
+            margin-top: 1.5em; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-logos img {
+              width: 156%; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
+              padding-top: 0.6em; }
+              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+                line-height: 13px;
+                font-size: 11px; }
+              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h6 {
+                font-size: 10px; } }
+      @media screen and (max-width: 899px) and (min-width: 551px) {
+        .writings-container .writings-header .writings-box .writings-publishedArticle {
+          padding-bottom: 0em; }
+          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
+            margin-top: 2em; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-logos img {
+              margin-left: -2.2em;
+              width: 125%; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
+              padding-top: 1.4em; }
+              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+                line-height: 1.2em; } }
+      @media screen and (max-width: 1240px) and (min-width: 900px) {
+        .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
+          margin-top: 2em;
+          padding-bottom: 0em; }
+          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-logos img {
+            margin-left: -2.2em;
+            width: 100%; }
+          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
+            padding-top: 1.4em; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+              line-height: 1.2em; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h6 {
+              color: grey; } }
+    .writings-container .writings-header .writings-box .writings-researchPapers {
+      padding-bottom: 2em; }
+      .writings-container .writings-header .writings-box .writings-researchPapers a {
+        color: #434343; }
+        .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
+          background-color: #f5f5f5;
+          border: 1px solid #D5D4D4;
+          height: 160px; }
+          .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content {
+            padding-top: 1.6em; }
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
+              line-height: 1.2em; }
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h6 {
+              color: #AEAEAE; }
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content .researchCard {
+              padding-bottom: 1.5em; }
+          .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-rpHover {
             display: none;
             padding-top: 1.6em;
             background-color: #DA4531;
             color: white; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-rpHover h4 {
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-rpHover h4 {
               vertical-align: middle;
               padding: 4px 0 0 0; }
-            .writing-container .writing-header .writing-box .writing-card a .writing-cardRow .writing-rpHover h5 {
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-rpHover h5 {
               padding: 2px 0 12px 0; }
-        .writing-container .writing-header .writing-box .writing-card a .writing-researchPaper {
-          height: 200px; }
       @media screen and (max-width: 360px) and (min-width: 320px) {
-        .writing-container .writing-header .writing-box .writing-card {
+        .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }
-          .writing-container .writing-header .writing-box .writing-card .writing-cardRow {
+          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
             margin-top: 1em; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-logos img {
-              width: 200%; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content {
+            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
               padding-top: 0; }
-              .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h4 {
+              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
                 line-height: 13px;
                 font-size: 8px; }
-              .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h6 {
+              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h6 {
                 font-size: 7px; } }
       @media screen and (max-width: 550px) and (min-width: 370px) {
-        .writing-container .writing-header .writing-box .writing-card {
+        .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }
-          .writing-container .writing-header .writing-box .writing-card .writing-cardRow {
+          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
             margin-top: 1.5em; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-logos img {
-              width: 156%; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content {
+            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
               padding-top: 0.6em; }
-              .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h4 {
+              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
                 line-height: 13px;
                 font-size: 11px; }
-              .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h6 {
+              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h6 {
                 font-size: 10px; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
-        .writing-container .writing-header .writing-box .writing-card {
+        .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }
-          .writing-container .writing-header .writing-box .writing-card .writing-cardRow {
+          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
             margin-top: 2em; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-logos img {
-              margin-left: -2.2em;
-              width: 125%; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content {
+            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
               padding-top: 1.4em; }
-              .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h4 {
+              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
                 line-height: 1.2em; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
-        .writing-container .writing-header .writing-box .writing-card .writing-cardRow {
+        .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
           margin-top: 2em;
           padding-bottom: 0em; }
-          .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-logos img {
-            margin-left: -2.2em;
-            width: 100%; }
-          .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content {
+          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
             padding-top: 1.4em; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h4 {
+            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
               line-height: 1.2em; }
-            .writing-container .writing-header .writing-box .writing-card .writing-cardRow .writing-content h6 {
+            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h6 {
               color: grey; } }
 
 /**********************************************/

@@ -92,4 +92,125 @@ $(document).ready(function(){
             $('#ResearchPaper3').css("background-color", "#f5f5f5");
             $('.rPaper3').css("display", "block");
         });
+// rp card 4
+       $(".rpCard4").hover(function(){
+            $('.rPaper4').css("display", "none");
+            $('.rpHoverOver4').css("display", "block");
+            $('#ResearchPaper4').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver4').css("display", "none");
+            $('#ResearchPaper4').css("background-color", "#f5f5f5");
+            $('.rPaper4').css("display", "block");
+        });
+// rp card 5       
+       $(".rpCard5").hover(function(){
+            $('.rPaper5').css("display", "none");
+            $('.rpHoverOver5').css("display", "block");
+            $('#ResearchPaper5').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver5').css("display", "none");
+            $('#ResearchPaper5').css("background-color", "#f5f5f5");
+            $('.rPaper5').css("display", "block");
+        });
+// rp card 6
+       $(".rpCard6").hover(function(){
+            $('.rPaper6').css("display", "none");
+            $('.rpHoverOver6').css("display", "block");
+            $('#ResearchPaper6').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver6').css("display", "none");
+            $('#ResearchPaper6').css("background-color", "#f5f5f5");
+            $('.rPaper6').css("display", "block");
+        });
+// rp card 7
+       $(".rpCard7").hover(function(){
+            $('.rPaper7').css("display", "none");
+            $('.rpHoverOver7').css("display", "block");
+            $('#ResearchPaper7').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver7').css("display", "none");
+            $('#ResearchPaper7').css("background-color", "#f5f5f5");
+            $('.rPaper7').css("display", "block");
+        });
+// rp card 8       
+       $(".rpCard8").hover(function(){
+            $('.rPaper8').css("display", "none");
+            $('.rpHoverOver8').css("display", "block");
+            $('#ResearchPaper8').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver8').css("display", "none");
+            $('#ResearchPaper8').css("background-color", "#f5f5f5");
+            $('.rPaper8').css("display", "block");
+        });
+// rp card 9
+       $(".rpCard9").hover(function(){
+            $('.rPaper9').css("display", "none");
+            $('.rpHoverOver9').css("display", "block");
+            $('#ResearchPaper9').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver9').css("display", "none");
+            $('#ResearchPaper9').css("background-color", "#f5f5f5");
+            $('.rPaper9').css("display", "block");
+        });
+// rp card 10
+       $(".rpCard10").hover(function(){
+            $('.rPaper10').css("display", "none");
+            $('.rpHoverOver10').css("display", "block");
+            $('#ResearchPaper10').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver10').css("display", "none");
+            $('#ResearchPaper10').css("background-color", "#f5f5f5");
+            $('.rPaper10').css("display", "block");
+        });
+// rp card 11       
+       $(".rpCard11").hover(function(){
+            $('.rPaper11').css("display", "none");
+            $('.rpHoverOver11').css("display", "block");
+            $('#ResearchPaper11').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver11').css("display", "none");
+            $('#ResearchPaper11').css("background-color", "#f5f5f5");
+            $('.rPaper11').css("display", "block");
+        });
+// rp card 12
+       $(".rpCard12").hover(function(){
+            $('.rPaper12').css("display", "none");
+            $('.rpHoverOver12').css("display", "block");
+            $('#ResearchPaper12').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver12').css("display", "none");
+            $('#ResearchPaper12').css("background-color", "#f5f5f5");
+            $('.rPaper12').css("display", "block");
+        });
+// rp card 13
+       $(".rpCard13").hover(function(){
+            $('.rPaper13').css("display", "none");
+            $('.rpHoverOver13').css("display", "block");
+            $('#ResearchPaper13').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver13').css("display", "none");
+            $('#ResearchPaper13').css("background-color", "#f5f5f5");
+            $('.rPaper13').css("display", "block");
+        });
+// rp card 14       
+       $(".rpCard14").hover(function(){
+            $('.rPaper14').css("display", "none");
+            $('.rpHoverOver14').css("display", "block");
+            $('#ResearchPaper14').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver14').css("display", "none");
+            $('#ResearchPaper14').css("background-color", "#f5f5f5");
+            $('.rPaper14').css("display", "block");
+        });
+// rp card 15
+       $(".rpCard15").hover(function(){
+            $('.rPaper15').css("display", "none");
+            $('.rpHoverOver15').css("display", "block");
+            $('#ResearchPaper15').css("background-color", "#DA4531");
+        }, function(){
+            $('.rpHoverOver15').css("display", "none");
+            $('#ResearchPaper15').css("background-color", "#f5f5f5");
+            $('.rPaper15').css("display", "block");
+        });                       
 });
+

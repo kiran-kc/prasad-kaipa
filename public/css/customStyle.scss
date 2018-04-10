@@ -1053,16 +1053,15 @@ body{
 /***********************************************/
 /*      CSS for Writing Page Starts here       */
 /*              By Kiran Joshi                 */
-/*           use prefix writing-*              */
+/*           use prefix writings-*              */
 /***********************************************/
-.writing-container{
+.writings-container{
 	background-color:#f5f5f5;
 	min-height:700px;
-	.writing-header{
+	.writings-header{
 		.pseudo-navbar{
 			height:65px;
 			background-color:black;
-		// margin-top:8em;
 			@media screen and (max-width:899px) and (min-width:320px){
 				height:40px;
 			}
@@ -1070,7 +1069,7 @@ body{
 				height:50px;
 			}
 		}
-		.writing-box{
+		.writings-box{
 			background-color:white;
 			header{
 				padding:1em;
@@ -1106,7 +1105,13 @@ body{
 					}	
 				}
 			}
-			.writing-mdesign{
+			.mdRow{
+				margin-top:4em;
+				a{
+					color:#434343;
+				}
+			}
+			.writings-mdesign{
 				padding-bottom:4em;
 				.writing-book{
 					padding-left:1em;
@@ -1115,10 +1120,10 @@ body{
 						width:100%;
 					}
 				}
-				.writing-bookMobile{
+				.writings-bookMobile{
 					display:none;	
 				}
-				.writing-content{
+				.writings-content{
 					padding:1em 2em;
 					h2{
 						font-size:2.4em;
@@ -1135,19 +1140,19 @@ body{
 				}
 				@media screen and (max-width:550px) and (min-width:320px){
 					padding-bottom:0em;	
-					.writing-book{
+					.writings-book{
 						img{
 							display:none;
 						}
 					}
-					.writing-bookMobile{
+					.writings-bookMobile{
 						display:block;
 						img{
 							width:100%;
 							align:center;
 						}
 					}
-					.writing-content{		
+					.writings-content{		
 						h2{
 							font-size:1.6em;
 						}
@@ -1162,12 +1167,12 @@ body{
 					}
 				}
 				@media screen and (max-width:899px) and (min-width:551px){	
-					.writing-book{
+					.writings-book{
 						img{
 							width:100%;
 						}
 					}
-					.writing-content{		
+					.writings-content{		
 						h2{
 							font-size:1.5em;
 						}
@@ -1182,12 +1187,12 @@ body{
 					}
 				}
 				@media screen and (max-width:1240px) and (min-width:900px){	
-					.writing-book{
+					.writings-book{
 						img{
 							width:100%;
 						}
 					}
-					.writing-content{		
+					.writings-content{		
 						h2{
 							font-size:2.2em;
 						}
@@ -1201,24 +1206,21 @@ body{
 					}
 				}
 			}
-			.mdRow{
-				margin-top:4em;
-			}
-			.writing-card{
+			.writings-publishedArticle{
 				padding-bottom:2em;
 				a{
 					color:#434343;
-					.writing-cardRow{
+					.writings-paRow{
 						background-color:#f5f5f5;
 						border:1px solid #D5D4D4;
-						.writing-logos{
+						.writings-logos{
 							img{
 								margin-left:-2.2em;
 								width:100%;
 								object-fit:cover;
 							}
 						}
-						.writing-content{
+						.writings-content{
 							padding-top:1.6em;
 							h4{
 								line-height:1.2em;
@@ -1226,11 +1228,8 @@ body{
 							h6{
 								color:#AEAEAE;
 							}
-							.researchCard{
-								padding-bottom:1.5em;
-							}
 						}
-						.writing-hoverEffect{
+						.writings-hoverEffect{
 							display:none;
 							padding-top:1.6em;		
 							background-color:#1B5F5E;
@@ -1253,35 +1252,18 @@ body{
 								}
 							}
 						}
-						.writing-rpHover{
-							display:none;
-							padding-top:1.6em;		
-							background-color:#DA4531;
-							color:white;
-							h4{
-								vertical-align:middle;
-								padding:4px 0 0 0;
-							}
-							h5{
-								padding:2px 0 12px 0;
-							}
-						}
 					}
-					.writing-researchPaper{
-						height:200px;
-					}
-					
 				}
 				@media screen and (max-width:360px) and (min-width:320px){
 					padding-bottom:0em;
-					.writing-cardRow{
+					.writings-paRow{
 						margin-top:1em;
-						.writing-logos{
+						.writings-logos{
 							img{
 								width:200%;
 							}
 						}
-						.writing-content{
+						.writings-content{
 							padding-top:0;
 							h4{
 								line-height:13px;
@@ -1295,14 +1277,14 @@ body{
 				}
 				@media screen and (max-width:550px) and (min-width:370px){
 					padding-bottom:0em;
-					.writing-cardRow{
+					.writings-paRow{
 						margin-top:1.5em;							
-						.writing-logos{
+						.writings-logos{
 							img{
 								width:156%;
 							}
 						}
-						.writing-content{
+						.writings-content{
 							padding-top:0.6em;
 							h4{
 								line-height:13px;
@@ -1316,15 +1298,15 @@ body{
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
 					padding-bottom:0em;
-					.writing-cardRow{
+					.writings-paRow{
 						margin-top:2em;
-						.writing-logos{
+						.writings-logos{
 							img{
 								margin-left:-2.2em;
 								width:125%;
 							}
 						}
-						.writing-content{
+						.writings-content{
 							padding-top:1.4em;
 							h4{
 								line-height:1.2em;
@@ -1333,16 +1315,111 @@ body{
 					}
 				}
 				@media screen and (max-width:1240px) and (min-width:900px){	
-					.writing-cardRow{
+					.writings-paRow{
 						margin-top:2em;
 						padding-bottom:0em;
-						.writing-logos{
+						.writings-logos{
 							img{
 								margin-left:-2.2em;
 								width:100%;
 							}
 						}
-						.writing-content{
+						.writings-content{
+							padding-top:1.4em;
+							h4{
+								line-height:1.2em;
+							}
+							h6{
+								color:grey;
+							}
+						}
+					}
+				}
+			}
+			.writings-researchPapers{
+				padding-bottom:2em;
+				a{
+					color:#434343;
+					.writings-rpRow{
+						background-color:#f5f5f5;
+						border:1px solid #D5D4D4;
+						height:160px;
+						.writings-content{
+							padding-top:1.6em;
+							h4{
+								line-height:1.2em;
+							}
+							h6{
+								color:#AEAEAE;
+							}
+							.researchCard{
+								padding-bottom:1.5em;
+							}
+						}
+						.writings-rpHover{
+							display:none;
+							padding-top:1.6em;		
+							background-color:#DA4531;
+							color:white;
+							h4{
+								vertical-align:middle;
+								padding:4px 0 0 0;
+							}
+							h5{
+								padding:2px 0 12px 0;
+							}
+						}
+					}
+				}
+				@media screen and (max-width:360px) and (min-width:320px){
+					padding-bottom:0em;
+					.writings-rpRow{
+						margin-top:1em;
+						.writings-content{
+							padding-top:0;
+							h4{
+								line-height:13px;
+								font-size:8px;
+							}
+							h6{
+								font-size:7px;
+							}
+						}
+					}
+				}
+				@media screen and (max-width:550px) and (min-width:370px){
+					padding-bottom:0em;
+					.writings-rpRow{
+						margin-top:1.5em;							
+						.writings-content{
+							padding-top:0.6em;
+							h4{
+								line-height:13px;
+								font-size:11px;
+							}
+							h6{
+								font-size:10px;
+							}
+						}
+					}
+				}
+				@media screen and (max-width:899px) and (min-width:551px){
+					padding-bottom:0em;
+					.writings-rpRow{
+						margin-top:2em;
+						.writings-content{
+							padding-top:1.4em;
+							h4{
+								line-height:1.2em;
+							}
+						}
+					}
+				}
+				@media screen and (max-width:1240px) and (min-width:900px){	
+					.writings-rpRow{
+						margin-top:2em;
+						padding-bottom:0em;
+						.writings-content{
 							padding-top:1.4em;
 							h4{
 								line-height:1.2em;

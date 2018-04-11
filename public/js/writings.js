@@ -66,7 +66,7 @@ $(document).ready(function(){
        $(".rpCard1").hover(function(){
             $('.rPaper1').css("display", "none");
             $('.rpHoverOver1').css("display", "block");
-            $('#ResearchPaper1').css("background-color", "#DA4531");
+            $('#ResearchPaper1').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver1').css("display", "none");
             $('#ResearchPaper1').css("background-color", "#f5f5f5");
@@ -76,7 +76,7 @@ $(document).ready(function(){
        $(".rpCard2").hover(function(){
             $('.rPaper2').css("display", "none");
             $('.rpHoverOver2').css("display", "block");
-            $('#ResearchPaper2').css("background-color", "#DA4531");
+            $('#ResearchPaper2').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver2').css("display", "none");
             $('#ResearchPaper2').css("background-color", "#f5f5f5");
@@ -86,7 +86,7 @@ $(document).ready(function(){
        $(".rpCard3").hover(function(){
             $('.rPaper3').css("display", "none");
             $('.rpHoverOver3').css("display", "block");
-            $('#ResearchPaper3').css("background-color", "#DA4531");
+            $('#ResearchPaper3').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver3').css("display", "none");
             $('#ResearchPaper3').css("background-color", "#f5f5f5");
@@ -96,7 +96,7 @@ $(document).ready(function(){
        $(".rpCard4").hover(function(){
             $('.rPaper4').css("display", "none");
             $('.rpHoverOver4').css("display", "block");
-            $('#ResearchPaper4').css("background-color", "#DA4531");
+            $('#ResearchPaper4').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver4').css("display", "none");
             $('#ResearchPaper4').css("background-color", "#f5f5f5");
@@ -106,7 +106,7 @@ $(document).ready(function(){
        $(".rpCard5").hover(function(){
             $('.rPaper5').css("display", "none");
             $('.rpHoverOver5').css("display", "block");
-            $('#ResearchPaper5').css("background-color", "#DA4531");
+            $('#ResearchPaper5').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver5').css("display", "none");
             $('#ResearchPaper5').css("background-color", "#f5f5f5");
@@ -116,7 +116,7 @@ $(document).ready(function(){
        $(".rpCard6").hover(function(){
             $('.rPaper6').css("display", "none");
             $('.rpHoverOver6').css("display", "block");
-            $('#ResearchPaper6').css("background-color", "#DA4531");
+            $('#ResearchPaper6').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver6').css("display", "none");
             $('#ResearchPaper6').css("background-color", "#f5f5f5");
@@ -126,7 +126,7 @@ $(document).ready(function(){
        $(".rpCard7").hover(function(){
             $('.rPaper7').css("display", "none");
             $('.rpHoverOver7').css("display", "block");
-            $('#ResearchPaper7').css("background-color", "#DA4531");
+            $('#ResearchPaper7').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver7').css("display", "none");
             $('#ResearchPaper7').css("background-color", "#f5f5f5");
@@ -136,7 +136,7 @@ $(document).ready(function(){
        $(".rpCard8").hover(function(){
             $('.rPaper8').css("display", "none");
             $('.rpHoverOver8').css("display", "block");
-            $('#ResearchPaper8').css("background-color", "#DA4531");
+            $('#ResearchPaper8').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver8').css("display", "none");
             $('#ResearchPaper8').css("background-color", "#f5f5f5");
@@ -146,7 +146,7 @@ $(document).ready(function(){
        $(".rpCard9").hover(function(){
             $('.rPaper9').css("display", "none");
             $('.rpHoverOver9').css("display", "block");
-            $('#ResearchPaper9').css("background-color", "#DA4531");
+            $('#ResearchPaper9').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver9').css("display", "none");
             $('#ResearchPaper9').css("background-color", "#f5f5f5");
@@ -156,7 +156,7 @@ $(document).ready(function(){
        $(".rpCard10").hover(function(){
             $('.rPaper10').css("display", "none");
             $('.rpHoverOver10').css("display", "block");
-            $('#ResearchPaper10').css("background-color", "#DA4531");
+            $('#ResearchPaper10').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver10').css("display", "none");
             $('#ResearchPaper10').css("background-color", "#f5f5f5");
@@ -166,7 +166,7 @@ $(document).ready(function(){
        $(".rpCard11").hover(function(){
             $('.rPaper11').css("display", "none");
             $('.rpHoverOver11').css("display", "block");
-            $('#ResearchPaper11').css("background-color", "#DA4531");
+            $('#ResearchPaper11').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver11').css("display", "none");
             $('#ResearchPaper11').css("background-color", "#f5f5f5");
@@ -176,7 +176,7 @@ $(document).ready(function(){
        $(".rpCard12").hover(function(){
             $('.rPaper12').css("display", "none");
             $('.rpHoverOver12').css("display", "block");
-            $('#ResearchPaper12').css("background-color", "#DA4531");
+            $('#ResearchPaper12').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver12').css("display", "none");
             $('#ResearchPaper12').css("background-color", "#f5f5f5");
@@ -186,7 +186,7 @@ $(document).ready(function(){
        $(".rpCard13").hover(function(){
             $('.rPaper13').css("display", "none");
             $('.rpHoverOver13').css("display", "block");
-            $('#ResearchPaper13').css("background-color", "#DA4531");
+            $('#ResearchPaper13').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver13').css("display", "none");
             $('#ResearchPaper13').css("background-color", "#f5f5f5");
@@ -196,7 +196,7 @@ $(document).ready(function(){
        $(".rpCard14").hover(function(){
             $('.rPaper14').css("display", "none");
             $('.rpHoverOver14').css("display", "block");
-            $('#ResearchPaper14').css("background-color", "#DA4531");
+            $('#ResearchPaper14').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver14').css("display", "none");
             $('#ResearchPaper14').css("background-color", "#f5f5f5");
@@ -206,7 +206,7 @@ $(document).ready(function(){
        $(".rpCard15").hover(function(){
             $('.rPaper15').css("display", "none");
             $('.rpHoverOver15').css("display", "block");
-            $('#ResearchPaper15').css("background-color", "#DA4531");
+            $('#ResearchPaper15').css("background-color", "#1B5F5E");
         }, function(){
             $('.rpHoverOver15').css("display", "none");
             $('#ResearchPaper15').css("background-color", "#f5f5f5");
@@ -214,3 +214,39 @@ $(document).ready(function(){
         });                       
 });
 
+// physics
+$('#seeMoreButton').click(function(){
+      $("#seeMoreButton").hide();
+      $('#seeLessButton').show();
+    });
+    $('#seeLessButton').click(function(){
+      $('#seeLessButton').hide();
+      $('#seeMoreButton').show();
+    });
+// mgmtleadership
+    $('.seeMoreButton').click(function(){
+      $(".seeMoreButton").hide();
+      $('.seeLessButton').show();
+    });
+    $('.seeLessButton').click(function(){
+      $('.seeLessButton').hide();
+      $('.seeMoreButton').show();
+    });
+
+
+    /********** navagtion bar screen modal ************/
+      function confirmDownload(modalId){
+        $('#'+modalId).show();
+      }
+
+    /*** cancel button action on modals ***/
+      function modelClose(modalId){
+        $('#'+modalId).hide();
+      }  
+
+$('#downloadPDF').click(function(e) {
+    // e.preventDefault();
+     // $('#downloadPDF').attr('src', 'downloadFiles/Disclearnpyramid.pdf');
+    window.location.href = 'downloadFiles/Disclearnpyramid.pdf';
+    window.location.href = 'downloadFiles/DiscontinuousLearningBook.pdf';
+});

@@ -1022,7 +1022,7 @@ body {
         .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
           background-color: #f5f5f5;
           border: 1px solid #D5D4D4;
-          height: 160px; }
+          height: 150px; }
           .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content {
             padding-top: 1.6em; }
             .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
@@ -1034,13 +1034,11 @@ body {
           .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-rpHover {
             display: none;
             padding-top: 1.6em;
-            background-color: #DA4531;
+            background-color: #1B5F5E;
             color: white; }
             .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-rpHover h4 {
-              vertical-align: middle;
-              padding: 4px 0 0 0; }
-            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-rpHover h5 {
-              padding: 2px 0 12px 0; }
+              padding: 1em 0 0 0;
+              vertical-align: middle; }
       @media screen and (max-width: 360px) and (min-width: 320px) {
         .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }

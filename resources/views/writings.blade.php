@@ -61,16 +61,16 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button aria-label="Close" onclick="modelClose('downloadModal');" data-dismiss="modal" class="close" type="button">     <span aria-hidden="true">&times;</span>
+                    <button aria-label="Close" onclick="modelClose('downloadModal');" data-dismiss="modal" class="close" type="button"><span aria-hidden="true">&times;</span>
                     </button>
                     <h4>Would you like to download a free copy of this ebook and supporting material?</a></h4>
                 </div>
                 <div class="modal-footer">  
-                    <a class="btn btn-default" id='downloadPDF' download>Yes</a> 
+                    <a class="btn btn-default" id='downloadPDF' download onclick="modelClose('downloadModal');">Yes</a> 
                     <button data-dismiss="modal" class="btn btn-default" type="submit" onclick="modelClose('downloadModal');">No, thanks</button> 
                 </div>
-            </div><!-- /.modal-content -->
-        </div><!-- /.modal-dialog -->
+            </div>
+        </div>
     </div>
 </section>
 
@@ -94,7 +94,7 @@
                                 <h4><b>7 Business Decisions That Looked Bad but Turned Good</b></h4> 
                                 <h6>By Prasad Kaipa and Navi Radjou</h6>
                             </div>
-                            <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8 writings-hoverEffect hoverOver1" style="opacity:-1px;">
+                            <div class="col-lg-12 col-md-12 col-sm-8 col-xs-8 writings-hoverEffect hoverOver1">
                                 <sup>
                                     <img src="/images/aboutPage/Left_Quote.png" align="left">
                                 </sup>
@@ -241,11 +241,11 @@
                     <h1 align="center">RESEARCH PAPERS</h1>
                     <hr align="center">
                 </header>
-                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box">     
-                    <a style="color:grey;font-size:1.4em;text-decoration:none;" href='#physicsResearch' id="seeMoreButton" data-toggle="collapse">
+                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box">
+                    <a class="writings-seemore" href='#physicsResearch' id="seeMore" data-toggle="collapse">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i> Physics Research
                     </a>
-                    <a style="color:grey;font-size:1.4em;text-decoration:none;display:none;" href='#physicsResearch' id="seeLessButton" data-toggle="collapse">
+                    <a class="writings-seeless" href='#physicsResearch' id="seeLess" data-toggle="collapse">
                         <i class="fa fa-angle-double-up" aria-hidden="true"></i> Physics Research
                     </a>
                     <hr align="center"> 
@@ -381,10 +381,10 @@
 
                 <!-- Management and Leadership Research -->
                 <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box">     
-                    <a style="color:grey;font-size:1.4em;text-decoration:none;" href='#MgmtLeadership' class="seeLessButton" data-toggle="collapse">
+                    <a class="writings-seemore" href='#MgmtLeadership' class="seeLess" data-toggle="collapse">
                         <i class="fa fa-angle-double-up" aria-hidden="true"></i> Management and Leadership Research
                     </a>
-                    <a style="color:grey;font-size:1.4em;text-decoration:none;display:none;" href='#MgmtLeadership' class="seeMoreButton" data-toggle="collapse">
+                    <a class="writings-seeless" href='#MgmtLeadership' class="seeMore" data-toggle="collapse">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i> Management and Leadership Research
                     </a> 
                     <hr align="center">

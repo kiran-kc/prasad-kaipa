@@ -858,6 +858,15 @@ body {
         border: none;
         border-top: 4px solid #DA4531;
         margin-top: -0.5em; }
+    .writings-container .writings-header .writings-box .writings-seemore {
+      color: grey;
+      font-size: 1.4em;
+      text-decoration: none; }
+    .writings-container .writings-header .writings-box .writings-seeless {
+      color: grey;
+      font-size: 1.4em;
+      text-decoration: none;
+      display: none; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .writings-container .writings-header .writings-box header {
         padding: 0em; }

@@ -215,26 +215,26 @@ $(document).ready(function(){
 });
 
 // physics
-$('#seeMoreButton').click(function(){
-      $("#seeMoreButton").hide();
-      $('#seeLessButton').show();
+$('#seeMore').click(function(){
+      $("#seeMore").hide();
+      $('#seeLess').show();
     });
-    $('#seeLessButton').click(function(){
-      $('#seeLessButton').hide();
-      $('#seeMoreButton').show();
+    $('#seeLess').click(function(){
+      $('#seeLess').hide();
+      $('#seeMore').show();
     });
 // mgmtleadership
-    $('.seeMoreButton').click(function(){
-      $(".seeMoreButton").hide();
-      $('.seeLessButton').show();
+    $('.seeMore').click(function(){
+      $(".seeMore").hide();
+      $('.seeLess').show();
     });
-    $('.seeLessButton').click(function(){
-      $('.seeLessButton').hide();
-      $('.seeMoreButton').show();
+    $('.seeLess').click(function(){
+      $('.seeLess').hide();
+      $('.seeMore').show();
     });
 
 
-    /********** navagtion bar screen modal ************/
+    /********** confirm modal ************/
       function confirmDownload(modalId){
         $('#'+modalId).show();
       }
@@ -244,9 +244,8 @@ $('#seeMoreButton').click(function(){
         $('#'+modalId).hide();
       }  
 
+// Download zipped folder on comfirmation
 $('#downloadPDF').click(function(e) {
-    // e.preventDefault();
-     // $('#downloadPDF').attr('src', 'downloadFiles/Disclearnpyramid.pdf');
-    window.location.href = 'downloadFiles/Disclearnpyramid.pdf';
-    window.location.href = 'downloadFiles/DiscontinuousLearningBook.pdf';
+    e.preventDefault();
+    window.open('/downloadFiles.tar.gz');
 });

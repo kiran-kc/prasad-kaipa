@@ -2,7 +2,7 @@
 @section('content')
 <section class="about-container">
   	<div class="container-fluid">
-    	<div>
+    	<div class="row">
       	<div class="about-heroImg">
       		<h1>AN INSIGHT</h1> 
       		<h2><i>Prasad's Life and Contributions</i></h2>
@@ -75,6 +75,35 @@
    </div>
 </section>
 
+<section class="about-container">
+  <div class="container-fluid">
+    <div class="row about-affliations">
+      <h2 align="center">PRASAD'S AFFILIATION</h2>
+      <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+        <div class="about-logoBox">
+          <h4 align="center">Prasad has served as a board member/advisor to several organizations</h4>
+          <div class="col-lg-12 about-logos">
+        <div class="col-lg-3 col-md-3" style="height:150px;background-color:white;margin:1em 0.2em;margin-right:0.1em;width:24.5%;">
+          <div class="img1" align="center"></div>
+        </div>
+      <div class="col-lg-3 col-md-3" style="height:150px;background-color:white;margin:1em 0.2em;margin-right:0.1em;width:24.5%;">
+        <div class="img2"></div>
+      </div> 
+         <div class="col-lg-3 col-md-3" style="margin-right:0.1em;margin:1em 0.2em;width:24.5%;height:150px;background-color:white;">
+           <div class="img3"></div>
+         </div>
+         <div class="col-lg-3 col-md-3" style="margin:1em 0.2em;width:24.5%;height:150px;background-color:white;margin-right:0.1em;"></div>
+      </div>
+        </div>
+      </div>     
+   <!--  <div class="row ">
+      
+      
+    </div> -->
+  </div>
+  </div>
+</section>  
+<!-- 
 <section class="about-container" id='Affiliation'>
 	<div class="container-fluid">
 		<div class="row about-affliations">
@@ -112,7 +141,7 @@
       </div>
     </div>
   </section>  
-
+ -->
   <section class="about-container" id='Interviews'>
     <div class="container-fluid"> 
       <div class="row about-interviews" id='Interviews'>
@@ -131,7 +160,7 @@
             <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10 about-card">
               <div class="col-lg-8 col-lg-offset-2 col-md-offset-2 col-md-8 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
                  <h4 align="center"> <i class="fa fa-quote-left"></i>   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Wise leaders focus on noble purpose and enlightened self-interest in order to engage with their role fully without being emotionally entangled with it.
-                 <!-- <img src="/images/aboutPage/Right_Quote marks.png"> -->
+                 <img src="/images/aboutPage/Right_Quote marks.png">
                  </h4>
                  <hr align="center">
                  <h4 align="center"><b>Smart and Wise Leadership:An Interview with Prasad Kaipa</b></h4>

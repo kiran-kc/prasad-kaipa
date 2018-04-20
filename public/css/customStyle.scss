@@ -434,11 +434,10 @@ body{
 			}
 		}
 		.about-mdImageLeft{
-			padding:0;
+			img{
+				padding:0;
 				width:411px;
 				float:left;
-				
-			img{
 				@media screen and (max-width:550px) and (min-width:320px){
 					display:none;
 			min-width:50%;

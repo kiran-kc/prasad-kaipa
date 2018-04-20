@@ -10,7 +10,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="aboutPrasad"><b>ABOUT</b></a></li>
                 <li><a href="writingsByPrasad"><b>WRITING</b></a></li>
-                <li><a href="#"><b>SPEAKING</b></a></li>
+                <li><a href="speaking"><b>SPEAKING</b></a></li>
                 <li><a href="#"><b>ACADEMIA</b></a></li>
                 <li><a href="#"><b>GET IN TOUCH</b></a></li>
             </ul>
@@ -92,7 +92,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="aboutPrasad"><b>ABOUT</b></a></li>
                 <li><a href="writingsByPrasad"><b>WRITING</b></a></li>
-                <li><a href="#"><b>SPEAKING</b></a></li>
+                <li><a href="speaking"><b>SPEAKING</b></a></li>
                 <li><a href="#"><b>ACADEMIA</b></a></li>
                 <li><a href="#"><b>GET IN TOUCH</b></a></li>
             </ul>

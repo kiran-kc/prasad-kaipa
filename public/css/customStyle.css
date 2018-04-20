@@ -972,5 +972,49 @@ body {
 
 /**********************************************/
 /**********************************************/
+/***********************************************/
+/*      CSS for Writing Page Starts here       */
+/*              By Kiran Joshi                 */
+/*           use prefix writings-*              */
+/***********************************************/
+.pseudo-navbar {
+  height: 65px;
+  background-color: black; }
+
+.videos-container {
+  margin-bottom: 2em; }
+  .videos-container .videos-gridLayout {
+    margin-top: 5em;
+    padding: 0px;
+    margin-right: 1em;
+    background-color: #EDEFF1; }
+    .videos-container .videos-gridLayout iframe {
+      border: none;
+      padding-bottom: 1em; }
+    .videos-container .videos-gridLayout .frame-type1 {
+      width: 100%;
+      height: 500px; }
+    .videos-container .videos-gridLayout .frame-type2 {
+      width: 100%;
+      height: 380px; }
+    .videos-container .videos-gridLayout .frame-type3 {
+      width: 100%;
+      height: 380px; }
+    .videos-container .videos-gridLayout .frame-type4 {
+      width: 100%;
+      height: 380px; }
+    .videos-container .videos-gridLayout .videos-title {
+      background-color: #EDEFF1; }
+      .videos-container .videos-gridLayout .videos-title h3 {
+        margin-top: 0px;
+        padding-left: 0.8em; }
+      .videos-container .videos-gridLayout .videos-title h4 {
+        padding-left: 1em; }
+        .videos-container .videos-gridLayout .videos-title h4 a {
+          color: #333;
+          text-decoration: underline; }
+
+/**********************************************/
+/**********************************************/
 
 /*# sourceMappingURL=customStyle.css.map */

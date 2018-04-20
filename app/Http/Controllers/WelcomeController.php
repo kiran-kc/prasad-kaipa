@@ -28,19 +28,19 @@ class WelcomeController extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function index()
-	{
+	public function index(){
 		return view('index');
 	}
 
-	public function about()
-	{
+	public function about(){
 		return view('about');
 	}
 
-	public function writings()
-	{
+	public function writings(){
 		return view('writings');
+	}
+	public function speaking(){
+		return view('speaking');
 	}
 
 }

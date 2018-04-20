@@ -16,6 +16,8 @@ Route::get('/', 'WelcomeController@index');
 Route::get('aboutPrasad', 'WelcomeController@about');
 // writings tab
 Route::get('writingsByPrasad', 'WelcomeController@writings');
+// speakings tab
+Route::get('speaking', 'WelcomeController@speaking');
 
 
 

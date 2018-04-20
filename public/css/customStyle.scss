@@ -215,15 +215,13 @@ body{
 	.container-fluid{
 		 // padding:0px auto;
 		.about-heroImg{
-			background-image:url('/images/aboutPage/Heroimage_About.png');
+			background-image: url('/images/aboutPage/Heroimage_About.png');
 			min-height:710px;
-			// width:100%;
-			background-size:100% 100%;
 			background-repeat:no-repeat;
 	        background-attachment: fixed;
+  			position: relative;
 	        background-position: center;
 	        background-size: cover;
-	        // object-fit:cover;
 			h1{
 				font-family: 'Lato', sans-serif;
 				color:white;
@@ -240,12 +238,13 @@ body{
 			}
 			.about-icons{
 				margin-top:15em;
-				height:118px;
+				height:105px;
 				border:2px solid white;
-				border-radius:80px;
+				border-radius:100%;
 				margin-right:5em;
-				padding:2em;
+				padding:1.4em;
 				img{
+					align:center;
 					margin-left:-0.4em;
 					margin-top:-0.5em;
 					width:70px;
@@ -263,10 +262,8 @@ body{
 				
 			}
 			@media screen and (max-width:550px) and (min-width:320px){
-			 	height:250px;
-				width:107.6%;
-				margin-left:-1.1em;
-				background-size:100% 100%;
+			 	min-height:250px;
+			 	background-size:cover;
 				h1{
 					padding:2em 0 0 1em;
 					margin-top:0;
@@ -295,10 +292,8 @@ body{
 				}
 			}
 			@media screen and (max-width:899px) and (min-width:551px){
-			 	height:430px;
-				width:104%;
-				margin-left:-1.1em;
-				background-size:100% 100%;
+			 	min-height:430px;
+				background-size:cover;
 				h1{
 					padding:3em 0 0 2em;
 					margin-top:0;
@@ -327,10 +322,8 @@ body{
 				}
 			}
 			@media screen and (max-width:1200px) and (min-width:900px){
-				height:520px;
-				width:103%;
-				margin-left:-1.1em;
-				background-size:100% 100%;
+				min-height:500px;
+				background-size: cover;
 				h1{
 					padding:3em 0 0 2em;
 					margin-top:0;
@@ -423,34 +416,40 @@ body{
 			}
 		}
 		.about-mdImageRight{
-			// display: flex;
 			img{
-				margin-left:0.25em;
+				padding:0;
+				width:411px;
+				float:right;
+				// margin-left:0.25em;
+				object-fit:fill;
 				@media screen and (max-width:550px) and (min-width:320px){
 					display:none;
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
-					// display:flex;
-					width:295px;
+					// width:295px;
 				}
 				@media screen and (max-width:1240px) and (min-width:900px){
-					width:101%;
+					// width:101%;
 				}
 			}
 		}
 		.about-mdImageLeft{
 			padding:0;
-			// display: flex;
+				width:411px;
+				float:left;
+				
 			img{
-				// margin-left:-0.91em;
 				@media screen and (max-width:550px) and (min-width:320px){
 					display:none;
+			min-width:50%;
+
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
-					width:295px;
+					// width:295px;
 				}
 				@media screen and (max-width:1240px) and (min-width:900px){
-					width:101%;
+					// width:101%;
+					min-width:50%;
 				}
 			}
 		}
@@ -470,11 +469,9 @@ body{
 			// }
 		}
 		.about-logoBox{
-			background-color:white;
+			// background-color:white;
 			height:65px;
-			margin-top:1em;
 			margin-bottom:3em;
-			padding-top:1em;
 			h4{
 				margin-top:1em;
 				@media screen and (max-width:550px) and (min-width:320px){
@@ -482,512 +479,382 @@ body{
 				}
 			}
 			.about-logos{
-				// padding:2em 0;
-				.img1{
-					margin:2.5em 0;
-					width:80%;
-					height:100px;
-					background-image:url('/images/aboutPage/Affiliations/Grey/ILA.png');
-         			background-repeat: no-repeat;
-         			background-size: 130px 70px;
-         			vertical-align:middle;
-         			// border:1px solid red;
-         			float:right;
-					&:hover{
-						// padding:2em;
-						height:100px;
-						width:80%;
-						// padding:5px;
-						background-image:url('/images/aboutPage/Affiliations/Original/ILA.png');
-						background-repeat: no-repeat;
-						background-size: 130px 70px;
-					}
-				}
-				.img2{
-					margin:3.5em 2em;
-					width:100%;
-					height:100px;
-					background-image:url('/images/aboutPage/Affiliations/Grey/c1.png');
-         			background-repeat: no-repeat;
-         			background-size: 160px 50px;
-					&:hover{
-						width:100%;
-						background-image:url('/images/aboutPage/Affiliations/Original/Intellect.png');
-						background-repeat: no-repeat;
-						background-size: 160px 	50px;
-					}
-				}
-				.img3{
-					width:100%;
-					height:90px;
-					margin-left:3em;
-					background-image:url('/images/aboutPage/Affiliations/Grey/Arevo.png');
-         			background-repeat: no-repeat;
-         			background-size: 170px 55px;
-					&:hover{
-						width:28%;
-						margin-left:3em;
-						background-image:url('/images/aboutPage/Affiliations/Original/Arevo.png');
-						background-repeat: no-repeat;
-						background-size: 250px 85px;
-					}
-				}
-				.img4{
-					margin-top:2em;
-					margin-left:1.5em;
-					width:28%;
-					height:120px;
-					background-image:url('/images/aboutPage/Affiliations/Grey/c4.png');
-         			background-repeat: no-repeat;
-         			background-size: 280px 70px;
-					&:hover{
-						width:28%;
-						margin-left:1.5em;
-						background-image:url('/images/aboutPage/Affiliations/Original/Transparent logo.png');
-						background-repeat: no-repeat;
-						background-size: 280px 70px;
-					}
-				}
-				.img5{
-					margin-top:-4em;
-					width:28%;
-					height:180px;
-					background-image:url('/images/aboutPage/Affiliations/Grey/c8.png');
-         			background-repeat: no-repeat;
-         			background-size: 170px 180px;
-					&:hover{
-						margin-top:-4em;
-						width:28%;
-						background-image:url('/images/aboutPage/Affiliations/Original/Marico.jpg');
-						background-repeat: no-repeat;
-						background-size: 170px 180px;
-					}
-				}
-				.img6{
-					margin-left:-5em;
-					margin-top:-4em;
-					width:28%;
-					height:180px;
-					background-image:url('/images/aboutPage/Affiliations/Grey/c3.png');
-         			background-repeat: no-repeat;
-         			background-size: 360px 170px;
-					&:hover{
-						margin-left:-5em;
-						margin-top:-4em;
-						width:28%;
-						background-image:url('/images/aboutPage/Affiliations/Original/SOL.png');
-						background-repeat: no-repeat;
-						background-size: 360px 170px;
-					}
-				}
-				.img7{
-					margin-left:4em;
-					width:28%;
-					height:180px;
-					background-image:url('/images/aboutPage/Affiliations/Grey/c6.png');
-         			background-repeat: no-repeat;
-         			background-size: 340px 120px;
-					&:hover{
-						margin-left:4em;
-						width:28%;
-						background-image:url('/images/aboutPage/Affiliations/Original/Apporbit.png');
-						background-repeat: no-repeat;
-						background-size: 340px 120px;
-					}
-				}
-				@media screen and (max-width:550px) and (min-width:320px){
-					padding:1em 1em;
+				.about-logoCards{
+					height:150px;
+					background-color:white;
+					margin:0.5em 0.1em 0em 0.2em;
+					width:24.5%;
 					.img1{
-						width:48%;
-						margin-top:0em;
-						height:60px;
-	         			background-size: 100px 55px;
-						&:hover{
-							width:48%;
-							margin-top:0em;
-							height:60px;
-							background-size: 100px 55px;
-						}
-					}
-
-					.img2{
-						width:42%;
-						height:60px;
-	         			background-size: 120px 41px;
-						margin-top:0.6em;
-						&:hover{
-							width:42%;
-							background-size:120px 41px;
-
-						}
-					}
-					.img3{
-						width:50%;
-						height:60px;
-						margin-left:1em;
-	         			background-size: 122px 40px;
-						&:hover{
-							width:50%;
-							margin-left:1em;
-							background-size: 122px 40px;
-						}
-					}
-					.img4{
-						width:42%;
-						margin-top:0em;
-						margin-left:0em;
-						height:60px;
-	         			background-size:128px 32px;
-						&:hover{
-							width:42%;
-							height:60px;
-							margin-left:0em;
-							background-size:128px 32px;
-						}
-					}
-					.img5{
-						margin-top:-1em;
-						width:32%;
-	         			background-size: 74px 77px;
-	         			height:80px;
-						&:hover{
-							margin-top:-1em;
-							width:32%;
-							background-size: 74px 77px;
-							height:80px;
-						}
-					}
-					.img6{
-						margin-left:0;
-						margin-top:-1.5em;
-						width:50%;
-						height:110px;
-	         			background-size: 175px 86px;
-						&:hover{
-							margin-left:0;
-							margin-top:-1.5em;
-							width:50%;
-							background-size: 175px 86px;
-						}
-					}
-					.img7{
+						margin:2.5em 0;
 						width:80%;
-						height:97px;
-	         			background-size: 190px 63px;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/ILA.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 130px 70px;
+	         			vertical-align:middle;
+	         			float:right;
 						&:hover{
 							width:80%;
-							background-size: 190px 63px;
-						}
-					}	
-				}
-				@media screen and (max-width:899px) and (min-width:551px){
-					.img1{
-						width:24%;
-						margin-top:0em;
-						height:100px;
-	         			background-size: 132px 80px;
-						&:hover{
-							width:24%;
-							margin-top:0em;
-							height:100px;
-							background-size: 132px 80px;
+							background-image:url('/images/aboutPage/Affiliations/Original/ILA.png');
+							background-repeat: no-repeat;
+							background-size: 130px 70px;
 						}
 					}
-
 					.img2{
-						width:33%;
-						height:92px;
-	         			background-size: 196px 64px;
-						margin-top:0.6em;
+						margin:3.5em 3em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c1.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 160px 50px;
 						&:hover{
-							width:33%;
-							background-size: 196px 	64px;
-
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/Intellect.png');
+							background-repeat: no-repeat;
+							background-size: 160px 	50px;
 						}
 					}
 					.img3{
+						margin:3em;
+						width:100%;
 						height:90px;
-						margin-left:0;
-	         			background-size: 180px 65px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/Arevo.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 170px 55px;
 						&:hover{
-							margin-left:0;
-							background-size: 180px 65px;
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/Arevo.png');
+							background-repeat: no-repeat;
+							background-size: 170px 55px;
 						}
 					}
 					.img4{
-						margin-top:0em;
-						margin-left:1.5em;
-						height:85px;
-	         			background-size:162px 46px;
-						&:hover{
-							margin-left:1.5em;
-							background-size:162px 46px;
-						}
-					}
-					.img5{
-						width:20%;
-	         			background-size: 125px 133px;
-	         			height:150px;
-						&:hover{
-							width:20%;
-							background-size: 125px 133px;
-							height:150px;
-						}
-					}
-					.img6{
-						margin-left:0;
-						margin-top:-1.5em;
-						width:34%;
-						height:110px;
-	         			background-size: 231px 88px;
-						&:hover{
-							margin-left:0;
-							margin-top:-1.5em;
-							width:34%;
-							background-size: 231px 88px;
-						}
-					}
-					.img7{
-						margin-left:2em;
-						height:97px;
-	         			background-size: 185px 68px;
-						&:hover{
-							margin-left:2em;
-							background-size: 185px 68px;
-						}
-					}	
-				}
-				@media screen and (max-width:1240px) and (min-width:900px){
-					.img1{
-						margin-top:0em;
-						height:100px;
-	         			background-size: 156px 85px;
-						&:hover{
-							margin-top:0em;
-							height:100px;
-							padding:5px;
-							background-size: 156px 85px;
-						}
-					}
-
-					.img2{
-						height:100px;
-	         			background-size: 205px 75px;
-						&:hover{
-							background-size: 205px 	75px;
-						}
-					}
-					.img3{
-						width:25%;
-						height:90px;
-						margin-left:3em;
-	         			background-size: 205px 75px;
-						&:hover{
-							width:25%;
-							margin-left:3em;
-							background-size: 205px 75px;
-						}
-					}
-					.img4{
-						margin-top:2em;
-						margin-left:1.5em;
-						width:28%;
-						height:85px;
-	         			background-size:220px 55px;
-						&:hover{
-							width:28%;
-							margin-left:1.5em;
-							background-size:220px 55px;
-						}
-					}
-					.img5{
-						width:18%;
-						margin-top:-3em;
-						height:150px;
-	         			background-size: 125px 130px;
-						&:hover{
-							width:18%;
-							margin-top:-3em;
-							background-size: 125px 130px;
-						}
-					}
-					.img6{
-						margin-left:0;
-						margin-top:-3em;
-						width:40%;
-						height:135px;
-	         			background-size: 315px 128px;
-						&:hover{
-							margin-left:0;
-							margin-top:-3em;
-							width:40%;
-							background-size: 315px 128px;
-						}
-					}
-					.img7{
-						margin-left:0;
-						width:28%;
+						margin:3.5em 2em;
+						width:100%;
 						height:120px;
-	         			background-size: 247px 88px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c4.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 180px 45px;
 						&:hover{
-							margin-left:0;
-							width:28%;
-							background-size: 247px 88px;
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/Transparent logo.png');
+							background-repeat: no-repeat;
+							background-size: 180px 45px;
 						}
-					}	
+					}
+					.img5{
+						margin:1.8em 5em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c8.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 80px 100px;
+						&:hover{
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/Marico.jpg');
+							background-repeat: no-repeat;
+							background-size: 80px 100px;
+						}
+					}
+					.img6{
+						margin:3em 1em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c3.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 190px 75px;
+						&:hover{
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/SOL.png');
+							background-repeat: no-repeat;
+							background-size: 190px 75px;
+						}
+					}
+					.img7{
+						margin:3em 2em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c6.png');
+	         			background-repeat: no-repeat;
+	         			background-size: 180px 60px;
+						&:hover{
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/Apporbit.png');
+							background-repeat: no-repeat;
+							background-size: 180px 60px;
+						}
+					}
+					.img8{
+						margin:2em 4.2em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c5.png');
+		         		background-repeat: no-repeat;
+		         		background-size: 110px 110px;
+						&:hover{
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/northsouth.png');
+							background-repeat: no-repeat;
+							background-size: 110px 110px;
+						}
+					}
+					.img9{
+						margin:4em 2em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c2.png');
+		         		background-repeat: no-repeat;
+		         		background-size: 180px 50px;
+						&:hover{
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg');
+							background-repeat: no-repeat;
+							background-size: 180px 50px;
+						}
+					}
+					.img10{
+						margin:1.5em 4em;
+						width:100%;
+						height:100px;
+						background-image:url('/images/aboutPage/Affiliations/Grey/c9.png');
+		         		background-repeat: no-repeat;
+		         		background-size: 120px 120px;
+						&:hover{
+							width:100%;
+							background-image:url('/images/aboutPage/Affiliations/Original/Yoga Bharati.png');
+							background-repeat: no-repeat;
+							background-size: 120px 120px;
+						}
+					}
+					@media screen and (max-width:550px) and (min-width:320px){
+						width:45%;
+						height:85px;
+						.img1{
+							margin:1em 0.5em;
+		         			background-size: 80px 45px;
+							&:hover{
+								background-size: 80px 45px;
+							}
+						}
+
+						.img2{
+		         			background-size: 80px 30px;
+							margin:2em 0.5em;
+							&:hover{
+								background-size:80px 30px;
+
+							}
+						}
+						.img3{
+							margin:2em 1em;
+		         			background-size: 80px 32px;
+							&:hover{
+								background-size: 80px 32px;
+							}
+						}
+						.img4{
+							margin:2.5em 0.5em;
+		         			background-size:100px 25px;
+							&:hover{
+								background-size:100px 25px;
+							}
+						}
+						.img5{
+							margin:1em 1.5em;
+		         			background-size: 59px 64px;
+							&:hover{
+								background-size: 59px 64px;
+							}
+						}
+						.img6{
+							margin:1.5em 0;
+		         			background-size: 110px 45px;
+							&:hover{
+								background-size: 110px 45px;
+							}
+						}
+						.img7{
+							margin:2em 1em;
+		         			background-size: 90px 36px;
+							&:hover{
+								background-size: 90px 36px;
+							}
+						}
+						.img8{
+							margin:1.5em 1.8em;
+			         		background-size: 50px 50px;
+							&:hover{
+								background-size: 50px 50px;
+							}
+						}
+						.img9{
+							margin:2em 1em;
+			         		background-size:80px 30px;
+							&:hover{
+								background-size:80px 30px;
+							}
+						}
+						.img10{
+							margin:1em 1.8em;
+			         		background-size: 50px 60px;
+							&:hover{
+								background-size: 50px 60px;
+							}
+						}	
+					}
+					@media screen and (max-width:899px) and (min-width:551px){
+						width:22.5%;
+						height:100px;
+						.img1{
+							margin-top:2em;
+		         			background-size: 70px 40px;
+							&:hover{
+								background-size: 70px 40px;
+							}
+						}
+
+						.img2{
+		         			background-size: 70px 28px;
+							margin:2.5em 1.3em;
+							&:hover{
+								background-size: 70px 28px;
+
+							}
+						}
+						.img3{
+							margin:2.5em 0.6em;
+		         			background-size: 85px 30px;
+							&:hover{
+								background-size: 85px 30px;
+							}
+						}
+						.img4{
+							margin:2.5em 0.5em;
+		         			background-size:90px 25px;
+							&:hover{
+								background-size:90px 25px;
+							}
+						}
+						.img5{
+							margin:0.9em 2em;
+		         			background-size: 58px 74px;
+							&:hover{
+								background-size: 58px 74px;
+							}
+						}
+						.img6{
+							margin:2em 0.5em;
+		         			background-size: 95px 42px;
+							&:hover{
+								background-size: 95px 42px;
+							}
+						}
+						.img7{
+							margin:2em 0.8em;
+		         			background-size: 90px 40px;
+							&:hover{
+								background-size: 90px 40px;
+							}
+						}
+						.img8{
+							margin:1.5em;
+			         		background-size: 60px 60px;
+							&:hover{
+								background-size: 60px 60px;
+							}
+						}
+						.img9{
+							margin:2.5em 1em;
+			         		background-size: 82px 30px;
+							&:hover{
+								background-size: 82px 30px;
+							}
+						}
+						.img10{
+							margin:1.5em;
+			         		background-size: 66px 66px;
+							&:hover{
+								background-size: 66px 66px;
+							}
+						}	
+					}
+					@media screen and (max-width:1240px) and (min-width:900px){
+						width:22.5%;
+						height:100px;
+						.img1{
+							margin-top:2em;
+		         			background-size: 65px 40px;
+							&:hover{
+							background-size: 65px 40px;
+							}
+						}
+
+						.img2{
+							margin:2.5em;
+		         			background-size: 75px 27px;
+							&:hover{
+								background-size: 75px 27px;
+							}
+						}
+						.img3{
+							margin:2.5em 1.5em;
+		         			background-size: 86px 28px;
+							&:hover{
+								background-size: 86px 28px;
+							}
+						}
+						.img4{
+							margin:2.5em 1.5em;
+		         			background-size:96px 23px;
+							&:hover{
+								background-size:96px 23px;
+							}
+						}
+						.img5{
+							margin:1em 3em;
+		         			background-size: 52px 75px;
+							&:hover{
+								background-size: 52px 75px;
+							}
+						}
+						.img6{
+							margin:2em 1em;
+		         			background-size: 100px 40px;
+							&:hover{
+								background-size: 100px 40px;
+							}
+						}
+						.img7{
+							margin:2em;
+		         			background-size: 110px 35px;
+							&:hover{
+								background-size: 110px 35px;
+							}
+						}
+						.img8{
+							margin:2em 3em;
+			         		background-size: 56px 56px;
+							&:hover{
+								background-size: 56px 56px;
+							}
+						}
+						.img9{
+							margin:2em;
+			         		background-size: 90px 45px;
+							&:hover{
+								background-size: 90px 45px;
+							}
+						}
+						.img10{
+							margin:1.5em 2.5em;
+			         		background-size: 64px 64px;
+							&:hover{
+								background-size: 64px 64px;
+							}
+						}	
+					}
 				}				
 			}	
-		}
-	}
-	.about-logoBoxt{
-		background-color:white;
-		// height:300px;
-		h4{
-			margin-top:1em;
-			@media screen and (max-width:550px) and (min-width:320px){
-				font-size:12px;
-			}
-		}
-		.about-logos{
-			padding:2em 3em;
-			.img8{
-				margin-left:4em;
-				width:28%;
-				height:220px;
-				background-image:url('/images/aboutPage/Affiliations/Grey/c5.png');
-         		background-repeat: no-repeat;
-         		background-size: 220px 220px;
-				&:hover{
-					width:28%;
-					background-image:url('/images/aboutPage/Affiliations/Original/northsouth.png');
-					background-repeat: no-repeat;
-					background-size: 220px 220px;
-				}
-			}
-			.img9{
-				margin-top:4em;
-				width:38%;
-				height:180px;
-				background-image:url('/images/aboutPage/Affiliations/Grey/c2.png');
-         		background-repeat: no-repeat;
-         		background-size: 360px 100px;
-				&:hover{
-					width:38%;
-					height:180px;
-					background-image:url('/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg');
-					background-repeat: no-repeat;
-					background-size: 360px 100px;
-				}
-			}
-			.img10{
-				width:28%;
-				height:220px;
-				background-image:url('/images/aboutPage/Affiliations/Grey/c9.png');
-         		background-repeat: no-repeat;
-         		background-size: 220px 220px;
-				&:hover{
-					width:28%;
-					background-image:url('/images/aboutPage/Affiliations/Original/Yoga Bharati.png');
-					background-repeat: no-repeat;
-					background-size: 220px 220px;
-				}
-			}
-			@media screen and (max-width:550px) and (min-width:320px){
-				padding:0em 1em;
-				.img8{
-					width:28%;
-					margin-top:0.5em;
-					margin-left:0;
-					height:100px;
-	         		background-size: 80px 80px;
-					&:hover{
-						margin-top:0.5em;
-						background-size: 80px 80px;
-					}
-				}
-				.img9{
-					margin-top:1.5em;
-					width:40%;
-					height:60px;
-	         		background-size:126px 48px;
-					&:hover{
-						width:40%;
-						height:60px;
-						background-size:126px 48px;
-					}
-				}
-				.img10{
-					width:32%;
-					height:100px;
-	         		background-size: 90px 94px;
-					&:hover{
-						width:32%;
-						background-size: 90px 94px;
-					}
-				}
-			}
-			@media screen and (max-width:899px) and (min-width:551px){
-				.img8{
-					margin-top:1em;
-					margin-left:0;
-					height:150px;
-	         		background-size: 140px 140px;
-					&:hover{
-						margin-top:1em;
-						background-size: 140px 140px;
-					}
-				}
-				.img9{
-					margin-top:3em;
-					width:38%;
-					height:100px;
-	         		background-size: 215px 66px;
-					&:hover{
-						width:38%;
-						height:180px;
-						background-size: 215px 66px;
-					}
-				}
-				.img10{
-					height:150px;
-	         		background-size: 160px 160px;
-					&:hover{
-						background-size: 160px 160px;
-					}
-				}
-			}
-			@media screen and (max-width:1240px) and (min-width:900px){
-				.img8{
-					margin-top:1em;
-					margin-left:3em;
-					height:180px;
-	         		background-size: 165px 165px;
-					&:hover{
-						margin-top:1em;
-						background-size: 165px 165px;
-					}
-				}
-				.img9{
-					margin-top:4em;
-					width:38%;
-					height:100px;
-	         		background-size: 275px 80px;
-					&:hover{
-						width:38%;
-						height:180px;
-						background-size: 275px 80px;
-					}
-				}
-				.img10{
-					width:28%;
-					height:200px;
-	         		background-size: 180px 180px;
-					&:hover{
-						width:28%;
-						background-size: 180px 180px;
-					}
-				}
-			}
 		}
 	}
 	.about-interviews{
@@ -1000,18 +867,22 @@ body{
 			border:none;
 			border-left:6px solid #256F76;
 			margin-top:4em;
-			h4{
-				margin-top:2em;
-				i{
-					font-size:2.5em;
-					margin-left:-2em;
-					color:grey;
+			.about-innerMargin{
+				padding:2em;
+				h4{
+					margin-top:2em;
+					i{
+						font-size:2.5em;
+						margin-left:-2em;
+						color:grey;
+					}
 				}
-			}
-			hr{
-				width:60%;border:none;
-				border-bottom:1px solid grey;
-				margin-top:4.5em;	
+				hr{
+					width:60%;
+					border:none;
+					border-bottom:1px solid grey;
+					margin-top:4.5em;	
+				}
 			}
 		}
 		@media screen and (max-width:550px) and (min-width:320px){
@@ -1020,35 +891,65 @@ body{
 				font-size:1.3em;
 			}
 			.about-card{
-				height:160px;
+				height:150px;
 				margin-top:1em;
-				h4{
-					font-size:12px;
-					margin-top:1em;
-					i{
-						font-size:1.5em;
+				.about-innerMargin{
+					padding:1em 0;
+					sup{
+						img{
+							width:18px;
+						}
 					}
-				}
-				hr{
-					margin-top:1em;	
-				}
-				p{
-					margin-top:-0.5em;
-					font-size:11px;	
-				}
+					sub{
+						img{
+							width:18px;
+						}
+					}
+					h4{
+						font-size:11px;
+						margin-top:1em;
+						sub{}
+					}
+					hr{
+						margin-top:0.5em;	
+					}
+					p{
+						margin-top:-0.5em;
+						font-size:10px;	
+					}
+				}	
 			}
 		}
 		@media screen and (max-width:899px) and (min-width:551px){
 			.about-card{
 				height:210px;
 				margin-top:3em;
-				h4{
-					font-size:13px;
-					margin-top:2em;
-				}
-				hr{
-					margin-top:2.5em;	
-				}
+				.about-innerMargin{
+
+					h4{
+						font-size:13px;
+						margin-top:2em;
+					}
+					hr{
+						margin-top:2.5em;	
+					}
+				}	
+			}
+		}
+		@media screen and (max-width:1200px) and (min-width:900px){
+			.about-card{
+				.about-innerMargin{
+					sup{
+						img{
+							width:40px;
+						}
+					}
+					sub{
+						img{
+							width:40px;
+						}
+					}
+				}	
 			}
 		}
 	}

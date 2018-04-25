@@ -11,8 +11,8 @@
                 <li><a href="aboutPrasad"><b>ABOUT</b></a></li>
                 <li><a href="writingsByPrasad"><b>WRITING</b></a></li>
                 <li><a href="speaking"><b>SPEAKING</b></a></li>
-                <li><a href="#"><b>ACADEMIA</b></a></li>
-                <li><a href="#"><b>GET IN TOUCH</b></a></li>
+                <li><a href="academia"><b>ACADEMIA</b></a></li>
+                <li><a href="getInTouch"><b>GET IN TOUCH</b></a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><i class="fa fa-bars fa-2x toggle-button toggle"  onclick="navbarModal('connectModal')"></i></a>
@@ -93,8 +93,8 @@
                 <li><a href="aboutPrasad"><b>ABOUT</b></a></li>
                 <li><a href="writingsByPrasad"><b>WRITING</b></a></li>
                 <li><a href="speaking"><b>SPEAKING</b></a></li>
-                <li><a href="#"><b>ACADEMIA</b></a></li>
-                <li><a href="#"><b>GET IN TOUCH</b></a></li>
+                <li><a href="academia"><b>ACADEMIA</b></a></li>
+                <li><a href="getInTouch"><b>GET IN TOUCH</b></a></li>
             </ul>
             <hr style="border:none;border-bottom:1px solid #535353;width:80%;" align="center">
             <ul class="nav navbar-nav">

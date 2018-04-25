@@ -42,5 +42,11 @@ class WelcomeController extends Controller {
 	public function speaking(){
 		return view('speaking');
 	}
+	public function academia(){
+		return view('academia');
+	}
+	public function getInTouch(){
+		return view('getInTouch');
+	}
 
 }

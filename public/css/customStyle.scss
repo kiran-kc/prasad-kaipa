@@ -1354,12 +1354,12 @@ body{
 /**********************************************/
 
 /***********************************************/
-/*      CSS for Writing Page Starts here       */
+/*      CSS for Speaking Page Starts here       */
 /*              By Kiran Joshi                 */
 /*           use prefix writings-*              */
 /***********************************************/
 .pseudo-navbar{
-	height:65px;
+	height:70px;
 	background-color:black;
 }
 .videos-container{
@@ -1408,3 +1408,235 @@ body{
 
 /**********************************************/
 /**********************************************/
+
+
+/***********************************************/
+/*      CSS for Writing Page Starts here       */
+/*              By Kiran Joshi                 */
+/*           use prefix academia-*             */
+/***********************************************/
+
+.academia-container{
+	margin-bottom:2em;
+	.academia-gridlayout{
+		margin-top:8em;
+		padding:0px;
+		.leftcard{
+			float:left;
+		}
+		.rightcard{
+			float:right;
+		}
+		.academia-cards{
+			background-color:white;
+			width:46%;
+			height:460px;
+			border:1px solid #eaeaea;
+			img{
+				padding:2em 1em;
+				width:80%;
+				margin-left:3em;
+			}
+			.small{
+				margin:3em 0 2em 0;
+				width:100%;
+			}
+			p{
+				margin-top:-1.5em;
+				font-size:18px;
+				color:#666;
+				padding:0.7em;
+				text-align:center;
+				a{
+					color:#666;
+					text-decoration:underline;
+				}
+			}
+			.imgMargin{
+				border:none;
+				border-top:1px solid #eaeaea;
+			}
+			h4{
+				margin-top:-0.5em;
+				color:#666;
+				padding:0.7em;
+				text-align:center;
+				a{
+					color:#666;
+					text-decoration:underline;
+				}
+			}
+		}
+		hr{
+			width:7%;
+			border:none;
+			border-top:4px solid #DA4531;
+		}
+		.academia-businesSchool{
+			width:30%;
+			height:180px;
+			display:inline-block;
+			background-color:white;
+			margin:2em 1em;
+			img{
+				vertical-align:baseline;
+				width:100%;
+				padding:2.5em 3em 0 3em;
+			}
+			.image{
+				margin:2em 0;
+				vertical-align:baseline;
+			}
+			.usc{
+				margin-top:2em;
+			}
+		}
+		.webVisible{
+			display:block;
+			.academia-businesSchool{
+				width:30%;
+				height:180px;
+				display:inline-block;
+				background-color:white;
+				margin:2em 1em;
+			}
+		}
+		.mobileVisible{
+			display:none;		
+		}
+		@media screen and (max-width:550px) and (min-width:370px){
+			margin-top:2em;
+			.rightcard{
+				margin-top:2em;
+			}
+			.academia-cards{
+				width:90%;
+				height:350px;
+				float:none;
+				margin-left:5%;
+				img{
+					padding:1em;
+					margin-bottom:1em;
+				}
+				.small{
+					margin-left:5%;
+					margin:2em 0 1em 0;
+				}
+				p{
+					font-size:14px;
+				}
+				h4{
+					font-size:14px;
+				}
+			}
+			.academia-businesSchool{
+				width:42%;
+				img{
+					padding:2em 0.3em 0 0.3em;	
+				}
+				.image{
+					margin:2.5em 0;
+				}
+			}
+			.webVisible{
+				display:none;
+				.academia-businesSchool{
+					width:42%;
+					img{
+						padding:2em 0.3em 0 0.3em;	
+					}
+				}	
+			}
+			.mobileVisible{
+				display:block;
+			}
+		}
+		@media screen and (max-width:899px) and (min-width:551px){
+			margin-top:2em;
+			.academia-cards{
+				width:48%;
+				height:400px;
+				.small{
+					margin:3em 0 0 0;
+				}
+				p{
+					font-size:15px;
+				}
+				h4{
+					font-size:15px;
+				}
+			}
+			.academia-businesSchool{
+				width:26%;
+				height:150px;
+				img{
+					padding:3em 1em 0 1em;
+				}
+				.usc{
+					margin-top:2.5em;
+				}
+			}
+			.webVisible{
+				display:block;
+				.academia-businesSchool{
+					width:26%;
+					height:150px;
+					img{
+						padding:3em 1em 0 1em;
+					}
+				}	
+			}
+			.mobileVisible{
+				display:none;
+			}	
+		}
+		@media screen and (max-width:1240px) and (min-width:900px){	
+			margin-top:4em;
+			.academia-cards{
+				height:380px;
+				.small{
+					margin:3em 0 0 0;
+					width:100%;
+				}
+				p{
+					font-size:15px;
+				}
+				h4{
+					font-size:15px;
+				}
+			}
+			hr{
+				width:10%;
+			}
+			.academia-businesSchool{
+				width:28%;
+				height:150px;
+				margin:0em 1em;
+				img{
+					padding:2em;
+				}
+				.image{
+					margin:2em 0;
+					vertical-align:baseline;
+				}
+				.usc{
+					margin-top:2.5em;
+				}
+			}
+			.webVisible{
+				display:block;
+				.academia-businesSchool{
+					width:28%;
+					height:150px;
+					margin:0em 1em;
+					img{
+						padding:2em;
+					}
+				}	
+			}
+			.mobileVisible{
+				display:none;
+			}
+		}	
+	}
+}

@@ -1369,6 +1369,7 @@ body{
 		padding:0px;
 		margin-right:1em;
 		background-color:#EDEFF1;
+		box-shadow:2px 2px 7px #444;
 		iframe{
 			border:none;
 			padding-bottom:1em;
@@ -1379,7 +1380,7 @@ body{
 		}
 		.frame-type2{
 			width:100%;
-			height:380px;
+			height:400px;
 		}
 		.frame-type3{
 			width:100%;
@@ -1392,10 +1393,12 @@ body{
 		.videos-title{
 			background-color:#EDEFF1;
 			h3{
+				font-size:18px;
 				margin-top:0px;
 				padding-left:0.8em;
 			}
 			h4{
+				font-size:14px;
 				padding-left:1em;
 				a{
 					color:#333;
@@ -1432,6 +1435,7 @@ body{
 			width:46%;
 			height:460px;
 			border:1px solid #eaeaea;
+			box-shadow:6px 6px 7px #444;
 			img{
 				padding:2em 1em;
 				width:80%;

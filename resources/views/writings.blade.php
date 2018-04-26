@@ -4,7 +4,7 @@
 <section class="writings-container">
   	<div class="container-fluid">
     	<div class="row writings-header">
-           <div class="pseudo-navbar"></div> 
+           <div class="pseudo-Navbar"></div> 
     		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12 writings-box">
     			<header>
     				<h1 align="center">BOOKS</h1>

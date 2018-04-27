@@ -11,13 +11,13 @@
     				<hr align="center">
     			</header>
     			<div class="row writings-mdesign">
-		    		<div class="col-lg-4 col-md-5 col-sm-5 writings-book">
+		    		<div class="col-lg-4 col-md-5 col-sm-7 writings-book">
 		    			<img src="/images/writingPage/Books/Book1.png" align="center">
 		    		</div>
                     <div class="col-xs-8 col-xs-offset-2 writings-bookMobile">
                         <img src="/images/writingPage/Books/Book1.png" align="center">
                     </div>
-		    		<div class="col-lg-8 col-md-7 col-sm-7 col-xs-12 writings-content">
+		    		<div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-5 col-xs-12 writings-content">
 		    			<h2><b>You Can: Be Smarter and Wiser</b></h2> 
                         <h4><i>By Prasad Kaipa and Meera Shenoy</i></h4>
                         <h3>The real-life stories profiled in this book cover entrepreneurs ranging from some in wheel chairs to visually impaired persons who build their businesses with zest and energy. It looks at CEOs who hire youth with disability and make products for this market, because it makes business sense. And it celebrates those who have converted disability in their personal lives to an opportunity to transform other vulnerable lives.</h3> 
@@ -25,13 +25,13 @@
 		    	</div>
                 <div class="row writings-mdesign mdRow">
                     <a href="http://www.fromsmarttowise.com/" target="_blank">
-                        <div class="col-lg-4 col-md-5 col-sm-5 writings-book">
+                        <div class="col-lg-4 col-md-5 col-sm-7 writings-book">
                             <img src="/images/writingPage/Books/Book2.png">
                         </div>
                         <div class="col-xs-8 col-xs-offset-2 writings-bookMobile">
                             <img src="/images/writingPage/Books/Book2.png">
                         </div>    
-                        <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12 writings-content">
+                        <div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-5 col-xs-12 writings-content">
                             <h2><b>From Smart to Wise</b></h2> 
                             <h4><i>By Prasad Kaipa and Navi Radjou</i></h4>
                             <h3>From Smart to Wise offers a new approach that balances the two styles to achieve a form of wise leadership that is both functional and smart. Drawing on inspiring real-life stories of historical and contemporary wise leaders such as Bill Gates, Warren Buffet, and even Mahatma Gandhi, the authors identify six characteristics of wise leaders and offer a practical framework to help readers develop their own style of wise leadership.</h3> 
@@ -40,14 +40,14 @@
                 </div>
                 <div class="row writings-mdesign mdRow">
                     <a onclick="confirmDownload('downloadModal')">
-                        <div class="col-lg-4 col-md-5 col-sm-5 writings-book">
+                        <div class="col-lg-4 col-md-5 col-sm-7 writings-book">
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
-                        <div class="col-xs-8 col-xs-offset-2 writings-bookMobile">
+                        <div class="col-xs-12 writings-bookMobile">
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
                     </a>    
-                    <div class="col-lg-8 col-md-7 col-sm-7 col-xs-12 writings-content">
+                    <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12 writings-content">
                         <h2><b>Discontinuous Learning: Igniting Genius Within by Aligning Self, Work, & Family (eBook)</b></h2> 
                         <h4><i>By Prasad Kaipa</i></h4>
                         <h3>In times of turbulence, a discontinuity, uncertainty and rapid change brings about a major shift in perspective. Discontinuous learning allows us to learn about ourselves, alters our mental models, and changes our relationship to the world.</h3> 

@@ -17,17 +17,26 @@
 						<h2>A few ways in which Prasad can help you...</h2>
 					</div>
 					<div class="row git-cards">
-						<div class="col-lg-3 col-lg-offset-1 cardArea " style="border:1px solid red;">
-							<h4 style="border:1px solid red;"><b>SAGE ON THE STAGE</b></h4>
-							<div style="border:1px solid green;" class="number1">
-<h5 style="border:1px solid red;">As a 'sage on the stage', Prasad delivers keynotes and workshops in addition to being a business educator. He helps individuals and students ignite their own genius.</h5>
-</div>
+						<div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 cardArea">
+							<h3><b>SAGE ON THE STAGE</b></h3>
+							<div class="number1">
+								<h4>As a 'sage on the stage', Prasad delivers keynotes and workshops in addition to being a business educator. He helps individuals and students ignite their own genius.
+								</h4>
+							</div>
 						</div>
-						<div class="number1"></div>
-						<div class="col-lg-3 number2" style="margin-right:4.5em;margin-left:4.5em;height:300px;background-color:white;">
-							<div></div>
+						<div class="col-lg-3 col-md-3 col-sm-3 cardArea middleCard">
+							<h3><b>GUIDE ON THE SIDE</b></h3>
+							<div class="number2">
+								<h4>Prasad's role as a 'guide on the side' allows him to look for ways to evoke one's wisdom in the capacity of an executive coach and mentor.
+								</h4>
+							</div>
 						</div>
-						<div class="col-lg-3 number3" style="height:300px;background-color:white;"></div>
+						<div class="col-lg-3 col-md-3 col-sm-3 cardArea">
+							<h3><b>PLAYER ON THE FIELD</b></h3>
+							<div class="number3">
+								<h4>In an adviser and consultant role, Prasad extends the thinking, creativity and innovation capacities of his clients by becoming a part of their team, as a 'player on the field'.</h4>
+							</div>
+						</div>
 					</div>
 					<!-- Contact form -->
 					<div class="git-contactForm">

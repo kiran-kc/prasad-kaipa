@@ -1031,19 +1031,24 @@ body{
 				}
 			}
 			.writings-mdesign{
+				padding:0;
+				margin:0;
 				padding-bottom:4em;
+				display:flex;
 				.writing-book{
-					padding-left:1em;
+					
 					// display:flex;
 					img{
-						width:100%;
+						// width:100%;
 					}
 				}
 				.writings-bookMobile{
-					display:none;	
+
+					display:none;
+
 				}
 				.writings-content{
-					padding:1em 2em;
+					// padding:1em 2em;
 					h2{
 						font-size:2.4em;
 					}
@@ -1052,8 +1057,8 @@ body{
 					}
 					h3{
 						line-height:1.4em;
-						margin-top:1em;
-						padding-right:1.5em;
+						// margin-top:1em;
+						// padding-right:1.5em;
 						font-size:1.6em;
 					}	
 				}
@@ -1067,7 +1072,7 @@ body{
 					.writings-bookMobile{
 						display:block;
 						img{
-							width:100%;
+							// width:100%;
 							align:center;
 						}
 					}
@@ -1088,7 +1093,7 @@ body{
 				@media screen and (max-width:899px) and (min-width:551px){	
 					.writings-book{
 						img{
-							width:100%;
+							// width:100%;
 						}
 					}
 					.writings-content{		
@@ -1108,7 +1113,7 @@ body{
 				@media screen and (max-width:1240px) and (min-width:900px){	
 					.writings-book{
 						img{
-							width:100%;
+							// width:100%;
 						}
 					}
 					.writings-content{		
@@ -1119,23 +1124,27 @@ body{
 						}
 						h3{
 							line-height:1.2em;
-							padding-right:0.5em;
+							// padding-right:0.5em;
 							font-size:1.8em;	
 						}
 					}
 				}
 			}
 			.writings-publishedArticle{
+				margin:0;
 				padding-bottom:2em;
 				a{
 					color:#434343;
 					.writings-paRow{
+						padding:0px;
 						background-color:#f5f5f5;
 						border:1px solid #D5D4D4;
+						height:130px;
+
 						.writings-logos{
+							padding:0px;
 							img{
-								margin-left:-2.2em;
-								width:100%;
+								height:130px;
 								object-fit:cover;
 							}
 						}
@@ -1179,7 +1188,7 @@ body{
 						margin-top:1em;
 						.writings-logos{
 							img{
-								width:200%;
+								// width:200%;
 							}
 						}
 						.writings-content{
@@ -1200,7 +1209,7 @@ body{
 						margin-top:1.5em;							
 						.writings-logos{
 							img{
-								width:156%;
+								// width:156%;
 							}
 						}
 						.writings-content{
@@ -1222,7 +1231,7 @@ body{
 						.writings-logos{
 							img{
 								margin-left:-2.2em;
-								width:125%;
+								// width:125%;
 							}
 						}
 						.writings-content{
@@ -1688,36 +1697,56 @@ body{
 			.git-headline{
 				h2{
 					color:#868686;
-					padding:1em 0;
+					padding:2em 0;
 				}
 			}
 			.git-cards{
 				margin:0;
 				.cardArea{
-					height:300px;
+					padding:0.6em 2.2em;
+					height:320px;
 					background-color:white;
+					h3{
+						color:#797979;
+					}
 					h4{
 						color:#797979;
-						padding:1.2em;
+						line-height:1.5em;
+						margin-top:5em;
 					}
-					h5{
-						color:#797979;
-						padding:1em;
-						line-height:2em;
-						margin-top:4em;
-					}
+				}
+				.middleCard{
+					margin-right:4.5em;
+					margin-left:4.5em;
 				}
 				.number1{
 					background-image:url('/images/getInTouch/Number1.png');
 					background-repeat:no-repeat;
+					border:1px solid transparent;
 				}
 				.number2{
 					background-image:url('/images/getInTouch/Number2.png');
 					background-repeat:no-repeat;
+					border:1px solid transparent;
+					h4{
+						margin-top:6em;
+					}
 				}
 				.number3{
 					background-image:url('/images/getInTouch/Number3.png');
 					background-repeat:no-repeat;
+					border:1px solid transparent;
+				}
+				@media screen and (max-width:1240px) and (min-width:900px){	
+					.cardArea{
+						h3{
+							font-size:19px;
+						}
+						h4{
+							font-size:17px;
+							line-height:1.4em;
+						}
+					}
 				}
 			}
 			.git-contactForm{

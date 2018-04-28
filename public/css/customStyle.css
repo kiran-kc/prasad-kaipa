@@ -1065,36 +1065,35 @@ body {
       width: 7%;
       border: none;
       border-top: 4px solid #DA4531; }
-    .academia-container .academia-gridlayout .academia-businesSchool {
-      width: 30%;
-      height: 180px;
-      display: inline-block;
-      background-color: white;
-      margin: 2em 1em; }
-      .academia-container .academia-gridlayout .academia-businesSchool img {
-        vertical-align: baseline;
-        width: 100%;
-        padding: 2.5em 3em 0 3em; }
-      .academia-container .academia-gridlayout .academia-businesSchool .image {
-        margin: 2em 0;
-        vertical-align: baseline; }
-      .academia-container .academia-gridlayout .academia-businesSchool .usc {
-        margin-top: 2em; }
-    .academia-container .academia-gridlayout .webVisible {
-      display: block; }
-      .academia-container .academia-gridlayout .webVisible .academia-businesSchool {
-        width: 30%;
-        height: 180px;
-        display: inline-block;
-        background-color: white;
-        margin: 2em 1em; }
-    .academia-container .academia-gridlayout .mobileVisible {
-      display: none; }
-    @media screen and (max-width: 550px) and (min-width: 370px) {
+    .academia-container .academia-gridlayout .academia-flexCards {
+      margin-top: 3em;
+      padding: 0;
+      display: flex;
+      justify-content: space-around; }
+      .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool {
+        background-color: white; }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool img {
+          width: 100%;
+          margin-top: 3em;
+          margin-bottom: 3em; }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool .image {
+          margin-top: 5em;
+          margin-bottom: 4em; }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool .usc {
+          width: 80%; }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool .lbs {
+          width: 65%; }
+      .academia-container .academia-gridlayout .academia-flexCards .webVisible {
+        display: block; }
+      .academia-container .academia-gridlayout .academia-flexCards .mobileVisible {
+        display: none; }
+    @media screen and (max-width: 550px) and (min-width: 320px) {
       .academia-container .academia-gridlayout {
         margin-top: 2em; }
         .academia-container .academia-gridlayout .rightcard {
           margin-top: 2em; }
+        .academia-container .academia-gridlayout h2 {
+          font-size: 22px; }
         .academia-container .academia-gridlayout .academia-cards {
           width: 90%;
           height: 350px;
@@ -1110,20 +1109,23 @@ body {
             font-size: 14px; }
           .academia-container .academia-gridlayout .academia-cards h4 {
             font-size: 14px; }
-        .academia-container .academia-gridlayout .academia-businesSchool {
-          width: 42%; }
-          .academia-container .academia-gridlayout .academia-businesSchool img {
-            padding: 2em 0.3em 0 0.3em; }
-          .academia-container .academia-gridlayout .academia-businesSchool .image {
-            margin: 2.5em 0; }
-        .academia-container .academia-gridlayout .webVisible {
-          display: none; }
-          .academia-container .academia-gridlayout .webVisible .academia-businesSchool {
-            width: 42%; }
-            .academia-container .academia-gridlayout .webVisible .academia-businesSchool img {
-              padding: 2em 0.3em 0 0.3em; }
-        .academia-container .academia-gridlayout .mobileVisible {
-          display: block; } }
+        .academia-container .academia-gridlayout .academia-flexCards {
+          display: block;
+          margin-top: 0; }
+          .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool {
+            margin-left: 1.4em;
+            margin-top: 2.5em;
+            padding: 1.5em; }
+            .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool img {
+              margin: 0; }
+            .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool .image {
+              margin: 1em 0; }
+          .academia-container .academia-gridlayout .academia-flexCards .lbscard {
+            margin-top: 0; }
+          .academia-container .academia-gridlayout .academia-flexCards .webVisible {
+            display: none; }
+          .academia-container .academia-gridlayout .academia-flexCards .mobileVisible {
+            display: block; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .academia-container .academia-gridlayout {
         margin-top: 2em; }
@@ -1136,22 +1138,9 @@ body {
             font-size: 15px; }
           .academia-container .academia-gridlayout .academia-cards h4 {
             font-size: 15px; }
-        .academia-container .academia-gridlayout .academia-businesSchool {
-          width: 26%;
-          height: 150px; }
-          .academia-container .academia-gridlayout .academia-businesSchool img {
-            padding: 3em 1em 0 1em; }
-          .academia-container .academia-gridlayout .academia-businesSchool .usc {
-            margin-top: 2.5em; }
-        .academia-container .academia-gridlayout .webVisible {
-          display: block; }
-          .academia-container .academia-gridlayout .webVisible .academia-businesSchool {
-            width: 26%;
-            height: 150px; }
-            .academia-container .academia-gridlayout .webVisible .academia-businesSchool img {
-              padding: 3em 1em 0 1em; }
-        .academia-container .academia-gridlayout .mobileVisible {
-          display: none; } }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool .image {
+          margin-top: 4em;
+          margin-bottom: 3em; } }
     @media screen and (max-width: 1240px) and (min-width: 900px) {
       .academia-container .academia-gridlayout {
         margin-top: 4em; }
@@ -1166,27 +1155,13 @@ body {
             font-size: 15px; }
         .academia-container .academia-gridlayout hr {
           width: 10%; }
-        .academia-container .academia-gridlayout .academia-businesSchool {
-          width: 28%;
-          height: 150px;
-          margin: 0em 1em; }
-          .academia-container .academia-gridlayout .academia-businesSchool img {
-            padding: 2em; }
-          .academia-container .academia-gridlayout .academia-businesSchool .image {
-            margin: 2em 0;
-            vertical-align: baseline; }
-          .academia-container .academia-gridlayout .academia-businesSchool .usc {
-            margin-top: 2.5em; }
-        .academia-container .academia-gridlayout .webVisible {
-          display: block; }
-          .academia-container .academia-gridlayout .webVisible .academia-businesSchool {
-            width: 28%;
-            height: 150px;
-            margin: 0em 1em; }
-            .academia-container .academia-gridlayout .webVisible .academia-businesSchool img {
-              padding: 2em; }
-        .academia-container .academia-gridlayout .mobileVisible {
-          display: none; } }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool img {
+          margin-top: 3em; }
+        .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool .image {
+          margin-top: 4em;
+          margin-bottom: 3em; } }
+  .academia-container .acd-margin {
+    margin-top: 0; }
 
 /**********************************************/
 /**********************************************/

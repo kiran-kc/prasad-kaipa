@@ -721,7 +721,8 @@ body {
       .writings-container .writings-header .pseudo-Navbar {
         height: 50px; } }
   .writings-container .writings-header .writings-box {
-    background-color: white; }
+    background-color: white;
+    padding: 0; }
     .writings-container .writings-header .writings-box header {
       padding: 1em; }
       .writings-container .writings-header .writings-box header h1 {
@@ -759,7 +760,12 @@ body {
       padding: 0;
       margin: 0;
       padding-bottom: 4em;
-      display: flex; }
+      display: flex;
+      justify-content: center; }
+      .writings-container .writings-header .writings-box .writings-mdesign .writing-book {
+        margin-left: 0; }
+        .writings-container .writings-header .writings-box .writings-mdesign .writing-book img {
+          width: 100%; }
       .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile {
         display: none; }
       .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
@@ -771,7 +777,8 @@ body {
         font-size: 1.6em; }
       @media screen and (max-width: 550px) and (min-width: 320px) {
         .writings-container .writings-header .writings-box .writings-mdesign {
-          padding-bottom: 0em; }
+          display: block;
+          padding-bottom: 2em; }
           .writings-container .writings-header .writings-box .writings-mdesign .writings-book img {
             display: none; }
           .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile {
@@ -815,7 +822,7 @@ body {
             padding: 0px; }
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
               height: 130px;
-              object-fit: cover; }
+              background-size: cover; }
           .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content {
             padding-top: 1.6em; }
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
@@ -840,50 +847,53 @@ body {
       @media screen and (max-width: 360px) and (min-width: 320px) {
         .writings-container .writings-header .writings-box .writings-publishedArticle {
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
-            margin-top: 1em; }
-            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
-              padding-top: 0; }
-              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
+            margin-top: 1em;
+            height: 85px; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
+              height: 85px;
+              width: 100%; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content {
+              padding-top: 0.6em; }
+              .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
                 line-height: 13px;
                 font-size: 8px; }
-              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h6 {
+              .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h6 {
                 font-size: 7px; } }
       @media screen and (max-width: 550px) and (min-width: 370px) {
         .writings-container .writings-header .writings-box .writings-publishedArticle {
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
-            margin-top: 1.5em; }
-            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
-              padding-top: 0.6em; }
-              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
-                line-height: 13px;
-                font-size: 11px; }
-              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h6 {
-                font-size: 10px; } }
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
+            margin-top: 1.5em;
+            height: 110px; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
+              height: 110px;
+              width: 100%; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
+              line-height: 13px;
+              font-size: 11px; }
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h6 {
+              font-size: 10px; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
         .writings-container .writings-header .writings-box .writings-publishedArticle {
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
             margin-top: 2em; }
-            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-logos img {
-              margin-left: -2.2em; }
-            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content {
               padding-top: 1.4em; }
-              .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+              .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
                 line-height: 1.2em; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
-        .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow {
+        .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
           margin-top: 2em;
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-logos img {
-            margin-left: -2.2em;
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
             width: 100%; }
-          .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content {
+          .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content {
             padding-top: 1.4em; }
-            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h4 {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
               line-height: 1.2em; }
-            .writings-container .writings-header .writings-box .writings-publishedArticle .writings-paRow .writings-content h6 {
+            .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h6 {
               color: grey; } }
     .writings-container .writings-header .writings-box .writings-researchPapers {
       padding-bottom: 2em; }
@@ -912,45 +922,47 @@ body {
       @media screen and (max-width: 360px) and (min-width: 320px) {
         .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
-            margin-top: 1em; }
-            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
+          .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
+            margin-top: 1em;
+            height: 100px; }
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content {
               padding-top: 0; }
-              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
+              .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
                 line-height: 13px;
-                font-size: 8px; }
-              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h6 {
-                font-size: 7px; } }
+                font-size: 11px; }
+              .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h6 {
+                font-size: 9px; } }
       @media screen and (max-width: 550px) and (min-width: 370px) {
         .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
-            margin-top: 1.5em; }
-            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
+          .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
+            margin-top: 1.5em;
+            height: 120px; }
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content {
               padding-top: 0.6em; }
-              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
+              .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
                 line-height: 13px;
                 font-size: 11px; }
-              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h6 {
+              .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h6 {
                 font-size: 10px; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
         .writings-container .writings-header .writings-box .writings-researchPapers {
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
+          .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
             margin-top: 2em; }
-            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content {
               padding-top: 1.4em; }
-              .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
+              .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
                 line-height: 1.2em; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
-        .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow {
+        .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
           margin-top: 2em;
           padding-bottom: 0em; }
-          .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content {
+          .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content {
             padding-top: 1.4em; }
-            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h4 {
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
               line-height: 1.2em; }
-            .writings-container .writings-header .writings-box .writings-researchPapers .writings-rpRow .writings-content h6 {
+            .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h6 {
               color: grey; } }
 
 /**********************************************/

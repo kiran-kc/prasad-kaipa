@@ -973,6 +973,7 @@ body{
 		}
 		.writings-box{
 			background-color:white;
+			padding:0;
 			header{
 				padding:1em;
 				h1{
@@ -1029,20 +1030,17 @@ body{
 				margin:0;
 				padding-bottom:4em;
 				display:flex;
+				justify-content:center;
 				.writing-book{
-					
-					// display:flex;
+					margin-left:0;
 					img{
-						// width:100%;
+						width:100%;
 					}
 				}
 				.writings-bookMobile{
-
 					display:none;
-
 				}
 				.writings-content{
-					// padding:1em 2em;
 					h2{
 						font-size:2.4em;
 					}
@@ -1051,13 +1049,12 @@ body{
 					}
 					h3{
 						line-height:1.4em;
-						// margin-top:1em;
-						// padding-right:1.5em;
 						font-size:1.6em;
 					}	
 				}
 				@media screen and (max-width:550px) and (min-width:320px){
-					padding-bottom:0em;	
+					display:block;
+					padding-bottom:2em;	
 					.writings-book{
 						img{
 							display:none;
@@ -1134,12 +1131,11 @@ body{
 						background-color:#f5f5f5;
 						border:1px solid #D5D4D4;
 						height:130px;
-
 						.writings-logos{
 							padding:0px;
 							img{
 								height:130px;
-								object-fit:cover;
+								background-size:cover;
 							}
 						}
 						.writings-content{
@@ -1178,84 +1174,89 @@ body{
 				}
 				@media screen and (max-width:360px) and (min-width:320px){
 					padding-bottom:0em;
-					.writings-paRow{
-						margin-top:1em;
-						.writings-logos{
-							img{
-								// width:200%;
+					a{
+						.writings-paRow{
+							margin-top:1em;
+							height:85px;
+							.writings-logos{
+								img{
+									height:85px;
+									width:100%;
+								}
+							}
+							.writings-content{
+								padding-top:0.6em;
+								h4{
+									line-height:13px;
+									font-size:8px;
+								}
+								h6{
+									font-size:7px;
+								}
 							}
 						}
-						.writings-content{
-							padding-top:0;
-							h4{
-								line-height:13px;
-								font-size:8px;
-							}
-							h6{
-								font-size:7px;
-							}
-						}
-					}
+					}	
 				}
 				@media screen and (max-width:550px) and (min-width:370px){
 					padding-bottom:0em;
-					.writings-paRow{
-						margin-top:1.5em;							
-						.writings-logos{
-							img{
-								// width:156%;
+					a{
+						.writings-paRow{
+							margin-top:1.5em;
+							height:110px;							
+							.writings-logos{
+								img{
+									height:110px;
+									width:100%;
+								}
+							}
+							.writings-content{
+								h4{
+									line-height:13px;
+									font-size:11px;
+								}
+								h6{
+									font-size:10px;
+								}
 							}
 						}
-						.writings-content{
-							padding-top:0.6em;
-							h4{
-								line-height:13px;
-								font-size:11px;
-							}
-							h6{
-								font-size:10px;
-							}
-						}
-					}
+					}	
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
 					padding-bottom:0em;
-					.writings-paRow{
-						margin-top:2em;
-						.writings-logos{
-							img{
-								margin-left:-2.2em;
-								// width:125%;
+					a{
+						.writings-paRow{
+							margin-top:2em;
+							.writings-content{
+								padding-top:1.4em;
+								h4{
+									line-height:1.2em;
+								}
 							}
 						}
-						.writings-content{
-							padding-top:1.4em;
-							h4{
-								line-height:1.2em;
-							}
-						}
-					}
+					}	
 				}
 				@media screen and (max-width:1240px) and (min-width:900px){	
-					.writings-paRow{
-						margin-top:2em;
-						padding-bottom:0em;
-						.writings-logos{
-							img{
-								margin-left:-2.2em;
-								width:100%;
+					a{
+						.writings-paRow{
+							margin-top:2em;
+							padding-bottom:0em;
+							.writings-logos{
+								img{
+									// margin-left:-2.2em;
+									width:100%;
+								}
+							}
+							.writings-content{
+								padding-top:1.4em;
+								h4{
+									line-height:1.2em;
+								}
+								h6{
+									color:grey;
+								}
 							}
 						}
-						.writings-content{
-							padding-top:1.4em;
-							h4{
-								line-height:1.2em;
-							}
-							h6{
-								color:grey;
-							}
-						}
-					}
+					}	
 				}
 			}
 			.writings-researchPapers{
@@ -1292,59 +1293,69 @@ body{
 				}
 				@media screen and (max-width:360px) and (min-width:320px){
 					padding-bottom:0em;
-					.writings-rpRow{
-						margin-top:1em;
-						.writings-content{
-							padding-top:0;
-							h4{
-								line-height:13px;
-								font-size:8px;
-							}
-							h6{
-								font-size:7px;
+					a{
+						.writings-rpRow{
+							margin-top:1em;
+							height:100px;
+							.writings-content{
+								padding-top:0;
+								h4{
+									line-height:13px;
+									font-size:11px;
+								}
+								h6{
+									font-size:9px;
+								}
 							}
 						}
-					}
+					}	
 				}
 				@media screen and (max-width:550px) and (min-width:370px){
 					padding-bottom:0em;
-					.writings-rpRow{
-						margin-top:1.5em;							
-						.writings-content{
-							padding-top:0.6em;
-							h4{
-								line-height:13px;
-								font-size:11px;
-							}
-							h6{
-								font-size:10px;
+					a{
+						.writings-rpRow{
+							margin-top:1.5em;
+							height:120px;							
+							.writings-content{
+								padding-top:0.6em;
+								h4{
+									line-height:13px;
+									font-size:11px;
+								}
+								h6{
+									font-size:10px;
+								}
 							}
 						}
-					}
+					}	
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
 					padding-bottom:0em;
-					.writings-rpRow{
-						margin-top:2em;
-						.writings-content{
-							padding-top:1.4em;
-							h4{
-								line-height:1.2em;
+					a{
+						.writings-rpRow{
+							margin-top:2em;
+							.writings-content{
+								padding-top:1.4em;
+								h4{
+									line-height:1.2em;
+								}
 							}
 						}
-					}
+					}	
 				}
-				@media screen and (max-width:1240px) and (min-width:900px){	
-					.writings-rpRow{
-						margin-top:2em;
-						padding-bottom:0em;
-						.writings-content{
-							padding-top:1.4em;
-							h4{
-								line-height:1.2em;
-							}
-							h6{
-								color:grey;
+				@media screen and (max-width:1240px) and (min-width:900px){
+					a{	
+						.writings-rpRow{
+							margin-top:2em;
+							padding-bottom:0em;
+							.writings-content{
+								padding-top:1.4em;
+								h4{
+									line-height:1.2em;
+								}
+								h6{
+									color:grey;
+								}
 							}
 						}
 					}

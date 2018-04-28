@@ -14,7 +14,7 @@
 		    		<div class="col-lg-4 col-md-5 col-sm-7 writings-book">
 		    			<img src="/images/writingPage/Books/Book1.png" align="center">
 		    		</div>
-                    <div class="col-xs-8 col-xs-offset-2 writings-bookMobile">
+                    <div align="center" class="writings-bookMobile">
                         <img src="/images/writingPage/Books/Book1.png" align="center">
                     </div>
 		    		<div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-5 col-xs-12 writings-content">
@@ -28,7 +28,7 @@
                         <div class="col-lg-4 col-md-5 col-sm-7 writings-book">
                             <img src="/images/writingPage/Books/Book2.png">
                         </div>
-                        <div class="col-xs-8 col-xs-offset-2 writings-bookMobile">
+                        <div align="center" class="writings-bookMobile">
                             <img src="/images/writingPage/Books/Book2.png">
                         </div>    
                         <div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-5 col-xs-12 writings-content">
@@ -43,7 +43,7 @@
                         <div class="col-lg-4 col-md-5 col-sm-7 writings-book">
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
-                        <div class="col-xs-12 writings-bookMobile">
+                        <div align="center" class="writings-bookMobile">
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
                     </a>    
@@ -87,7 +87,7 @@
                 <div class="row writings-publishedArticle">
                     <a href="https://www.cnbc.com/id/100634625" target="_blank">
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writings-paRow paCard1" id='articleCard1'>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writings-logos card1">
+                            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 writings-logos card1">
                                 <img src="/images/writingPage/PublishedArticles/CNBC.png">
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writings-content card1">
@@ -111,7 +111,7 @@
                 <div class="row writings-publishedArticle">
                     <a href="http://forbesindia.com/article/ivey-business-school/how-to-gain-role-clarity-and-lead-from-any-position/35563/1#ixzz2aMHBv1G0" target="_blank">    
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writings-paRow paCard2" id='articleCard2'>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writings-logos card2">
+                            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 writings-logos card2">
                                 <img src="/images/writingPage/PublishedArticles/Forbes.png">
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writings-content card2">
@@ -135,7 +135,7 @@
                 <div class="row writings-publishedArticle">
                     <a href="https://hbr.org/2013/02/how-wise-leaders-deal-with-com" target="_blank"> 
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writings-paRow paCard3" id='articleCard3'>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writings-logos card3">
+                            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 writings-logos card3">
                                 <img src="/images/writingPage/PublishedArticles/HBR.png">
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writings-content card3">
@@ -159,7 +159,7 @@
                 <div class="row writings-publishedArticle">
                     <a href="https://economictimes.indiatimes.com/magazines/corporate-dossier/ayurveda-for-building-innovative-organisations/articleshow/6909645.cms" target="_blank"> 
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writings-paRow paCard4" id='articleCard4'>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writings-logos card4">
+                            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 writings-logos card4">
                                 <img src="/images/writingPage/PublishedArticles/ET.png">
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writings-content card4">
@@ -183,7 +183,7 @@
                 <div class="row writings-publishedArticle">
                     <a href="http://fortune.com/2013/04/25/apple-and-tim-cooks-next-steps/" target="_blank"> 
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writings-paRow paCard5" id='articleCard5'>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writings-logos card5">
+                            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 writings-logos card5">
                                 <img src="/images/writingPage/PublishedArticles/Fortune.png">
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writings-content card5">
@@ -207,7 +207,7 @@
                 <div class="row writings-publishedArticle">
                      <a href="http://blogs.hbr.org/cs/2012/07/recover_your_credibility.html" target="_blank"> 
                         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 writings-paRow paCard6" id='articleCard6'>
-                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 writings-logos card6">
+                            <div class="col-lg-4 col-md-3 col-sm-4 col-xs-4 writings-logos card6">
                                 <img src="/images/writingPage/PublishedArticles/HBR.png">
                             </div>
                             <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8 writings-content card6">

@@ -8,41 +8,47 @@
          </div>
       </div>
       <div class="row hp-showcase">
-         <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-3  col-sm-offset-1 hp-card">
-            <img src='/images/homePage/Writing.jpg'>
-            <h2 align="center">Writing</h2>
-            <h3 align="center">Explore Dr. Kaipa's vast repository of bold, thought provoking writings, including books, research papers, articles and blogs.</h3> 
-            <p align="center">Know More</p>   
+         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row hp-flexCard">
+               <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
+                  <img src='/images/homePage/Writing.jpg'>
+                  <h2 align="center">Writing</h2>
+                  <h3 align="center">Explore Dr. Kaipa's vast repository of bold, thought provoking writings, including books, research papers, articles and blogs.</h3> 
+                  <p align="center">Know More</p>   
+               </div>
+               <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
+                  <img src='/images/homePage/Videos.jpg'>
+                  <h2 align="center">Videos</h2>
+                  <h3 align="center">Collection of Dr. Kaipa's most impactful keynote speeches, interviews, lectures and leadership sessions.</h3>
+                  <p align="center">Know More</p>
+               </div> 
+               <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
+                  <img src='/images/homePage/Academia.jpg'>
+                  <h2 align="center">Academia</h2>
+                  <h3 align="center">Sed elementum eget eros nec sodales. Nam feugiat mauris  aliquet  neque posuere, ornare, ullamcorper erat mattis.</h3>
+                  <p align="center">Know More</p>
+               </div>   
+            </div>
          </div>
-         <div class="col-lg-4 col-md-4 col-sm-4 hp-card">
-            <img src='/images/homePage/Videos.jpg'>
-            <h2 align="center">Videos</h2>
-            <h3 align="center">Collection of Dr. Kaipa's most impactful keynote speeches, interviews, lectures and leadership sessions.</h3>
-            <p align="center">Know More</p>
-         </div> 
-         <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
-            <img src='/images/homePage/Academia.jpg'>
-            <h2 align="center">Academia</h2>
-            <h3 align="center">Sed elementum eget eros nec sodales. Nam feugiat mauris  aliquet  neque posuere, ornare, ullamcorper erat mattis.</h3>
-            <p align="center">Know More</p>
-         </div>   
       </div>
       <div class="row hp-socialIcon">
-         <a href='https://www.facebook.com/prasad.kaipa' target="_blank">
-            <div class="col-lg-2 col-lg-offset-4 col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-3 col-xs-2 col-xs-offset-1 hp-area">
-               <img src='/images/homePage/fb.png'>
-            </div>
-         </a> 
-         <a href='https://twitter.com/PKaipa' target="_blank"> 
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hp-area">
-               <img src='/images/homePage/twitter.png'>
-            </div>
-         </a>  
-         <a href='https://www.linkedin.com/in/prasadkaipa/' target="_blank">
-            <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hp-area">
-               <img src='/images/homePage/linkedin.png'>
-            </div>
-         </a>  
+         <div class="col-lg-4 col-lg-offset-4 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 hp-flexIcons">
+            <a href='https://www.facebook.com/prasad.kaipa' target="_blank">
+               <div class="col-lg-2 col-md-2 col-md-offset-4 col-sm-2 col-sm-offset-3 col-xs-2 col-xs-offset-1 hp-area">
+                  <img src='/images/homePage/fb.png'>
+               </div>
+            </a> 
+            <a href='https://twitter.com/PKaipa' target="_blank"> 
+               <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hp-area">
+                  <img src='/images/homePage/twitter.png'>
+               </div>
+            </a>  
+            <a href='https://www.linkedin.com/in/prasadkaipa/' target="_blank">
+               <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hp-area">
+                  <img src='/images/homePage/linkedin.png'>
+               </div>
+            </a>
+         </div>  
       </div>
       <div class="row hp-contactForm">
          <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 hp-formArea">

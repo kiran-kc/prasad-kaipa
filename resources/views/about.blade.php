@@ -24,7 +24,7 @@
           </a>  
           <a href="#Interviews">
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
-              <i class="fa fa-microphone fa-4x" align='center' style="margin-left:0.2em;margin-top: 0.1em;"></i>
+              <i class="fa fa-microphone fa-4x" align='center' ></i>
             </div>
           </a>
         </div>
@@ -34,7 +34,7 @@
   <section class="about-container" id='Purpose'>
     <div class="container-fluid">
       <div class="row about-mdesignRow">
-        <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 about-mdesign">
+        <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-6 col-sm-offset-1 col-xs-12 about-mdesign">
             <h2 align="center">PRASAD'S PURPOSE</h2>
             <h3 align="center">Thought Provoker.</h3>
             <p>Prasad has worn many hats in his journey spanning decades. He is an author, leadership coach, adviser,
@@ -48,7 +48,7 @@
         <div class="col-lg-5 col-md-5 col-sm-5 about-mdImageRight">
             <img src="/images/aboutPage/Purpose.png">
         </div>
-         <div class="col-xs-8 col-xs-offset-2 about-mdImageMobile">
+         <div class="about-mdImageMobile" align="center">
             <img src="/images/aboutPage/Purpose.png">
          </div>
       </div>
@@ -68,13 +68,12 @@
         <p>At Center for Creative Leadership, Prasad was the Smith Richardson Visiting Fellow 2010-11. He has been an advisor to Business FAC of Fetzer Institute (2011-13). In 2016-17, Prasad contributed towards ‘Innovation & Knowledge Creation’ as a member of a panel for the Government of India.</p>
         <p>Prasad has offered executive education programs at INSEAD, London Business School, Marshall School of Business, Tuck School of Business, and IIM Bangalore. He is a Clinical professor and founding Executive Director of the Center for Leadership, Innovation and Change (CLIC) at the Indian School of Business (ISB).</p>
         </div>
-         <div class="col-xs-8 col-xs-offset-2 about-mdImageMobile">
+         <div class="about-mdImageMobile" align="center">
             <img src="/images/aboutPage/Journey.png">
          </div>
       </div>
    </div>
 </section>
-
 <section class="about-container" id='Affiliation'>
   <div class="container-fluid">
     <div class="row about-affliations">

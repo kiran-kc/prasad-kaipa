@@ -213,7 +213,6 @@ body{
 .about-container{
 	background-color:#F3F3F3;
 	.container-fluid{
-		 // padding:0px auto;
 		.about-heroImg{
 			background-image: url('/images/aboutPage/Heroimage_About.png');
 			min-height:710px;
@@ -237,12 +236,12 @@ body{
 				font-size:3em;
 			}
 			.about-icons{
-				margin-top:15em;
-				height:105px;
+				margin-top:19em;
+				height:118px;
 				border:2px solid white;
-				border-radius:100%;
+				border-radius:80%;
 				margin-right:5em;
-				padding:1.4em;
+				padding:2em;
 				img{
 					align:center;
 					margin-left:-0.4em;
@@ -275,19 +274,18 @@ body{
 					font-size:1.2em;
 				}
 				.about-icons{
-					margin-top:4em;
-					height:35px;
-					margin-right:1em;
-					padding:auto;
+					margin-top:5em;
+					height:46px;
+					margin-right:0.5em;
+					padding:1.6em;
+					padding-top:0.9em;
 					img{
-						margin-left:-1.4em;
-						margin-top:-1.5em;
-						width:40px;
+						margin-left:-0.8em;
+						width:25px;
 					}
 					i{
 						margin-left:-0.55em;
-						margin-top:-1em;
-						font-size:2.2em;
+						font-size:1.5em;
 					}
 				}
 			}
@@ -305,14 +303,14 @@ body{
 					font-size:2em;
 				}
 				.about-icons{
-					margin-top:3.9em;
+					margin-top:4em;
 					height:88px;
-					padding:3em;
-					margin-right:3em;
+					padding:2.9em;
+					margin-right:1em;
 					img{
-						margin-left:-1.8em;
-						margin-top:-1.8em;
-						width:53px;
+						margin-left:-1.7em;
+						margin-top:-1.6em;
+						width:48px;
 					}
 					i{
 						font-size:3em;
@@ -335,12 +333,13 @@ body{
 					font-size:2em;
 				}
 				.about-icons{
-					margin-top:10em;
+					margin-top:9em;
 					height:88px;
+					margin-right:1.8em;
 					img{
 						margin-left:-0.95em;
 						margin-top:-0.9em;
-						width:53px;
+						width:52px;
 					}
 					i{
 						font-size:3em;
@@ -352,12 +351,13 @@ body{
 		}
 	}
 	.about-mdesignRow{
-		// display: flex;
+		display: flex;
 		margin-top:6em;
 		.about-mdImageMobile{
 			display:none;	
 		}
 		@media screen and (max-width:550px) and (min-width:320px){
+			display: block;
 			margin-top:2em;
 			.about-mdImageMobile{
 				display:block;
@@ -367,6 +367,7 @@ body{
 			}
 		}		
 		.about-mdesign{
+			justify-content:center;
 			h2{
 				font-family: 'Lato', sans-serif;
 			}
@@ -420,34 +421,35 @@ body{
 				padding:0;
 				width:411px;
 				float:right;
-				// margin-left:0.25em;
 				object-fit:fill;
 				@media screen and (max-width:550px) and (min-width:320px){
 					display:none;
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
-					// width:295px;
+					width:295px;
+					margin-top:3em;
 				}
-				@media screen and (max-width:1240px) and (min-width:900px){
-					// width:101%;
-				}
+				// @media screen and (max-width:1240px) and (min-width:900px){
+				// 	width:101%;
+				// }
 			}
 		}
 		.about-mdImageLeft{
+			// flex-wrap:wrap;
 			img{
 				padding:0;
 				width:411px;
 				float:left;
 				@media screen and (max-width:550px) and (min-width:320px){
 					display:none;
-			min-width:50%;
+					min-width:50%;
 
 				}
 				@media screen and (max-width:899px) and (min-width:551px){
-					// width:295px;
+					width:295px;
+					margin-top:6em;
 				}
 				@media screen and (max-width:1240px) and (min-width:900px){
-					// width:101%;
 					min-width:50%;
 				}
 			}
@@ -468,7 +470,6 @@ body{
 			// }
 		}
 		.about-logoBox{
-			// background-color:white;
 			height:65px;
 			margin-bottom:3em;
 			h4{

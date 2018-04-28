@@ -189,12 +189,12 @@ body {
       margin-top: 0;
       font-size: 3em; }
     .about-container .container-fluid .about-heroImg .about-icons {
-      margin-top: 15em;
-      height: 105px;
+      margin-top: 19em;
+      height: 118px;
       border: 2px solid white;
-      border-radius: 100%;
+      border-radius: 80%;
       margin-right: 5em;
-      padding: 1.4em; }
+      padding: 2em; }
       .about-container .container-fluid .about-heroImg .about-icons img {
         align: center;
         margin-left: -0.4em;
@@ -220,18 +220,17 @@ body {
           margin-top: 0;
           font-size: 1.2em; }
         .about-container .container-fluid .about-heroImg .about-icons {
-          margin-top: 4em;
-          height: 35px;
-          margin-right: 1em;
-          padding: auto; }
+          margin-top: 5em;
+          height: 46px;
+          margin-right: 0.5em;
+          padding: 1.6em;
+          padding-top: 0.9em; }
           .about-container .container-fluid .about-heroImg .about-icons img {
-            margin-left: -1.4em;
-            margin-top: -1.5em;
-            width: 40px; }
+            margin-left: -0.8em;
+            width: 25px; }
           .about-container .container-fluid .about-heroImg .about-icons i {
             margin-left: -0.55em;
-            margin-top: -1em;
-            font-size: 2.2em; } }
+            font-size: 1.5em; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .about-container .container-fluid .about-heroImg {
         min-height: 430px;
@@ -245,14 +244,14 @@ body {
           margin-top: 0;
           font-size: 2em; }
         .about-container .container-fluid .about-heroImg .about-icons {
-          margin-top: 3.9em;
+          margin-top: 4em;
           height: 88px;
-          padding: 3em;
-          margin-right: 3em; }
+          padding: 2.9em;
+          margin-right: 1em; }
           .about-container .container-fluid .about-heroImg .about-icons img {
-            margin-left: -1.8em;
-            margin-top: -1.8em;
-            width: 53px; }
+            margin-left: -1.7em;
+            margin-top: -1.6em;
+            width: 48px; }
           .about-container .container-fluid .about-heroImg .about-icons i {
             font-size: 3em;
             margin-top: -1.2em;
@@ -270,59 +269,64 @@ body {
           margin-top: 0;
           font-size: 2em; }
         .about-container .container-fluid .about-heroImg .about-icons {
-          margin-top: 10em;
-          height: 88px; }
+          margin-top: 9em;
+          height: 88px;
+          margin-right: 1.8em; }
           .about-container .container-fluid .about-heroImg .about-icons img {
             margin-left: -0.95em;
             margin-top: -0.9em;
-            width: 53px; }
+            width: 52px; }
           .about-container .container-fluid .about-heroImg .about-icons i {
             font-size: 3em;
             margin-top: -0.2em;
             margin-left: -0.2em; } }
   .about-container .about-mdesignRow {
+    display: flex;
     margin-top: 6em; }
     .about-container .about-mdesignRow .about-mdImageMobile {
       display: none; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .about-container .about-mdesignRow {
+        display: block;
         margin-top: 2em; }
         .about-container .about-mdesignRow .about-mdImageMobile {
           display: block; }
           .about-container .about-mdesignRow .about-mdImageMobile img {
             width: 240px; } }
-    .about-container .about-mdesignRow .about-mdesign h2 {
-      font-family: 'Lato', sans-serif; }
-    .about-container .about-mdesignRow .about-mdesign h3 {
-      font-family: 'Lato', sans-serif;
-      margin-top: -0.2em; }
-    .about-container .about-mdesignRow .about-mdesign p {
-      font-size: 16px;
-      text-align: justify; }
-      @media screen and (max-width: 1240px) and (min-width: 900px) {
+    .about-container .about-mdesignRow .about-mdesign {
+      justify-content: center; }
+      .about-container .about-mdesignRow .about-mdesign h2 {
+        font-family: 'Lato', sans-serif; }
+      .about-container .about-mdesignRow .about-mdesign h3 {
+        font-family: 'Lato', sans-serif;
+        margin-top: -0.2em; }
+      .about-container .about-mdesignRow .about-mdesign p {
+        font-size: 16px;
+        text-align: justify; }
+        @media screen and (max-width: 1240px) and (min-width: 900px) {
+          .about-container .about-mdesignRow .about-mdesign p {
+            font-size: 14px; } }
+      @media screen and (max-width: 550px) and (min-width: 320px) {
+        .about-container .about-mdesignRow .about-mdesign h2 {
+          font-size: 20px; }
+        .about-container .about-mdesignRow .about-mdesign h3 {
+          font-size: 14px; }
         .about-container .about-mdesignRow .about-mdesign p {
-          font-size: 14px; } }
-    @media screen and (max-width: 550px) and (min-width: 320px) {
-      .about-container .about-mdesignRow .about-mdesign h2 {
-        font-size: 20px; }
-      .about-container .about-mdesignRow .about-mdesign h3 {
-        font-size: 14px; }
-      .about-container .about-mdesignRow .about-mdesign p {
-        font-size: 10px; } }
-    @media screen and (max-width: 899px) and (min-width: 551px) {
-      .about-container .about-mdesignRow .about-mdesign h2 {
-        font-size: 21px; }
-      .about-container .about-mdesignRow .about-mdesign h3 {
-        font-size: 16px; }
-      .about-container .about-mdesignRow .about-mdesign p {
-        font-size: 10px; } }
-    @media screen and (max-width: 1240px) and (min-width: 900px) {
-      .about-container .about-mdesignRow .about-mdesign h2 {
-        font-size: 24px; }
-      .about-container .about-mdesignRow .about-mdesign h3 {
-        font-size: 18px; }
-      .about-container .about-mdesignRow .about-mdesign p {
-        font-size: 12px; } }
+          font-size: 10px; } }
+      @media screen and (max-width: 899px) and (min-width: 551px) {
+        .about-container .about-mdesignRow .about-mdesign h2 {
+          font-size: 21px; }
+        .about-container .about-mdesignRow .about-mdesign h3 {
+          font-size: 16px; }
+        .about-container .about-mdesignRow .about-mdesign p {
+          font-size: 10px; } }
+      @media screen and (max-width: 1240px) and (min-width: 900px) {
+        .about-container .about-mdesignRow .about-mdesign h2 {
+          font-size: 24px; }
+        .about-container .about-mdesignRow .about-mdesign h3 {
+          font-size: 18px; }
+        .about-container .about-mdesignRow .about-mdesign p {
+          font-size: 12px; } }
     .about-container .about-mdesignRow .about-mdImageRight img {
       padding: 0;
       width: 411px;
@@ -331,6 +335,10 @@ body {
       @media screen and (max-width: 550px) and (min-width: 320px) {
         .about-container .about-mdesignRow .about-mdImageRight img {
           display: none; } }
+      @media screen and (max-width: 899px) and (min-width: 551px) {
+        .about-container .about-mdesignRow .about-mdImageRight img {
+          width: 295px;
+          margin-top: 3em; } }
     .about-container .about-mdesignRow .about-mdImageLeft img {
       padding: 0;
       width: 411px;
@@ -339,6 +347,10 @@ body {
         .about-container .about-mdesignRow .about-mdImageLeft img {
           display: none;
           min-width: 50%; } }
+      @media screen and (max-width: 899px) and (min-width: 551px) {
+        .about-container .about-mdesignRow .about-mdImageLeft img {
+          width: 295px;
+          margin-top: 6em; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
         .about-container .about-mdesignRow .about-mdImageLeft img {
           min-width: 50%; } }

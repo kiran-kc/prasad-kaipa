@@ -975,6 +975,9 @@ body {
 .pseudo-navbar {
   height: 70px;
   background-color: black; }
+  @media screen and (max-width: 899px) and (min-width: 551px) {
+    .pseudo-navbar {
+      height: 40px; } }
 
 .videos-container {
   margin-bottom: 2em; }
@@ -1176,7 +1179,8 @@ body {
   background-repeat: no-repeat; }
   .git-container .git-heroImg .git-gradientImg {
     background-image: url("/images/getInTouch/Editedgradient.png");
-    background-size: cover; }
+    background-size: cover;
+    background-repeat: no-repeat; }
     .git-container .git-heroImg .git-gradientImg .git-heroHeading {
       border-right: 1px solid white;
       height: 440px;
@@ -1190,84 +1194,216 @@ body {
     .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
       color: white;
       padding-top: 1.5em; }
-  .git-container .git-heroImg .git-content {
-    background-color: #f5f5f5; }
-    .git-container .git-heroImg .git-content .git-headline h2 {
-      color: #868686;
-      padding: 2em 0; }
-    .git-container .git-heroImg .git-content .git-cards {
-      margin: 0; }
-      .git-container .git-heroImg .git-content .git-cards .cardArea {
-        padding: 0.6em 2.2em;
-        height: 320px;
-        background-color: white; }
-        .git-container .git-heroImg .git-content .git-cards .cardArea h3 {
-          color: #797979; }
-        .git-container .git-heroImg .git-content .git-cards .cardArea h4 {
-          color: #797979;
-          line-height: 1.5em;
+  @media screen and (max-width: 359px) and (min-width: 320px) {
+    .git-container .git-heroImg {
+      margin-top: 2.8em;
+      background-size: 100% 100%;
+      height: 180px; }
+      .git-container .git-heroImg .git-gradientImg {
+        background-size: 100% 100%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroHeading {
+          height: 125px; }
+          .git-container .git-heroImg .git-gradientImg .git-heroHeading h1 {
+            margin-top: 40%;
+            font-size: 18px; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
+          margin-top: 50%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
+          font-size: 9px;
+          padding-top: 0.4em; } }
+  @media screen and (max-width: 550px) and (min-width: 360px) {
+    .git-container .git-heroImg {
+      margin-top: 2.8em;
+      background-size: 100% 100%;
+      height: 200px; }
+      .git-container .git-heroImg .git-gradientImg {
+        background-size: 100% 100%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroHeading {
+          height: 145px; }
+          .git-container .git-heroImg .git-gradientImg .git-heroHeading h1 {
+            margin-top: 38%;
+            font-size: 20px; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
+          margin-top: 38%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
+          font-size: 12px;
+          padding-top: 0.8em; } }
+  @media screen and (max-width: 899px) and (min-width: 551px) {
+    .git-container .git-heroImg {
+      margin-top: 2.8em;
+      background-size: 100% 100%;
+      height: 350px; }
+      .git-container .git-heroImg .git-gradientImg {
+        background-size: 100% 100%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroHeading {
+          height: 295px; }
+          .git-container .git-heroImg .git-gradientImg .git-heroHeading h1 {
+            margin-top: 36%;
+            font-size: 38px; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
+          margin-top: 34%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
+          font-size: 24px;
+          padding-top: 0.8em; } }
+  @media screen and (max-width: 1240px) and (min-width: 900px) {
+    .git-container .git-heroImg {
+      background-size: 100% 100%;
+      height: 500px; }
+      .git-container .git-heroImg .git-gradientImg {
+        background-size: 100% 100%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroHeading {
+          margin: 2em 0;
+          height: 444px; }
+          .git-container .git-heroImg .git-gradientImg .git-heroHeading h1 {
+            margin-top: 38%;
+            font-size: 45px; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
+          margin-top: 34%; }
+        .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
+          font-size: 26px;
+          padding-top: 1em; } }
+.git-container .git-content {
+  background-color: #f5f5f5; }
+  .git-container .git-content .git-headline h2 {
+    color: #868686;
+    padding: 2em 0; }
+  @media screen and (max-width: 550px) and (min-width: 320px) {
+    .git-container .git-content .git-headline h2 {
+      font-size: 16px; } }
+  @media screen and (max-width: 900px) and (min-width: 551px) {
+    .git-container .git-content .git-headline h2 {
+      font-size: 24px; } }
+  .git-container .git-content .git-cards {
+    display: flex;
+    justify-content: space-around; }
+    .git-container .git-content .git-cards .cardArea {
+      padding: 0.6em 2.2em;
+      height: 320px;
+      background-color: white; }
+      .git-container .git-content .git-cards .cardArea h3 {
+        color: #797979; }
+      .git-container .git-content .git-cards .cardArea h4 {
+        color: #797979;
+        line-height: 1.5em;
+        margin-top: 6em; }
+    .git-container .git-content .git-cards .number1 {
+      background-image: url("/images/getInTouch/Number1.png");
+      background-repeat: no-repeat;
+      border: 1px solid transparent;
+      width: 100%; }
+    .git-container .git-content .git-cards .number2 {
+      background-image: url("/images/getInTouch/Number2.png");
+      background-repeat: no-repeat;
+      border: 1px solid transparent; }
+      .git-container .git-content .git-cards .number2 h4 {
+        margin-top: 7em; }
+    .git-container .git-content .git-cards .number3 {
+      background-image: url("/images/getInTouch/Number3.png");
+      background-repeat: no-repeat;
+      border: 1px solid transparent; }
+    @media screen and (max-width: 550px) and (min-width: 320px) {
+      .git-container .git-content .git-cards {
+        display: block;
+        justify-content: center; }
+        .git-container .git-content .git-cards .cardArea {
+          height: 260px;
+          float: none;
+          margin-bottom: 2em; }
+          .git-container .git-content .git-cards .cardArea h3 {
+            font-size: 17px; }
+          .git-container .git-content .git-cards .cardArea h4 {
+            font-size: 12px;
+            line-height: 1.5em;
+            margin-top: 3.5em; }
+        .git-container .git-content .git-cards .number1 {
+          background-size: 100% 100%; }
+        .git-container .git-content .git-cards .number2 {
+          background-size: 100% 100%; }
+          .git-container .git-content .git-cards .number2 h4 {
+            margin-top: 6em; }
+        .git-container .git-content .git-cards .number3 {
+          background-size: 100% 100%; } }
+    @media screen and (max-width: 550px) and (min-width: 360px) {
+      .git-container .git-content .git-cards {
+        display: block;
+        justify-content: center; }
+        .git-container .git-content .git-cards .cardArea {
+          height: 260px;
+          float: none;
+          margin-bottom: 4em; }
+          .git-container .git-content .git-cards .cardArea h3 {
+            font-size: 17px; }
+          .git-container .git-content .git-cards .cardArea h4 {
+            font-size: 14px;
+            line-height: 1.5em;
+            margin-top: 3.5em; }
+        .git-container .git-content .git-cards .number2 h4 {
+          margin-top: 5em; } }
+    @media screen and (max-width: 899px) and (min-width: 551px) {
+      .git-container .git-content .git-cards .cardArea {
+        height: 260px; }
+        .git-container .git-content .git-cards .cardArea h3 {
+          font-size: 17px; }
+        .git-container .git-content .git-cards .cardArea h4 {
+          font-size: 11px;
+          line-height: 1.3em;
           margin-top: 5em; }
-      .git-container .git-heroImg .git-content .git-cards .middleCard {
-        margin-right: 4.5em;
-        margin-left: 4.5em; }
-      .git-container .git-heroImg .git-content .git-cards .number1 {
-        background-image: url("/images/getInTouch/Number1.png");
-        background-repeat: no-repeat;
-        border: 1px solid transparent; }
-      .git-container .git-heroImg .git-content .git-cards .number2 {
-        background-image: url("/images/getInTouch/Number2.png");
-        background-repeat: no-repeat;
-        border: 1px solid transparent; }
-        .git-container .git-heroImg .git-content .git-cards .number2 h4 {
+      .git-container .git-content .git-cards .number1 {
+        background-size: 100% 55%; }
+      .git-container .git-content .git-cards .number2 {
+        background-size: 100% 55%; }
+        .git-container .git-content .git-cards .number2 h4 {
           margin-top: 6em; }
-      .git-container .git-heroImg .git-content .git-cards .number3 {
-        background-image: url("/images/getInTouch/Number3.png");
-        background-repeat: no-repeat;
-        border: 1px solid transparent; }
-      @media screen and (max-width: 1240px) and (min-width: 900px) {
-        .git-container .git-heroImg .git-content .git-cards .cardArea h3 {
-          font-size: 19px; }
-        .git-container .git-heroImg .git-content .git-cards .cardArea h4 {
-          font-size: 17px;
-          line-height: 1.4em; } }
-    .git-container .git-heroImg .git-content .git-contactForm {
-      margin-top: 5em; }
-      .git-container .git-heroImg .git-content .git-contactForm .git-formArea {
-        margin-bottom: 4em;
-        background-color: #1B5F5E;
+      .git-container .git-content .git-cards .number3 {
+        background-size: 100% 55%; } }
+    @media screen and (max-width: 1240px) and (min-width: 900px) {
+      .git-container .git-content .git-cards .cardArea h3 {
+        font-size: 17px; }
+      .git-container .git-content .git-cards .cardArea h4 {
+        font-size: 15px;
+        line-height: 1.4em;
+        margin-top: 7em; }
+      .git-container .git-content .git-cards .number2 h4 {
+        margin-top: 8em; } }
+  .git-container .git-content .git-contactForm {
+    margin-top: 5em; }
+    .git-container .git-content .git-contactForm .git-formArea {
+      margin-bottom: 4em;
+      margin-top: 4em;
+      background-color: #1B5F5E;
+      color: white;
+      padding: 3em 0; }
+      .git-container .git-content .git-contactForm .git-formArea .git-para {
         color: white;
-        padding: 3em 0; }
-        .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-para {
-          color: white;
-          letter-spacing: 0px; }
-          .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-para h3 {
-            line-height: 1.3; }
+        letter-spacing: 0px; }
+        .git-container .git-content .git-contactForm .git-formArea .git-para h3 {
+          line-height: 1.3; }
+        @media screen and (max-width: 550px) and (min-width: 320px) {
+          .git-container .git-content .git-contactForm .git-formArea .git-para h3 {
+            font-size: 17px;
+            line-height: 1.3; } }
+        @media screen and (max-width: 899px) and (min-width: 551px) {
+          .git-container .git-content .git-contactForm .git-formArea .git-para h3 {
+            font-size: 18px;
+            line-height: 1.3; } }
+      .git-container .git-content .git-contactForm .git-formArea .git-inputs {
+        margin-top: 1.3em;
+        padding-bottom: 1em; }
+        .git-container .git-content .git-contactForm .git-formArea .git-inputs input[type=text] {
+          margin-bottom: 2em; }
+        .git-container .git-content .git-contactForm .git-formArea .git-inputs input[type=email] {
+          margin-bottom: 2em; }
+        .git-container .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
+          width: 20%;
+          color: #1B5F5E; }
           @media screen and (max-width: 550px) and (min-width: 320px) {
-            .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-para h3 {
-              font-size: 17px;
-              line-height: 1.3; } }
+            .git-container .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
+              width: 42%; } }
           @media screen and (max-width: 899px) and (min-width: 551px) {
-            .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-para h3 {
-              font-size: 18px;
-              line-height: 1.3; } }
-        .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs {
-          margin-top: 1.3em;
-          padding-bottom: 1em; }
-          .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs input[type=text] {
-            margin-bottom: 2em; }
-          .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs input[type=email] {
-            margin-bottom: 2em; }
-          .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
-            width: 20%;
-            color: #1B5F5E; }
-            @media screen and (max-width: 550px) and (min-width: 320px) {
-              .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
-                width: 42%; } }
-            @media screen and (max-width: 899px) and (min-width: 551px) {
-              .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
-                width: 38%; } }
-            @media screen and (max-width: 1200px) and (min-width: 900px) {
-              .git-container .git-heroImg .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
-                width: 30%; } }
+            .git-container .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
+              width: 38%; } }
+          @media screen and (max-width: 1200px) and (min-width: 900px) {
+            .git-container .git-content .git-contactForm .git-formArea .git-inputs .submitBtn {
+              width: 30%; } }
 
 /*# sourceMappingURL=customStyle.css.map */

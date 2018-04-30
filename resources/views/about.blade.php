@@ -6,9 +6,8 @@
         <div class="about-heroImg">
           <h1>AN INSIGHT</h1> 
           <h2><i>Prasad's Life and Contributions</i></h2>
-          
           <a href="#Purpose">
-            <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 about-icons">
+            <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 about-icons about-Img">
               <img src="/images/aboutPage/Target_thin_white.png"> 
             </div>
           </a>
@@ -24,7 +23,7 @@
           </a>  
           <a href="#Interviews">
             <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons">
-              <i class="fa fa-microphone fa-4x" align='center' ></i>
+              <i class="fa fa-microphone fa-4x" align='center'></i>
             </div>
           </a>
         </div>

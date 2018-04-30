@@ -24,19 +24,19 @@
 		<div class="row git-content">
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">			
 				<div class="row git-cards" style="margin:0 padding:0;" align="center">
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea"  align="center">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea">
 						<h3><b>SAGE ON THE STAGE</b></h3>
 						<div class="number1">
 							<h4>As a 'sage on the stage', Prasad delivers keynotes and workshops in addition to being a business educator. He helps individuals and students ignite their own genius.</h4>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea"  align="center">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea">
 						<h3><b>GUIDE ON THE SIDE</b></h3>
 						<div class="number2">
 							<h4>Prasad's role as a 'guide on the side' allows him to look for ways to evoke one's wisdom in the capacity of an executive coach and mentor.</h4>
 						</div>
 					</div>
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea"  align="center">
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea">
 						<h3><b>PLAYER ON THE FIELD</b></h3>
 						<div class="number3">
 							<h4>In an adviser and consultant role, Prasad extends the thinking, creativity and innovation capacities of his clients by becoming a part of their team, as a 'player on the field'.</h4>

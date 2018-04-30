@@ -77,7 +77,7 @@
   <div class="container-fluid">
     <div class="row about-affliations">
       <h2 align="center">PRASAD'S AFFILIATION</h2>
-      <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10">
+      <div class="col-lg-offset-1 col-lg-10 col-md-offset-1 col-md-10 col-sm-offset-1 col-sm-10 col-xs-offset-1 col-xs-10" style="padding:0; ">
         <div class="about-logoBox">
           <h4 align="center">Prasad has served as a board member/advisor to several organizations</h4>
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-logos">

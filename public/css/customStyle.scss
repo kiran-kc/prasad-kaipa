@@ -1423,13 +1423,16 @@ body{
 		margin-right:1em;
 		background-color:#EDEFF1;
 		box-shadow:2px 2px 7px #444;
+		.if-thumbnail{
+			background-image:url('/images/speakings/Thumbnails/Masterclass.png');
+		}
 		iframe{
 			border:none;
 			padding-bottom:1em;
 		}
 		.frame-type1{
 			width:100%;
-			height:500px;
+			height:706px;
 		}
 		.frame-type2{
 			width:100%;

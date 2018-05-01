@@ -1019,12 +1019,14 @@ body {
     margin-right: 1em;
     background-color: #EDEFF1;
     box-shadow: 2px 2px 7px #444; }
+    .videos-container .videos-gridLayout .if-thumbnail {
+      background-image: url("/images/speakings/Thumbnails/Masterclass.png"); }
     .videos-container .videos-gridLayout iframe {
       border: none;
       padding-bottom: 1em; }
     .videos-container .videos-gridLayout .frame-type1 {
       width: 100%;
-      height: 500px; }
+      height: 706px; }
     .videos-container .videos-gridLayout .frame-type2 {
       width: 100%;
       height: 400px; }

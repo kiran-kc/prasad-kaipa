@@ -155,7 +155,7 @@
               </sub>
             </h4>
             <hr align="center">
-            <h4 align="center"><b>Smart and Wise Leadership:An Interview with Prasad Kaipa</b></h4>
+            <h4 align="center"><b>Smart and Wise Leadership: An Interview with Prasad Kaipa</b></h4>
             <p align="center"><i>Huffington Post</i></p>
           </div>
         </div>
@@ -173,7 +173,7 @@
               </sub>
             </h4>
             <hr align="center">
-            <h4 align="center"><b>Mercury News interview:Prasad Kaipa, mentor to CEOs</b></h4>
+            <h4 align="center"><b>Mercury News interview: Prasad Kaipa, mentor to CEOs</b></h4>
             <p align="center"><i>Mercury News</i></p>
           </div>
         </div>

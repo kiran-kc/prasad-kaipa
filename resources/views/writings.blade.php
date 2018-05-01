@@ -46,7 +46,7 @@
                         <div align="center" class="writings-bookMobile">
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
-                    </a>    
+                    </a>        
                     <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12 writings-content">
                         <h2><b>Discontinuous Learning: Igniting Genius Within by Aligning Self, Work, & Family (eBook)</b></h2> 
                         <h4><i>By Prasad Kaipa</i></h4>
@@ -248,7 +248,7 @@
                     <a class="writings-seeless" href='#physicsResearch' id="seeLess" data-toggle="collapse">
                         <i class="fa fa-angle-double-up" aria-hidden="true"></i> Physics Research
                     </a>
-                    <hr align="center"> 
+                    <hr align="left" style="width:82%;"> 
                 </div>
                 <div id='physicsResearch' class="collapse">    
                     <!-- card 7  --> 
@@ -381,13 +381,13 @@
 
                 <!-- Management and Leadership Research -->
                 <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box">     
-                    <a class="writings-seemore" href='#MgmtLeadership' class="seeLess" data-toggle="collapse">
+                    <a class="writings-seemore" href='#MgmtLeadership' id="SeeLess" data-toggle="collapse">
                         <i class="fa fa-angle-double-up" aria-hidden="true"></i> Management and Leadership Research
                     </a>
-                    <a class="writings-seeless" href='#MgmtLeadership' class="seeMore" data-toggle="collapse">
+                    <a class="writings-seeless" href='#MgmtLeadership' id="SeeMore" data-toggle="collapse">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i> Management and Leadership Research
                     </a> 
-                    <hr align="center">
+                    <hr align="left" style="width:82%;">
                 </div>
                 <div id='MgmtLeadership' class="collapse in" area-extended='true'>
                     <!-- card 1 -->    

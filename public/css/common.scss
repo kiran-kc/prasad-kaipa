@@ -272,6 +272,11 @@ body{
 				padding:2em 0;
 				.hp-brandName{
 					h3{
+						a{
+							color:white;
+							text-decoration:none;
+							cursor:pointer;
+						}
 						@media screen and (max-width:550px) and (min-width:320px){
 							font-size:18px;
 						}
@@ -288,11 +293,16 @@ body{
 						list-style-type:none;
 						margin-top:1.8em;
 						li{
+							a{
+								color:white;
+								text-decoration:none;
+								cursor:pointer;
+							}
 							padding-bottom:8px;
 							font-size:1.3em;
 							i{
 								border:1px solid white;
-								padding:4px 2px 0 8px;
+								padding:4px 4px 0 6px;
 								border-radius:3px;
 								background-color:white;
 								color:#434343;

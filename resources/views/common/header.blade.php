@@ -14,10 +14,10 @@
                 <li><a href="academia"><b>ACADEMIA</b></a></li>
                 <li><a href="getInTouch"><b>GET IN TOUCH</b></a></li>
             </ul>
-            <ul class="nav navbar-nav navbar-right">
+            <!-- <ul class="nav navbar-nav navbar-right">
                 <li><a href="#"><i class="fa fa-bars fa-2x toggle-button toggle"  onclick="navbarModal('connectModal')"></i></a>
                 </li>
-            </ul>
+            </ul> -->
         </div>    
     </nav>
 </section>
@@ -42,7 +42,7 @@
  
 
 <!-- Navigation bar screen for web-->
-<div id="connectModal" class="modal modalNavbar" align="center" style="display:none;">
+<!-- <div id="connectModal" class="modal modalNavbar" align="center" style="display:none;">
    <div class="modal-content modalNavbar-content">
       <button type="button" class="close" onclick="modelClose('connectModal')" data-dismiss="modal" aria-label="Close">
          <span aria-hidden="true">&times;</span>
@@ -67,7 +67,7 @@
          </ul>              
       </div>                    
    </div>
-</div>
+</div> -->
 
 
 
@@ -97,11 +97,11 @@
                 <li><a href="getInTouch"><b>GET IN TOUCH</b></a></li>
             </ul>
             <hr style="border:none;border-bottom:1px solid #535353;width:80%;" align="center">
-            <ul class="nav navbar-nav">
+            <!-- <ul class="nav navbar-nav">
                 <li><b>Prasad's Photography</b></li>
                 <li><b>Learnings from Bhagavad Gita</b></li>
                 <li><b>Mithya Foundation</b></li>
-            </ul>              
+            </ul> -->              
         </div>                    
     </div>
 </div>

@@ -11,22 +11,28 @@
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="row hp-flexCard">
                <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
+                  <a href="writingsByPrasad">
                   <img src='/images/homePage/Writing.jpg'>
                   <h2 align="center">Writing</h2>
                   <h3 align="center">Explore Dr. Kaipa's vast repository of bold, thought provoking writings, including books, research papers, articles and blogs.</h3> 
-                  <p align="center">Know More</p>   
-               </div>
+                  <p align="center">Know More</p>  
+                  </a>  
+               </div>  
                <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
+                  <a href="speaking"> 
                   <img src='/images/homePage/Videos.jpg'>
                   <h2 align="center">Videos</h2>
                   <h3 align="center">Collection of Dr. Kaipa's most impactful keynote speeches, interviews, lectures and leadership sessions.</h3>
                   <p align="center">Know More</p>
-               </div> 
+                  </a>
+               </div>    
                <div class="col-lg-3 col-md-3 col-sm-3 hp-card">
+                  <a href="academia">
                   <img src='/images/homePage/Academia.jpg'>
                   <h2 align="center">Academia</h2>
-                  <h3 align="center">Sed elementum eget eros nec sodales. Nam feugiat mauris  aliquet  neque posuere, ornare, ullamcorper erat mattis.</h3>
+                  <h3 align="center">As a business educator, Prasad has taught a variety of leadership, change management, creativity and innovation topics.</h3>
                   <p align="center">Know More</p>
+                  </a>
                </div>   
             </div>
          </div>

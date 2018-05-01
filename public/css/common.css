@@ -186,6 +186,10 @@ body {
   color: white; }
   .main-footer .hp-footerArea .hp-footer .hp-column {
     padding: 2em 0; }
+    .main-footer .hp-footerArea .hp-footer .hp-column .hp-brandName h3 a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .main-footer .hp-footerArea .hp-footer .hp-column .hp-brandName h3 {
         font-size: 18px; } }
@@ -201,9 +205,13 @@ body {
       .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li {
         padding-bottom: 8px;
         font-size: 1.3em; }
+        .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li a {
+          color: white;
+          text-decoration: none;
+          cursor: pointer; }
         .main-footer .hp-footerArea .hp-footer .hp-column .hp-list ul li i {
           border: 1px solid white;
-          padding: 4px 2px 0 8px;
+          padding: 4px 4px 0 6px;
           border-radius: 3px;
           background-color: white;
           color: #434343; }

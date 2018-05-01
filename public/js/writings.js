@@ -224,13 +224,13 @@ $('#seeMore').click(function(){
       $('#seeMore').show();
     });
 // mgmtleadership
-    $('.seeMore').click(function(){
-      $(".seeMore").hide();
-      $('.seeLess').show();
+    $('#SeeMore').click(function(){
+      $("#SeeMore").hide();
+      $('#SeeLess').show();
     });
-    $('.seeLess').click(function(){
-      $('.seeLess').hide();
-      $('.seeMore').show();
+    $('#SeeLess').click(function(){
+      $('#SeeLess').hide();
+      $('#SeeMore').show();
     });
 
 

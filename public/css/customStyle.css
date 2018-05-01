@@ -26,6 +26,8 @@ body {
       .hp-container .hp-showcase .hp-flexCard .hp-card {
         padding: 0;
         background-color: white; }
+        .hp-container .hp-showcase .hp-flexCard .hp-card a {
+          text-decoration: none; }
         .hp-container .hp-showcase .hp-flexCard .hp-card img {
           width: 100%;
           height: 242px; }
@@ -59,12 +61,14 @@ body {
               font-size: 1em;
               margin-top: 0; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
-      .hp-container .hp-showcase .hp-flexCard .hp-card img {
-        height: 150px; }
-      .hp-container .hp-showcase .hp-flexCard .hp-card h3 {
-        font-size: 1em; }
-      .hp-container .hp-showcase .hp-flexCard .hp-card p {
-        margin-top: 1em; } }
+      .hp-container .hp-showcase {
+        padding-top: 5em; }
+        .hp-container .hp-showcase .hp-flexCard .hp-card img {
+          height: 150px; }
+        .hp-container .hp-showcase .hp-flexCard .hp-card h3 {
+          font-size: 1em; }
+        .hp-container .hp-showcase .hp-flexCard .hp-card p {
+          margin-top: 1em; } }
     @media screen and (max-width: 1200px) and (min-width: 900px) {
       .hp-container .hp-showcase .hp-flexCard .hp-card img {
         height: 190px; }
@@ -267,7 +271,7 @@ body {
     @media screen and (max-width: 1240px) and (min-width: 900px) {
       .about-container .container-fluid .about-heroImg {
         min-height: 520px;
-        background-size: 100% 70%; }
+        background-size: 100% 75%; }
         .about-container .container-fluid .about-heroImg h1 {
           padding: 3em 0 0 2em;
           margin-top: 0;
@@ -754,7 +758,8 @@ body {
         height: 50px; } }
   .writings-container .writings-header .writings-box {
     background-color: white;
-    padding: 0; }
+    padding: 0;
+    padding-bottom: 1.5em; }
     .writings-container .writings-header .writings-box header {
       padding: 1em; }
       .writings-container .writings-header .writings-box header h1 {
@@ -878,10 +883,10 @@ body {
               padding-right: 15px; }
       @media screen and (max-width: 360px) and (min-width: 320px) {
         .writings-container .writings-header .writings-box .writings-publishedArticle {
-          padding-bottom: 0em; }
+          padding-bottom: 1em; }
           .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
             margin-top: 1em;
-            height: 85px; }
+            height: 86.5px; }
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
               height: 85px;
               width: 100%; }
@@ -899,7 +904,7 @@ body {
             margin-top: 1.5em;
             height: 110px; }
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-logos img {
-              height: 110px;
+              height: 109px;
               width: 100%; }
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
               line-height: 13px;
@@ -910,7 +915,8 @@ body {
         .writings-container .writings-header .writings-box .writings-publishedArticle {
           padding-bottom: 0em; }
           .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow {
-            margin-top: 2em; }
+            margin-top: 2em;
+            height: 131.5px; }
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content {
               padding-top: 1.4em; }
               .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h4 {
@@ -928,7 +934,10 @@ body {
             .writings-container .writings-header .writings-box .writings-publishedArticle a .writings-paRow .writings-content h6 {
               color: grey; } }
     .writings-container .writings-header .writings-box .writings-researchPapers {
-      padding-bottom: 2em; }
+      padding-bottom: 2em;
+      padding-left: 0;
+      padding-right: 0;
+      margin: 0; }
       .writings-container .writings-header .writings-box .writings-researchPapers a {
         color: #434343; }
         .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow {
@@ -961,7 +970,7 @@ body {
               padding-top: 0; }
               .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h4 {
                 line-height: 13px;
-                font-size: 11px; }
+                font-size: 10px; }
               .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h6 {
                 font-size: 9px; } }
       @media screen and (max-width: 550px) and (min-width: 370px) {
@@ -1345,7 +1354,8 @@ body {
         .git-container .git-content .git-cards .cardArea {
           height: 260px;
           float: none;
-          margin-bottom: 2em; }
+          margin-bottom: 2em;
+          padding: 0.6em 1.2em; }
           .git-container .git-content .git-cards .cardArea h3 {
             font-size: 17px; }
           .git-container .git-content .git-cards .cardArea h4 {
@@ -1365,7 +1375,7 @@ body {
         display: block;
         justify-content: center; }
         .git-container .git-content .git-cards .cardArea {
-          height: 260px;
+          height: 275px;
           float: none;
           margin-bottom: 4em; }
           .git-container .git-content .git-cards .cardArea h3 {
@@ -1374,8 +1384,14 @@ body {
             font-size: 14px;
             line-height: 1.5em;
             margin-top: 3.5em; }
-        .git-container .git-content .git-cards .number2 h4 {
-          margin-top: 5em; } }
+        .git-container .git-content .git-cards .number1 {
+          background-size: 80% 100%; }
+        .git-container .git-content .git-cards .number2 {
+          background-size: 80% 100%; }
+          .git-container .git-content .git-cards .number2 h4 {
+            margin-top: 5em; }
+        .git-container .git-content .git-cards .number3 {
+          background-size: 80% 100%; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .git-container .git-content .git-cards .cardArea {
         height: 260px; }
@@ -1388,11 +1404,11 @@ body {
       .git-container .git-content .git-cards .number1 {
         background-size: 100% 55%; }
       .git-container .git-content .git-cards .number2 {
-        background-size: 100% 55%; }
+        background-size: 100% 72%; }
         .git-container .git-content .git-cards .number2 h4 {
           margin-top: 6em; }
       .git-container .git-content .git-cards .number3 {
-        background-size: 100% 55%; } }
+        background-size: 100% 72%; } }
     @media screen and (max-width: 1240px) and (min-width: 900px) {
       .git-container .git-content .git-cards .cardArea h3 {
         font-size: 17px; }

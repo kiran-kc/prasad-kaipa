@@ -1317,6 +1317,7 @@ body {
         color: #797979;
         text-align: left; }
       .git-container .git-content .git-cards .cardArea h4 {
+        font-size: 17px;
         color: #797979;
         line-height: 1.4em;
         margin-top: 6em;

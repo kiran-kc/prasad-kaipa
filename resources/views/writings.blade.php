@@ -47,7 +47,7 @@
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
                     </a>        
-                    <div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-5 col-xs-12 writings-content">
+                    <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12 writings-content">
                         <h2><b>Discontinuous Learning: Igniting Genius Within by Aligning Self, Work, & Family (eBook)</b></h2> 
                         <h4><i>By Prasad Kaipa</i></h4>
                         <h3>In times of turbulence, a discontinuity, uncertainty and rapid change brings about a major shift in perspective. Discontinuous learning allows us to learn about ourselves, alters our mental models, and changes our relationship to the world.</h3> 

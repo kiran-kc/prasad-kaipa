@@ -5,6 +5,7 @@
         <div class="row hp-column">
           <div class="col-lg-2 col-lg-offset-1 col-md-2 col-md-offset-1 col-sm-3 col-xs-12 hp-brandName">
             <h3><a href="/">Dr. Prasad Kaipa</a></h3>
+            <span style="color:white;"><a href="mailto:prasad@kaipagroup.com" target="_top">@Kaipagroup.com</a></span>
           </div>
           <div class="col-lg-2 col-md-2 col-sm-3 col-xs-6 hp-list">
             <ul>

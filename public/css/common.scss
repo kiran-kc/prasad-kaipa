@@ -271,6 +271,7 @@ body{
 				padding:2em 0;
 				.hp-brandName{
 					h3{
+						font-size:23px;
 						a{
 							color:white;
 							text-decoration:none;
@@ -284,6 +285,12 @@ body{
 						}
 						@media screen and (max-width:1200px) and (min-width:900px){
 							font-size:18px;
+						}
+					}
+					span{
+						a{
+							display:block;
+							color:#66CCFF;
 						}
 					}
 				}

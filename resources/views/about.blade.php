@@ -105,14 +105,12 @@
             <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 about-logoCards">
               <div class="img8"></div>
             </div>
-            <!-- <div style="border:1px solid red;"> -->
              <div class="col-lg-offset-3 col-lg-3 col-md-3 col-sm-3 col-xs-3 about-logoCards">
               <div class="img9"></div>
             </div>
              <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 about-logoCards">
               <div class="img10"></div>
             </div>
-          <!-- </div> -->
           </div>
         </div>
       </div>     

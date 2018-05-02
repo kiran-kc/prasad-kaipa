@@ -56,6 +56,7 @@
             </a>
          </div>  
       </div>
+      <form method="post" action="submitContactForm">
       <div class="row hp-contactForm">
          <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 hp-formArea">
             <div class="row">
@@ -69,13 +70,14 @@
                   <h3>There is a great start to your journey of inner growth.</h3>
                </div>
                <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1 form-group hp-inputs">
-                  <input type="text" name="name" class="form-control" placeholder="Name">
-                  <input type="email" name="email" class="form-control" placeholder="Email">
+                  <input type="text" name="userName" class="form-control" placeholder="Name">
+                  <input type="email" name="userEmail" class="form-control" placeholder="Email">
                   <input type="submit" name="submit" class="form-control submitBtn" placeholder="Submit">
                </div>  
             </div>
          </div>
       </div>
+      </form>
    </div> 
 </section> 
 

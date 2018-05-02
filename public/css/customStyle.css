@@ -326,49 +326,32 @@ body {
           font-size: 10px; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
         .about-container .about-mdesignRow .about-mdesign h2 {
-          font-size: 21px; }
-        .about-container .about-mdesignRow .about-mdesign h3 {
           font-size: 16px; }
+        .about-container .about-mdesignRow .about-mdesign h3 {
+          font-size: 14px; }
         .about-container .about-mdesignRow .about-mdesign p {
-          font-size: 10px; } }
+          font-size: 8px; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
         .about-container .about-mdesignRow .about-mdesign h2 {
-          font-size: 24px; }
+          font-size: 23px; }
         .about-container .about-mdesignRow .about-mdesign h3 {
-          font-size: 18px; }
+          font-size: 17px; }
         .about-container .about-mdesignRow .about-mdesign p {
-          font-size: 12px; } }
+          font-size: 11px; } }
     .about-container .about-mdesignRow .about-mdImageRight {
       padding-right: 0; }
       .about-container .about-mdesignRow .about-mdImageRight img {
-        padding: 0;
-        width: 411px;
-        float: right;
-        object-fit: fill; }
+        width: 100%; }
         @media screen and (max-width: 550px) and (min-width: 320px) {
           .about-container .about-mdesignRow .about-mdImageRight img {
             display: none; } }
-        @media screen and (max-width: 899px) and (min-width: 551px) {
-          .about-container .about-mdesignRow .about-mdImageRight img {
-            width: 295px;
-            margin-top: 3em; } }
     .about-container .about-mdesignRow .about-mdImageLeft {
       padding-left: 0; }
       .about-container .about-mdesignRow .about-mdImageLeft img {
-        padding: 0;
-        width: 411px;
-        float: left; }
+        width: 100%; }
         @media screen and (max-width: 550px) and (min-width: 320px) {
           .about-container .about-mdesignRow .about-mdImageLeft img {
-            display: none;
-            min-width: 50%; } }
-        @media screen and (max-width: 899px) and (min-width: 551px) {
-          .about-container .about-mdesignRow .about-mdImageLeft img {
-            width: 295px;
-            margin-top: 6em; } }
-        @media screen and (max-width: 1240px) and (min-width: 900px) {
-          .about-container .about-mdesignRow .about-mdImageLeft img {
-            min-width: 50%; } }
+            display: none; } }
   .about-container .about-affliations {
     padding-top: 8em; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
@@ -1005,6 +988,10 @@ body {
               line-height: 1.2em; }
             .writings-container .writings-header .writings-box .writings-researchPapers a .writings-rpRow .writings-content h6 {
               color: grey; } }
+    .writings-container .writings-header .writings-box .addPadding {
+      padding-bottom: 1.5em; }
+  .writings-container .writings-header .removePadding {
+    padding-bottom: 0; }
 
 /**********************************************/
 /**********************************************/
@@ -1079,7 +1066,7 @@ body {
       width: 46%;
       height: 460px;
       border: 1px solid #eaeaea;
-      box-shadow: 6px 6px 7px #444; }
+      box-shadow: 6px 6px 7px slategrey; }
       .academia-container .academia-gridlayout .academia-cards img {
         padding: 2em 1em;
         width: 80%;
@@ -1117,7 +1104,9 @@ body {
       display: flex;
       justify-content: space-around; }
       .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool {
-        background-color: white; }
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 3px 3px 7px slategrey; }
         .academia-container .academia-gridlayout .academia-flexCards .academia-businesSchool img {
           width: 100%;
           margin-top: 3em;

@@ -38,7 +38,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="row writings-mdesign mdRow">
+                <div class="row writings-mdesign mdRow"">
                     <a onclick="confirmDownload('downloadModal')">
                         <div class="col-lg-4 col-md-5 col-sm-7 writings-book">
                             <img src="/images/writingPage/Books/Book3.png">
@@ -47,7 +47,7 @@
                             <img src="/images/writingPage/Books/Book3.png">
                         </div>
                     </a>        
-                    <div class="col-lg-7 col-md-7 col-sm-5 col-xs-12 writings-content">
+                    <div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-5 col-xs-12 writings-content">
                         <h2><b>Discontinuous Learning: Igniting Genius Within by Aligning Self, Work, & Family (eBook)</b></h2> 
                         <h4><i>By Prasad Kaipa</i></h4>
                         <h3>In times of turbulence, a discontinuity, uncertainty and rapid change brings about a major shift in perspective. Discontinuous learning allows us to learn about ourselves, alters our mental models, and changes our relationship to the world.</h3> 
@@ -241,7 +241,7 @@
                     <h1 align="center">RESEARCH PAPERS</h1>
                     <hr align="center">
                 </header>
-                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box">
+                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box removePadding">
                     <a class="writings-seemore" href='#physicsResearch' id="seeMore" data-toggle="collapse">
                         <i class="fa fa-angle-double-down" aria-hidden="true"></i> Physics Research
                     </a>
@@ -250,7 +250,7 @@
                     </a>
                     <hr align="left" style="width:82%;"> 
                 </div>
-                <div id='physicsResearch' class="collapse">    
+                <div id='physicsResearch' class="collapse addPadding">    
                     <!-- card 7  --> 
                     <div class="row writings-researchPapers">
                         <a href="https://www.researchgate.net/publication/15061658_Thermoluminescence_Measurements_of_Gamma-ray_Doses_Attributable_to_Fallout_from_the_Nevada_Test_Site_Using_Building_Bricks_As_Natural_Dosimeters" target="_blank">
@@ -378,9 +378,8 @@
                         </a>      
                     </div>
                 </div>
-
                 <!-- Management and Leadership Research -->
-                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box">     
+                <div class="col-lg-offset-2 col-md-offset-1 col-sm-offset-1 col-xs-offset-1 writings-box removePadding">     
                     <a class="writings-seemore" href='#MgmtLeadership' id="SeeLess" data-toggle="collapse">
                         <i class="fa fa-angle-double-up" aria-hidden="true"></i> Management and Leadership Research
                     </a>

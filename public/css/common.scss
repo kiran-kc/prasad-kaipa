@@ -34,9 +34,8 @@ body{
 						background-color:transparent;
 						padding:5px;
 						font-size:14px;
-					   &:active,&:visited,&:hover{ 
+					   &:active, &:visited, &:hover{ 
 						   background-color:transparent;
-						   // border:0.1px solid #adadad;
 						    border-bottom:1px solid white;
 						}
 						@media screen and (max-width:889px) and (min-width:551px){

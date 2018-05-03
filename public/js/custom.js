@@ -4,6 +4,7 @@ $("document").ready(function(){
     var aTop = $('.navB').height();
     if($(this).scrollTop()>aTop-40){
         $(".navB").css("background-color","black");
+        // $(".image").addClass(".animated zoomIn");
     }
     else{
       $(".navB").css("background-color","transparent");
@@ -21,7 +22,6 @@ $("document").ready(function(){
       function modelClose(modalId){
         $('#'+modalId).hide();
       }
-
 
 // on scroll effect in about page
   $(window).scroll(function() {

@@ -29,6 +29,7 @@ class WelcomeController extends Controller {
 	 * @return Response
 	 */
 	public function index(){
+
 		return view('index');
 	}
 
@@ -47,6 +48,17 @@ class WelcomeController extends Controller {
 	}
 	public function getInTouch(){
 		return view('getInTouch');
+	}
+
+
+
+	public function submitContactForm(){
+		$userName = $_POST['userName'];
+		$emailId = $_POST['userEmail'];
+// Input::get
+		$subjectTo = 'Newsletter subscription';
+		$adminEmail = 'kiran@karmacircles.com';
+
 	}
 
 }

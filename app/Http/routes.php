@@ -24,7 +24,7 @@ Route::get('academia', 'WelcomeController@academia');
 Route::get('getInTouch', 'WelcomeController@getInTouch');
 
 
-
+Route::post('submitContactForm', 'WelcomeController@submitContactForm');
 
 Route::get('/', 'WelcomeController@index');
 

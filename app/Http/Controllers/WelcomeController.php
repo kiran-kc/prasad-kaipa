@@ -94,7 +94,7 @@ class WelcomeController extends Controller {
 		return view('photography');
 	}
 
-	public function learningsFromBhagavadGeeta(){
-		return view('learningsFromBhagavadGeeta');
+	public function learningsFromBhagavadGita(){
+		return view('learningsFromBhagavadGita');
 	}
 }

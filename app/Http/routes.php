@@ -25,7 +25,7 @@ Route::get('getInTouch', 'WelcomeController@getInTouch');
 // Photography tab
 Route::get('photography', 'WelcomeController@photography');
 // Learning From Bhagavad Geeta tab
-Route::get('learningsFromBhagavadGeeta', 'WelcomeController@learningsFromBhagavadGeeta');
+Route::get('learningsFromBhagavadGita', 'WelcomeController@learningsFromBhagavadGita');
 
 
 Route::post('submitContactForm', 'WelcomeController@submitContactForm');

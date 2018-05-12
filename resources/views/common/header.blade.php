@@ -62,7 +62,7 @@
       <div align="center" class="nav-item">             
          <ul>
             <li><b><a href="photography">Prasad's Photography</a></b></li>
-            <li><b><a href="learningsFromBhagavadGeeta">Learnings from Bhagavad Gita</a></b></li>
+            <li><b><a href="learningsFromBhagavadGita">Learnings from Bhagavad Gita</a></b></li>
             <li><b><a href=" http://mithya.prasadkaipa.com/" target="_blank">Mithya Foundation</a></b></li>
             <li><b><a href="http://selfcorp.prasadkaipa.com/" target="_blank">SelfCorp</a></b></li>
             <li><b><a href="http://kaipagroup.com/publications/" target="_blank">Kaipa Group's Publication</a></b></li>
@@ -101,7 +101,7 @@
             <hr style="border:none;border-bottom:1px solid #535353;width:80%;" align="center">
             <ul class="nav navbar-nav">
                 <li><b><a href="photography">Prasad's Photography</a></b></li>
-                <li><b><a href="learningsFromBhagavadGeeta">Learnings from Bhagavad Gita</a></b></li>
+                <li><b><a href="learningsFromBhagavadGita">Learnings from Bhagavad Gita</a></b></li>
                 <li><b><a href="http://mithya.prasadkaipa.com/" target="_blank">Mithya Foundation</a></b></li>
                 <li><b><a href="http://selfcorp.prasadkaipa.com/" target="_blank">SelfCorp</a></b></li>
                 <li><b><a href="http://kaipagroup.com/publications/" target="_blank">Kaipa Group's Publication</a></b></li>

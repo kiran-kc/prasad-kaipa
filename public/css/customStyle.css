@@ -158,11 +158,10 @@ body {
   background-color: #F3F3F3; }
   .about-container .container-fluid .about-heroImg {
     background-image: url("../images/aboutPage/Heroimage_About.webp");
-    height: 680px;
+    height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100% 100%;
-    object-fit: cover; }
+    background-size: cover; }
     .about-container .container-fluid .about-heroImg h1 {
       font-family: 'Lato', sans-serif;
       color: white;
@@ -197,88 +196,100 @@ body {
     .about-container .container-fluid .about-heroImg .about-Img {
       padding: 1em 1.5em; }
     @media screen and (max-width: 359px) and (min-width: 320px) {
-      .about-container .container-fluid .about-heroImg h1 {
-        padding: 2em 0 0 1em;
-        margin-top: 0;
-        font-size: 1.8em; }
-      .about-container .container-fluid .about-heroImg h2 {
-        padding: 0 0 0 1.5em;
-        margin-top: 0;
-        font-size: 1.1em; }
-      .about-container .container-fluid .about-heroImg .about-icons {
-        height: 40px;
-        margin-right: 1em;
-        margin-top: 3em; }
-        .about-container .container-fluid .about-heroImg .about-icons img {
-          width: 20px;
-          height: 20px;
-          margin-top: -0.2em; }
-        .about-container .container-fluid .about-heroImg .about-icons i {
-          font-size: 1.2em;
-          padding: 0.6em; }
-      .about-container .container-fluid .about-heroImg .about-Img {
-        padding: 0.8em 1em; } }
+      .about-container .container-fluid .about-heroImg {
+        background-size: 100% 35%;
+        height: 35vh; }
+        .about-container .container-fluid .about-heroImg h1 {
+          padding: 2em 0 0 1em;
+          margin-top: 0;
+          font-size: 1.8em; }
+        .about-container .container-fluid .about-heroImg h2 {
+          padding: 0 0 0 1.5em;
+          margin-top: 0;
+          font-size: 1.1em; }
+        .about-container .container-fluid .about-heroImg .about-icons {
+          height: 40px;
+          margin-right: 1em;
+          margin-top: 3em; }
+          .about-container .container-fluid .about-heroImg .about-icons img {
+            width: 20px;
+            height: 20px;
+            margin-top: -0.2em; }
+          .about-container .container-fluid .about-heroImg .about-icons i {
+            font-size: 1.2em;
+            padding: 0.6em; }
+        .about-container .container-fluid .about-heroImg .about-Img {
+          padding: 0.8em 1em; } }
     @media screen and (max-width: 550px) and (min-width: 360px) {
-      .about-container .container-fluid .about-heroImg h1 {
-        padding: 2em 0 0 1em;
-        margin-top: 0;
-        font-size: 2em; }
-      .about-container .container-fluid .about-heroImg h2 {
-        padding: 0 0 0 1.5em;
-        margin-top: 0;
-        font-size: 1.2em; }
-      .about-container .container-fluid .about-heroImg .about-icons {
-        height: 40px;
-        padding: auto 2em;
-        margin-right: 1em;
-        margin-top: 4em; }
-        .about-container .container-fluid .about-heroImg .about-icons img {
-          width: 20px;
-          height: 20px;
-          margin-top: -0.2em; }
-        .about-container .container-fluid .about-heroImg .about-icons i {
-          font-size: 1.2em;
-          padding: 0.6em; }
-      .about-container .container-fluid .about-heroImg .about-Img {
-        padding: 0.8em 1.1em; } }
+      .about-container .container-fluid .about-heroImg {
+        background-size: 100% 100%;
+        height: 35vh; }
+        .about-container .container-fluid .about-heroImg h1 {
+          padding: 2em 0 0 1em;
+          margin-top: 0;
+          font-size: 2em; }
+        .about-container .container-fluid .about-heroImg h2 {
+          padding: 0 0 0 1.5em;
+          margin-top: 0;
+          font-size: 1.2em; }
+        .about-container .container-fluid .about-heroImg .about-icons {
+          height: 40px;
+          padding: auto 2em;
+          margin-right: 1em;
+          margin-top: 4em; }
+          .about-container .container-fluid .about-heroImg .about-icons img {
+            width: 20px;
+            height: 20px;
+            margin-top: -0.2em; }
+          .about-container .container-fluid .about-heroImg .about-icons i {
+            font-size: 1.2em;
+            padding: 0.6em; }
+        .about-container .container-fluid .about-heroImg .about-Img {
+          padding: 0.8em 1.1em; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
-      .about-container .container-fluid .about-heroImg h1 {
-        padding: 3em 0 0 2em;
-        margin-top: 0;
-        font-size: 3.5em; }
-      .about-container .container-fluid .about-heroImg h2 {
-        padding: 0 0 0 3.5em;
-        margin-top: 0;
-        font-size: 2em; }
-      .about-container .container-fluid .about-heroImg .about-icons {
-        height: 65px;
-        margin-right: 1.8em;
-        margin-top: 4em; }
-        .about-container .container-fluid .about-heroImg .about-icons img {
-          width: 38px; }
-        .about-container .container-fluid .about-heroImg .about-icons i {
-          font-size: 2.2em;
-          padding: 0.5em; } }
+      .about-container .container-fluid .about-heroImg {
+        background-size: 100% 68%;
+        height: 68vh; }
+        .about-container .container-fluid .about-heroImg h1 {
+          padding: 3em 0 0 2em;
+          margin-top: 0;
+          font-size: 3.5em; }
+        .about-container .container-fluid .about-heroImg h2 {
+          padding: 0 0 0 3.5em;
+          margin-top: 0;
+          font-size: 2em; }
+        .about-container .container-fluid .about-heroImg .about-icons {
+          height: 65px;
+          margin-right: 1.8em;
+          margin-top: 4em; }
+          .about-container .container-fluid .about-heroImg .about-icons img {
+            width: 38px; }
+          .about-container .container-fluid .about-heroImg .about-icons i {
+            font-size: 2.2em;
+            padding: 0.5em; } }
     @media screen and (max-width: 1240px) and (min-width: 900px) {
-      .about-container .container-fluid .about-heroImg h1 {
-        padding: 3em 0 0 2em;
-        margin-top: 0;
-        font-size: 3.5em; }
-      .about-container .container-fluid .about-heroImg h2 {
-        padding: 0 0 0 3.5em;
-        margin-top: 0;
-        font-size: 2em; }
-      .about-container .container-fluid .about-heroImg .about-icons {
-        height: 95px;
-        margin-right: 1.8em;
-        margin-top: 9em; }
-        .about-container .container-fluid .about-heroImg .about-icons img {
-          width: 60px; }
-        .about-container .container-fluid .about-heroImg .about-icons i {
-          font-size: 3em;
-          padding: 0.6em; }
-      .about-container .container-fluid .about-heroImg .about-Img {
-        padding: 1.1em 1.2em; } }
+      .about-container .container-fluid .about-heroImg {
+        background-size: 100% 65%;
+        height: 65vh; }
+        .about-container .container-fluid .about-heroImg h1 {
+          padding: 3em 0 0 2em;
+          margin-top: 0;
+          font-size: 3.5em; }
+        .about-container .container-fluid .about-heroImg h2 {
+          padding: 0 0 0 3.5em;
+          margin-top: 0;
+          font-size: 2em; }
+        .about-container .container-fluid .about-heroImg .about-icons {
+          height: 95px;
+          margin-right: 1.8em;
+          margin-top: 9em; }
+          .about-container .container-fluid .about-heroImg .about-icons img {
+            width: 60px; }
+          .about-container .container-fluid .about-heroImg .about-icons i {
+            font-size: 3em;
+            padding: 0.6em; }
+        .about-container .container-fluid .about-heroImg .about-Img {
+          padding: 1.1em 1.2em; } }
   .about-container .about-mdesignRow {
     margin-top: 5em;
     display: flex; }
@@ -1531,5 +1542,131 @@ body {
 @media screen and (max-width: 1200px) and (min-width: 900px) {
   .photoFrame-container .photoFrame-box iframe {
     margin-top: 4em; } }
+
+/**********************************************/
+/**********************************************/
+/***********************************************/
+/*   CSS for learningsbyBG Page Starts here    */
+/*              By Kiran Joshi                 */
+/*              use prefix bg-*                */
+/***********************************************/
+.bg-container .bg-box {
+  background-color: black;
+  height: 85vh;
+  display: flex;
+  align-items: center; }
+  .bg-container .bg-box .bg-outerArea {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    align-items: center; }
+    .bg-container .bg-box .bg-outerArea .bg-text h2 {
+      font-size: 55px;
+      text-align: center;
+      color: white; }
+    .bg-container .bg-box .bg-outerArea .bg-text h1 {
+      font-size: 70px;
+      text-align: center;
+      color: white; }
+    .bg-container .bg-box .bg-outerArea .bg-image img {
+      width: 85%; }
+.bg-container .bg-cards {
+  padding: 6em 2em; }
+  .bg-container .bg-cards .bg-cardsOuterArea {
+    margin: 0;
+    margin-top: 6em; }
+    .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText h1 {
+      font-size: 60px;
+      text-align: center;
+      color: #aeaeae; }
+    .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText {
+      background-color: white;
+      padding: 1em 3em; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h1 {
+        color: #1b5f5e;
+        font-size: 26px; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h3 {
+        font-size: 16px;
+        color: #434343;
+        text-align: justify;
+        padding-bottom: 2em; }
+.bg-container .bg-videos .bg-videoFrame {
+  margin: 6em 0; }
+  .bg-container .bg-videos .bg-videoFrame .bg-leftSide iframe {
+    width: 100%;
+    height: 60vh;
+    border: none; }
+  .bg-container .bg-videos .bg-videoFrame .bg-rightSide h3 {
+    color: #1b5f5e;
+    font-size: 30px; }
+  .bg-container .bg-videos .bg-videoFrame .bg-rightSide p {
+    color: #434343;
+    font-size: 20px;
+    margin: 4em 0; }
+@media screen and (max-width: 550px) and (min-width: 320px) {
+  .bg-container .bg-box {
+    height: 40vh; }
+    .bg-container .bg-box .bg-outerArea .bg-text h2 {
+      font-size: 12px; }
+    .bg-container .bg-box .bg-outerArea .bg-text h1 {
+      font-size: 15px; }
+    .bg-container .bg-box .bg-outerArea .bg-image img {
+      width: 80%; }
+  .bg-container .bg-cards {
+    padding: 1.5em 0; }
+    .bg-container .bg-cards .bg-cardsOuterArea {
+      margin: 0;
+      margin-top: 4em; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText h1 {
+        font-size: 30px; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText {
+        padding: 1em 1em; }
+        .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h1 {
+          font-size: 12px; }
+        .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h3 {
+          font-size: 8px;
+          padding-bottom: 0.5em; } }
+@media screen and (max-width: 899px) and (min-width: 551px) {
+  .bg-container .bg-box .bg-outerArea .bg-text h2 {
+    font-size: 35px; }
+  .bg-container .bg-box .bg-outerArea .bg-text h1 {
+    font-size: 45px; }
+  .bg-container .bg-box .bg-outerArea .bg-image img {
+    width: 90%; }
+  .bg-container .bg-cards {
+    padding: 3em 1.5em; }
+    .bg-container .bg-cards .bg-cardsOuterArea {
+      margin: 0;
+      margin-top: 4em; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText h1 {
+        font-size: 40px; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText {
+        padding: 1em 3em; }
+        .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h1 {
+          font-size: 16px; }
+        .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h3 {
+          font-size: 10px;
+          padding-bottom: 2em; } }
+@media screen and (max-width: 1200px) and (min-width: 900px) {
+  .bg-container .bg-box {
+    height: 75vh; }
+    .bg-container .bg-box .bg-outerArea .bg-text h2 {
+      font-size: 45px; }
+    .bg-container .bg-box .bg-outerArea .bg-text h1 {
+      font-size: 60px; }
+    .bg-container .bg-box .bg-outerArea .bg-image img {
+      width: 95%; }
+  .bg-container .bg-cards .bg-cardsOuterArea {
+    margin: 0;
+    margin-top: 6em; }
+    .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText h1 {
+      font-size: 60px; }
+    .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText {
+      padding: 1em 3em; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h1 {
+        font-size: 22px; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText h3 {
+        font-size: 12px;
+        padding-bottom: 2.5em; } }
 
 /*# sourceMappingURL=customStyle.css.map */

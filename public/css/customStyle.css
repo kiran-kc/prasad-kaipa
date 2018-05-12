@@ -28,20 +28,20 @@ body {
         background-color: white; }
         .hp-container .hp-showcase .hp-flexCard .hp-card a {
           text-decoration: none; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card img {
-          width: 100%;
-          height: 242px; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card h2 {
-          color: black; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card h3 {
-          padding-right: 0.5em;
-          padding-left: 0.5em;
-          color: #434343;
-          font-size: 1.5em; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card p {
-          padding: 1em 2em;
-          color: #0000EE;
-          margin-top: 3em; }
+          .hp-container .hp-showcase .hp-flexCard .hp-card a img {
+            width: 100%;
+            height: 215px; }
+          .hp-container .hp-showcase .hp-flexCard .hp-card a h2 {
+            color: black; }
+          .hp-container .hp-showcase .hp-flexCard .hp-card a h3 {
+            padding-right: 0.5em;
+            padding-left: 0.5em;
+            color: #434343;
+            font-size: 1.3em; }
+          .hp-container .hp-showcase .hp-flexCard .hp-card a p {
+            padding: 1em 2em;
+            color: #0000EE;
+            margin-top: 3em; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .hp-container .hp-showcase {
         padding-top: 4em;
@@ -50,31 +50,31 @@ body {
           display: block; }
           .hp-container .hp-showcase .hp-flexCard .hp-card {
             margin-bottom: 3em; }
-            .hp-container .hp-showcase .hp-flexCard .hp-card img {
+            .hp-container .hp-showcase .hp-flexCard .hp-card a img {
               height: 100%; }
-            .hp-container .hp-showcase .hp-flexCard .hp-card h2 {
+            .hp-container .hp-showcase .hp-flexCard .hp-card a h2 {
               margin-top: 10px;
               font-size: 1.6em; }
-            .hp-container .hp-showcase .hp-flexCard .hp-card h3 {
+            .hp-container .hp-showcase .hp-flexCard .hp-card a h3 {
               font-size: 1.2em; }
-            .hp-container .hp-showcase .hp-flexCard .hp-card p {
+            .hp-container .hp-showcase .hp-flexCard .hp-card a p {
               font-size: 1em;
               margin-top: 0; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .hp-container .hp-showcase {
         padding-top: 5em; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card img {
-          height: 150px; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card h3 {
+        .hp-container .hp-showcase .hp-flexCard .hp-card a img {
+          height: 130px; }
+        .hp-container .hp-showcase .hp-flexCard .hp-card a h3 {
           font-size: 1em; }
-        .hp-container .hp-showcase .hp-flexCard .hp-card p {
+        .hp-container .hp-showcase .hp-flexCard .hp-card a p {
           margin-top: 1em; } }
     @media screen and (max-width: 1200px) and (min-width: 900px) {
-      .hp-container .hp-showcase .hp-flexCard .hp-card img {
+      .hp-container .hp-showcase .hp-flexCard .hp-card a img {
         height: 190px; }
-      .hp-container .hp-showcase .hp-flexCard .hp-card h3 {
+      .hp-container .hp-showcase .hp-flexCard .hp-card a h3 {
         font-size: 1.4em; }
-      .hp-container .hp-showcase .hp-flexCard .hp-card p {
+      .hp-container .hp-showcase .hp-flexCard .hp-card a p {
         margin-top: 2em; } }
   .hp-container .hp-socialIcon {
     margin-top: 5em; }
@@ -157,8 +157,8 @@ body {
 .about-container {
   background-color: #F3F3F3; }
   .about-container .container-fluid .about-heroImg {
-    background-image: url("/images/aboutPage/Heroimage_About.png");
-    min-height: 680px;
+    background-image: url("../images/aboutPage/Heroimage_About.webp");
+    height: 680px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -179,16 +179,16 @@ body {
       display: flex;
       justify-content: space-between;
       margin-top: 16em;
-      height: 118px;
+      height: 105px;
       border: 2px solid white;
       border-radius: 100%;
       justify-content: space-around;
       margin-right: 1em; }
       .about-container .container-fluid .about-heroImg .about-icons img {
-        width: 80px; }
+        width: 70px; }
       .about-container .container-fluid .about-heroImg .about-icons i {
         color: white;
-        padding: 0.5em; }
+        padding: 0.4em; }
       .about-container .container-fluid .about-heroImg .about-icons:active, .about-container .container-fluid .about-heroImg .about-icons:visited, .about-container .container-fluid .about-heroImg .about-icons:hover {
         background-color: #1B5F5E;
         border: 2px solid white; }
@@ -197,103 +197,91 @@ body {
     .about-container .container-fluid .about-heroImg .about-Img {
       padding: 1em 1.5em; }
     @media screen and (max-width: 359px) and (min-width: 320px) {
-      .about-container .container-fluid .about-heroImg {
-        min-height: 210px;
-        background-size: 100% 35%; }
-        .about-container .container-fluid .about-heroImg h1 {
-          padding: 2em 0 0 1em;
-          margin-top: 0;
-          font-size: 1.8em; }
-        .about-container .container-fluid .about-heroImg h2 {
-          padding: 0 0 0 1.5em;
-          margin-top: 0;
-          font-size: 1.1em; }
-        .about-container .container-fluid .about-heroImg .about-icons {
-          height: 40px;
-          margin-right: 1em;
-          margin-top: 3em; }
-          .about-container .container-fluid .about-heroImg .about-icons img {
-            width: 20px;
-            height: 20px;
-            margin-top: -0.2em; }
-          .about-container .container-fluid .about-heroImg .about-icons i {
-            font-size: 1.2em;
-            padding: 0.6em; }
-        .about-container .container-fluid .about-heroImg .about-Img {
-          padding: 0.8em 1em; } }
+      .about-container .container-fluid .about-heroImg h1 {
+        padding: 2em 0 0 1em;
+        margin-top: 0;
+        font-size: 1.8em; }
+      .about-container .container-fluid .about-heroImg h2 {
+        padding: 0 0 0 1.5em;
+        margin-top: 0;
+        font-size: 1.1em; }
+      .about-container .container-fluid .about-heroImg .about-icons {
+        height: 40px;
+        margin-right: 1em;
+        margin-top: 3em; }
+        .about-container .container-fluid .about-heroImg .about-icons img {
+          width: 20px;
+          height: 20px;
+          margin-top: -0.2em; }
+        .about-container .container-fluid .about-heroImg .about-icons i {
+          font-size: 1.2em;
+          padding: 0.6em; }
+      .about-container .container-fluid .about-heroImg .about-Img {
+        padding: 0.8em 1em; } }
     @media screen and (max-width: 550px) and (min-width: 360px) {
-      .about-container .container-fluid .about-heroImg {
-        min-height: 250px;
-        background-size: 100% 40%; }
-        .about-container .container-fluid .about-heroImg h1 {
-          padding: 2em 0 0 1em;
-          margin-top: 0;
-          font-size: 2em; }
-        .about-container .container-fluid .about-heroImg h2 {
-          padding: 0 0 0 1.5em;
-          margin-top: 0;
-          font-size: 1.2em; }
-        .about-container .container-fluid .about-heroImg .about-icons {
-          height: 40px;
-          padding: auto 2em;
-          margin-right: 1em;
-          margin-top: 4em; }
-          .about-container .container-fluid .about-heroImg .about-icons img {
-            width: 20px;
-            height: 20px;
-            margin-top: -0.2em; }
-          .about-container .container-fluid .about-heroImg .about-icons i {
-            font-size: 1.2em;
-            padding: 0.6em; }
-        .about-container .container-fluid .about-heroImg .about-Img {
-          padding: 0.8em 1.1em; } }
+      .about-container .container-fluid .about-heroImg h1 {
+        padding: 2em 0 0 1em;
+        margin-top: 0;
+        font-size: 2em; }
+      .about-container .container-fluid .about-heroImg h2 {
+        padding: 0 0 0 1.5em;
+        margin-top: 0;
+        font-size: 1.2em; }
+      .about-container .container-fluid .about-heroImg .about-icons {
+        height: 40px;
+        padding: auto 2em;
+        margin-right: 1em;
+        margin-top: 4em; }
+        .about-container .container-fluid .about-heroImg .about-icons img {
+          width: 20px;
+          height: 20px;
+          margin-top: -0.2em; }
+        .about-container .container-fluid .about-heroImg .about-icons i {
+          font-size: 1.2em;
+          padding: 0.6em; }
+      .about-container .container-fluid .about-heroImg .about-Img {
+        padding: 0.8em 1.1em; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
-      .about-container .container-fluid .about-heroImg {
-        min-height: 430px;
-        background-size: 100% 70%; }
-        .about-container .container-fluid .about-heroImg h1 {
-          padding: 3em 0 0 2em;
-          margin-top: 0;
-          font-size: 3.5em; }
-        .about-container .container-fluid .about-heroImg h2 {
-          padding: 0 0 0 3.5em;
-          margin-top: 0;
-          font-size: 2em; }
-        .about-container .container-fluid .about-heroImg .about-icons {
-          height: 65px;
-          margin-right: 1.8em;
-          margin-top: 4em; }
-          .about-container .container-fluid .about-heroImg .about-icons img {
-            width: 38px; }
-          .about-container .container-fluid .about-heroImg .about-icons i {
-            font-size: 2.2em;
-            padding: 0.5em; } }
+      .about-container .container-fluid .about-heroImg h1 {
+        padding: 3em 0 0 2em;
+        margin-top: 0;
+        font-size: 3.5em; }
+      .about-container .container-fluid .about-heroImg h2 {
+        padding: 0 0 0 3.5em;
+        margin-top: 0;
+        font-size: 2em; }
+      .about-container .container-fluid .about-heroImg .about-icons {
+        height: 65px;
+        margin-right: 1.8em;
+        margin-top: 4em; }
+        .about-container .container-fluid .about-heroImg .about-icons img {
+          width: 38px; }
+        .about-container .container-fluid .about-heroImg .about-icons i {
+          font-size: 2.2em;
+          padding: 0.5em; } }
     @media screen and (max-width: 1240px) and (min-width: 900px) {
-      .about-container .container-fluid .about-heroImg {
-        min-height: 520px;
-        background-size: 100% 75%; }
-        .about-container .container-fluid .about-heroImg h1 {
-          padding: 3em 0 0 2em;
-          margin-top: 0;
-          font-size: 3.5em; }
-        .about-container .container-fluid .about-heroImg h2 {
-          padding: 0 0 0 3.5em;
-          margin-top: 0;
-          font-size: 2em; }
-        .about-container .container-fluid .about-heroImg .about-icons {
-          height: 95px;
-          margin-right: 1.8em;
-          margin-top: 9em; }
-          .about-container .container-fluid .about-heroImg .about-icons img {
-            width: 60px; }
-          .about-container .container-fluid .about-heroImg .about-icons i {
-            font-size: 3em;
-            padding: 0.6em; }
-        .about-container .container-fluid .about-heroImg .about-Img {
-          padding: 1.1em 1.2em; } }
+      .about-container .container-fluid .about-heroImg h1 {
+        padding: 3em 0 0 2em;
+        margin-top: 0;
+        font-size: 3.5em; }
+      .about-container .container-fluid .about-heroImg h2 {
+        padding: 0 0 0 3.5em;
+        margin-top: 0;
+        font-size: 2em; }
+      .about-container .container-fluid .about-heroImg .about-icons {
+        height: 95px;
+        margin-right: 1.8em;
+        margin-top: 9em; }
+        .about-container .container-fluid .about-heroImg .about-icons img {
+          width: 60px; }
+        .about-container .container-fluid .about-heroImg .about-icons i {
+          font-size: 3em;
+          padding: 0.6em; }
+      .about-container .container-fluid .about-heroImg .about-Img {
+        padding: 1.1em 1.2em; } }
   .about-container .about-mdesignRow {
-    display: flex;
-    margin-top: 6em; }
+    margin-top: 5em;
+    display: flex; }
     .about-container .about-mdesignRow .about-mdImageMobile {
       display: none; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
@@ -307,12 +295,13 @@ body {
     .about-container .about-mdesignRow .about-mdesign {
       justify-content: center; }
       .about-container .about-mdesignRow .about-mdesign h2 {
-        font-family: 'Lato', sans-serif; }
+        font-family: 'Lato', sans-serif;
+        margin-top: 0px; }
       .about-container .about-mdesignRow .about-mdesign h3 {
         font-family: 'Lato', sans-serif;
         margin-top: -0.2em; }
       .about-container .about-mdesignRow .about-mdesign p {
-        font-size: 16px;
+        font-size: 15px;
         text-align: justify; }
         @media screen and (max-width: 1240px) and (min-width: 900px) {
           .about-container .about-mdesignRow .about-mdesign p {
@@ -383,122 +372,122 @@ body {
             margin: 2.5em 0;
             width: 80%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/ILA.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/ILA.png");
             background-repeat: no-repeat;
             background-size: 130px 70px;
             vertical-align: middle;
             float: right; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img1:hover {
               width: 80%;
-              background-image: url("/images/aboutPage/Affiliations/Original/ILA.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/ILA.png");
               background-repeat: no-repeat;
               background-size: 130px 70px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img2 {
             margin: 3.5em 3em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c1.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c1.png");
             background-repeat: no-repeat;
             background-size: 160px 50px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img2:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/Intellect.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/Intellect.png");
               background-repeat: no-repeat;
               background-size: 160px 	50px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img3 {
             margin: 3em;
             width: 100%;
             height: 90px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/Arevo.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/Arevo.png");
             background-repeat: no-repeat;
             background-size: 170px 55px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img3:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/Arevo.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/Arevo.png");
               background-repeat: no-repeat;
               background-size: 170px 55px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img4 {
             margin: 3.5em 2em;
             width: 100%;
             height: 120px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c4.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c4.png");
             background-repeat: no-repeat;
             background-size: 180px 45px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img4:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/Transparent logo.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/Transparent logo.png");
               background-repeat: no-repeat;
               background-size: 180px 45px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img5 {
             margin: 1.8em 5em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c8.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c8.png");
             background-repeat: no-repeat;
             background-size: 80px 100px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img5:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/Marico.jpg");
+              background-image: url("../images/aboutPage/Affiliations/Original/Marico.jpg");
               background-repeat: no-repeat;
               background-size: 80px 100px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img6 {
             margin: 3em 1em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c3.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c3.png");
             background-repeat: no-repeat;
             background-size: 190px 75px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img6:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/SOL.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/SOL.png");
               background-repeat: no-repeat;
               background-size: 190px 75px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img7 {
             margin: 3em 2em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c6.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c6.png");
             background-repeat: no-repeat;
             background-size: 180px 60px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img7:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/Apporbit.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/Apporbit.png");
               background-repeat: no-repeat;
               background-size: 180px 60px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img8 {
             margin: 2em 4.2em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c5.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c5.png");
             background-repeat: no-repeat;
             background-size: 110px 110px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img8:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/northsouth.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/northsouth.png");
               background-repeat: no-repeat;
               background-size: 110px 110px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img9 {
             margin: 4em 2em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c2.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c2.png");
             background-repeat: no-repeat;
             background-size: 180px 50px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img9:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg");
+              background-image: url("../images/aboutPage/Affiliations/Original/samskrithabharathi.jpg");
               background-repeat: no-repeat;
               background-size: 180px 50px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img10 {
             margin: 1.5em 4em;
             width: 100%;
             height: 100px;
-            background-image: url("/images/aboutPage/Affiliations/Grey/c9.png");
+            background-image: url("../images/aboutPage/Affiliations/Grey/c9.png");
             background-repeat: no-repeat;
             background-size: 120px 120px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img10:hover {
               width: 100%;
-              background-image: url("/images/aboutPage/Affiliations/Original/Yoga Bharati.png");
+              background-image: url("../images/aboutPage/Affiliations/Original/Yoga Bharati.png");
               background-repeat: no-repeat;
               background-size: 120px 120px; }
           @media screen and (max-width: 550px) and (min-width: 320px) {
@@ -782,19 +771,31 @@ body {
       padding-bottom: 4em;
       display: flex;
       justify-content: center; }
+      .writings-container .writings-header .writings-box .writings-mdesign span {
+        cursor: pointer; }
+        .writings-container .writings-header .writings-box .writings-mdesign span .writing-book {
+          margin-left: 0; }
+          .writings-container .writings-header .writings-box .writings-mdesign span .writing-book img {
+            width: 100%; }
       .writings-container .writings-header .writings-box .writings-mdesign .writing-book {
         margin-left: 0; }
         .writings-container .writings-header .writings-box .writings-mdesign .writing-book img {
-          width: 100%; }
+          width: 100%;
+          cursor: pointer; }
       .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile {
         display: none; }
-      .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
-        font-size: 2.4em; }
-      .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
-        color: grey; }
-      .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
-        line-height: 1.4em;
-        font-size: 1.6em; }
+      .writings-container .writings-header .writings-box .writings-mdesign .writings-content {
+        padding-left: 0; }
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
+          font-size: 2.4em; }
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
+          color: grey; }
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
+          line-height: 1.4em;
+          font-size: 1.2em; }
+        .writings-container .writings-header .writings-box .writings-mdesign .writings-content p {
+          font-size: 15px;
+          color: blue; }
       @media screen and (max-width: 550px) and (min-width: 320px) {
         .writings-container .writings-header .writings-box .writings-mdesign {
           display: block;
@@ -805,14 +806,18 @@ body {
             display: block; }
             .writings-container .writings-header .writings-box .writings-mdesign .writings-bookMobile img {
               align: center; }
-          .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
-            font-size: 1.6em; }
-          .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
-            font-size: 14px; }
-          .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
-            line-height: 1.2em;
-            padding-right: 0em;
-            font-size: 1.15em; } }
+          .writings-container .writings-header .writings-box .writings-mdesign .writings-content {
+            padding: 1em;
+            text-align: justify; }
+            .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
+              text-align: left;
+              font-size: 1.4em; }
+            .writings-container .writings-header .writings-box .writings-mdesign .writings-content h4 {
+              font-size: 12px; }
+            .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
+              line-height: 1.2em;
+              padding-right: 0em;
+              font-size: 1.15em; } }
       @media screen and (max-width: 899px) and (min-width: 551px) {
         .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
           font-size: 1.5em; }
@@ -824,10 +829,10 @@ body {
           font-size: 1.2em; } }
       @media screen and (max-width: 1240px) and (min-width: 900px) {
         .writings-container .writings-header .writings-box .writings-mdesign .writings-content h2 {
-          font-size: 2.2em; }
+          font-size: 2em; }
         .writings-container .writings-header .writings-box .writings-mdesign .writings-content h3 {
           line-height: 1.2em;
-          font-size: 1.8em; } }
+          font-size: 1.4em; } }
     .writings-container .writings-header .writings-box .writings-publishedArticle {
       margin: 0;
       padding-bottom: 2em; }
@@ -1011,28 +1016,30 @@ body {
       height: 40px; } }
 
 .videos-container {
-  margin-bottom: 2em; }
+  margin-bottom: 2em;
+  flex-wrap: wrap; }
   .videos-container .videos-gridLayout {
     margin-top: 5em;
     padding: 0px;
     margin-right: 1em;
     background-color: #EDEFF1;
-    box-shadow: 2px 2px 7px #444; }
+    box-shadow: 2px 2px 7px #444;
+    height: 640px; }
     .videos-container .videos-gridLayout iframe {
       border: none;
       padding-bottom: 1em; }
     .videos-container .videos-gridLayout .frame-type1 {
       width: 100%;
-      height: 706px; }
+      height: 550px; }
     .videos-container .videos-gridLayout .frame-type2 {
       width: 100%;
-      height: 400px; }
+      height: 550px; }
     .videos-container .videos-gridLayout .frame-type3 {
       width: 100%;
-      height: 380px; }
+      height: 550px; }
     .videos-container .videos-gridLayout .frame-type4 {
       width: 100%;
-      height: 380px; }
+      height: 550px; }
     .videos-container .videos-gridLayout .videos-title {
       background-color: #EDEFF1; }
       .videos-container .videos-gridLayout .videos-title h3 {
@@ -1047,7 +1054,8 @@ body {
           text-decoration: underline; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .videos-container .videos-gridLayout {
-        margin: 1em; }
+        margin: 1em;
+        height: 420px; }
         .videos-container .videos-gridLayout .frame-type1 {
           width: 100%;
           height: 350px; }
@@ -1069,6 +1077,21 @@ body {
     margin-top: 8em; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
       .videos-container .frame-top {
+        margin-top: 5em; } }
+
+.webvisible {
+  display: block; }
+  @media screen and (max-width: 550px) and (min-width: 320px) {
+    .webvisible {
+      display: none; } }
+
+.mobilevisible {
+  display: none; }
+  @media screen and (max-width: 550px) and (min-width: 320px) {
+    .mobilevisible {
+      display: block;
+      margin: -1.2em 1em 1em -1em; }
+      .mobilevisible .videos-gridLayout {
         margin-top: 5em; } }
 
 /**********************************************/
@@ -1233,10 +1256,10 @@ body {
 /***********************************************/
 .git-container .git-heroImg {
   margin-top: 5em;
-  background-image: url("/images/getInTouch/Hero.png");
+  background-image: url("../images/getInTouch/Hero.webp");
   background-repeat: no-repeat; }
   .git-container .git-heroImg .git-gradientImg {
-    background-image: url("/images/getInTouch/Editedgradient.png");
+    background-image: url("../images/getInTouch/Editedgradient.webp");
     background-size: cover;
     background-repeat: no-repeat; }
     .git-container .git-heroImg .git-gradientImg .git-heroHeading {
@@ -1251,7 +1274,9 @@ body {
       margin-top: 18%; }
     .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
       color: white;
-      padding-top: 1.5em; }
+      padding-top: 1.5em;
+      padding-left: 3em;
+      float: left; }
   @media screen and (max-width: 359px) and (min-width: 320px) {
     .git-container .git-heroImg {
       margin-top: 2.8em;
@@ -1268,7 +1293,9 @@ body {
           margin-top: 50%; }
         .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
           font-size: 9px;
-          padding-top: 0.4em; } }
+          padding-top: 0.1em;
+          padding-left: 1em;
+          margin-top: 12px; } }
   @media screen and (max-width: 550px) and (min-width: 360px) {
     .git-container .git-heroImg {
       margin-top: 2.8em;
@@ -1282,10 +1309,12 @@ body {
             margin-top: 38%;
             font-size: 20px; }
         .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
-          margin-top: 38%; }
+          margin-top: 42%; }
         .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
-          font-size: 12px;
-          padding-top: 0.8em; } }
+          font-size: 11px;
+          padding-top: 0.4em;
+          padding-left: 1em;
+          margin-top: 15px; } }
   @media screen and (max-width: 899px) and (min-width: 551px) {
     .git-container .git-heroImg {
       margin-top: 2.8em;
@@ -1301,7 +1330,7 @@ body {
         .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
           margin-top: 34%; }
         .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
-          font-size: 24px;
+          font-size: 20px;
           padding-top: 0.8em; } }
   @media screen and (max-width: 1240px) and (min-width: 900px) {
     .git-container .git-heroImg {
@@ -1316,10 +1345,11 @@ body {
             margin-top: 38%;
             font-size: 45px; }
         .git-container .git-heroImg .git-gradientImg .git-heroContent .topH2 {
-          margin-top: 34%; }
+          margin-top: 30%; }
         .git-container .git-heroImg .git-gradientImg .git-heroContent h2 {
           font-size: 26px;
-          padding-top: 1em; } }
+          padding-top: 1em;
+          padding-left: 4em; } }
 .git-container .git-content {
   background-color: #f5f5f5; }
   .git-container .git-content .git-headline h2 {
@@ -1349,18 +1379,18 @@ body {
         margin-top: 6em;
         text-align: left; }
     .git-container .git-content .git-cards .number1 {
-      background-image: url("/images/getInTouch/Number1.png");
+      background-image: url("../images/getInTouch/Number1.png");
       background-repeat: no-repeat;
       border: 1px solid transparent;
       width: 100%; }
     .git-container .git-content .git-cards .number2 {
-      background-image: url("/images/getInTouch/Number2.png");
+      background-image: url("../images/getInTouch/Number2.png");
       background-repeat: no-repeat;
       border: 1px solid transparent; }
       .git-container .git-content .git-cards .number2 h4 {
         margin-top: 7em; }
     .git-container .git-content .git-cards .number3 {
-      background-image: url("/images/getInTouch/Number3.png");
+      background-image: url("../images/getInTouch/Number3.png");
       background-repeat: no-repeat;
       border: 1px solid transparent; }
     @media screen and (max-width: 550px) and (min-width: 320px) {
@@ -1410,21 +1440,21 @@ body {
           background-size: 80% 100%; } }
     @media screen and (max-width: 899px) and (min-width: 551px) {
       .git-container .git-content .git-cards .cardArea {
-        height: 260px; }
+        height: 200px; }
         .git-container .git-content .git-cards .cardArea h3 {
-          font-size: 17px; }
+          font-size: 11px; }
         .git-container .git-content .git-cards .cardArea h4 {
-          font-size: 11px;
+          font-size: 9px;
           line-height: 1.3em;
           margin-top: 5em; }
       .git-container .git-content .git-cards .number1 {
-        background-size: 100% 55%; }
+        background-size: 100% 95%; }
       .git-container .git-content .git-cards .number2 {
-        background-size: 100% 72%; }
+        background-size: 100% 95%; }
         .git-container .git-content .git-cards .number2 h4 {
           margin-top: 6em; }
       .git-container .git-content .git-cards .number3 {
-        background-size: 100% 72%; } }
+        background-size: 100% 95%; } }
     @media screen and (max-width: 1240px) and (min-width: 900px) {
       .git-container .git-content .git-cards .cardArea h3 {
         font-size: 17px; }

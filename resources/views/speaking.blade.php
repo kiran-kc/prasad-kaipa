@@ -2,9 +2,9 @@
 @section('content')
 <section>
 	<div class="container-fluid">
-		<div class="row videos-container pseudo-navbar">
 <!--================ video 1 Row 1 =============================-->
-			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-11 videos-gridLayout frame-top">
+		<div class="row videos-container pseudo-navbar webvisible">
+			<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 videos-gridLayout frame-top" align="left">
 				<iframe src="https://www.youtube.com/embed/18O4DiTTxyo" allowfullscreen class="frame-type1"></iframe>
  				<div class="videos-title">
  					<h3><strong>Masterclass on wise leadership in association with Univibe</strong></h3>
@@ -14,10 +14,21 @@
  				</div>
  			</div>
 		</div>
-		<br>
+		<div class="row videos-container mobilevisible">
+			<div class="col-xs-12 videos-gridLayout" align="left">
+				<iframe src="https://www.youtube.com/embed/18O4DiTTxyo" allowfullscreen class="frame-type1"></iframe>
+ 				<div class="videos-title">
+ 					<h3><strong>Masterclass on wise leadership in association with Univibe</strong></h3>
+ 					<h4>Dr. Kaipa talks about building wisdom in leadership. Access the full course 
+ 						<a href="https://www.univibeplus.com/video/understanding-todays-complex-environment-for-leadership/building-WISDOM-in-leadership" target="_blank">here</a>
+					</h4>	
+ 				</div>
+ 			</div>
+		</div>
+		
 <!--================ video 2 and 3 Row 2 =============================-->		
 		<div class="row videos-container">
-			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 videos-gridLayout">
+			<div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 videos-gridLayout" align="left">
 				<iframe src="https://www.youtube.com/embed/bnX4WaEwLC4" allowfullscreen class="frame-type2"></iframe>
 				<div class="videos-title">
 		 			<h3><strong>Alan Olsen's American Dreams</strong></h3>

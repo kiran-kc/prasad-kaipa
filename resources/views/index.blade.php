@@ -4,7 +4,7 @@
    <div class="container-fluid">
       <div class="row">
          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hp-heroImg">
-            <img src='/images/homePage/Heroimage.png'>
+            <img src='/images/homePage/Heroimage.webp'>
          </div>
       </div>
       <div class="row hp-showcase">
@@ -67,7 +67,7 @@
             <div class="row">
                <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-5 col-sm-offset-1 col-xs-11 col-xs-offset-1 hp-para">
                   <h3>Join our robust community to receive our newsletter and stay informed about latest news and events.</h3>
-                  <h3>There is a great start to your journey of inner growth.</h3>
+                  <h3>This is a great start to your journey of inner growth.</h3>
                </div>
                <div class="col-lg-4 col-lg-offset-1 col-md-4 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-10 col-xs-offset-1 form-group hp-inputs">
                   <input type="text" name="userName" class="form-control" placeholder="Name">

@@ -53,12 +53,37 @@ class WelcomeController extends Controller {
 
 
 	public function submitContactForm(){
-		$userName = $_POST['userName'];
-		$emailId = $_POST['userEmail'];
-// Input::get
-		$subjectTo = 'Newsletter subscription';
-		$adminEmail = 'kiran@karmacircles.com';
+		 // Iterate form fields --------------------------------------------------
+	  $userName = $_POST["userName"];
+	  $userEmail = $_POST["userEmail"];
+	  $email = str_replace(":", "", $email);
+
+	  $lines = "You have received a newsletter signup from $userEmail<P>Be sure to add it to the list.<p>";
+
+	  $strTo = "kiran@karmacircles.com";
+	  $strSub = "Prasad Kaipa Newsletter Signup";
+	  $strMailbody = $lines;
+	  $strFrom = $userEmail;
+	  
+	  if (mail($strTo,$strSub,$strMailbody,"From:$strFrom\r\nReply-to: $strFrom\r\nContent-type: text/html; charset=us-ascii")){
+	    $response = "S";
+	  } else {
+	    $response = "F";
+	  }
 
 	}
 
+
+	// if ($response == "S") { 
+ //  		echo "<script>
+ //    			alert('We have added you to our newsletter signup.');
+ //  				window.location.href='index.html';
+	// 		</script>";
+ // 	else { 
+ //  		echo "<script>
+	// 			alert('failed');
+	// 		</script>";
+	// 	}
+
+	// }
 }

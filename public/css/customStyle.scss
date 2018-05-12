@@ -32,24 +32,24 @@ body{
 				background-color:white;
 				a{
 					text-decoration:none;
-				}
-				img{
-					width:100%;
-					height:242px;
-				}
-				h2{
-					color:black;
-				}
-				h3{
-					padding-right:0.5em;
-					padding-left:0.5em;
-					color:#434343;
-					font-size:1.5em;
-				}
-				p{
-					padding:1em 2em;
-					color:#0000EE;
-					margin-top:3em;
+					img{
+						width:100%;
+						height:215px;
+					}
+					h2{
+						color:black;
+					}
+					h3{
+						padding-right:0.5em;
+						padding-left:0.5em;
+						color:#434343;
+						font-size:1.3em;
+					}
+					p{
+						padding:1em 2em;
+						color:#0000EE;
+						margin-top:3em;
+					}
 				}	
 			}
   		}
@@ -60,19 +60,21 @@ body{
 				display:block;
 				.hp-card{
 					margin-bottom:3em;
-					img{
-						height:100%;
-					}
-					h2{
-						margin-top:10px;
-						font-size:1.6em;
-					}
-					h3{
-						font-size:1.2em;
-					}
-					p{
-						font-size:1em;
-						margin-top:0;
+					a{
+						img{
+							height:100%;
+						}
+						h2{
+							margin-top:10px;
+							font-size:1.6em;
+						}
+						h3{
+							font-size:1.2em;
+						}
+						p{
+							font-size:1em;
+							margin-top:0;
+						}
 					}
 				}
 			}	
@@ -80,15 +82,17 @@ body{
 		@media screen and (max-width:899px) and (min-width:551px){
 			padding-top:5em;
 			.hp-flexCard{
-				.hp-card{	
-					img{
-						height:150px;
-					}
-					h3{
-						font-size:1em;
-					}
-					p{
-						margin-top:1em;
+				.hp-card{
+					a{	
+						img{
+							height:130px;
+						}
+						h3{
+							font-size:1em;
+						}
+						p{
+							margin-top:1em;
+						}
 					}
 				}
 			}	
@@ -96,14 +100,16 @@ body{
 		@media screen and (max-width:1200px) and (min-width:900px){
 			.hp-flexCard{
 				.hp-card{
-					img{
-						height:190px;
-					}
-					h3{
-						font-size:1.4em;
-					}
-					p{
-						margin-top:2em;
+					a{
+						img{
+							height:190px;
+						}
+						h3{
+							font-size:1.4em;
+						}
+						p{
+							margin-top:2em;
+						}
 					}
 				}
 			}	
@@ -211,8 +217,8 @@ body{
 	background-color:#F3F3F3;
 	.container-fluid{
 		.about-heroImg{
-			background-image: url('/images/aboutPage/Heroimage_About.png');
-			min-height:680px;
+			background-image: url('../images/aboutPage/Heroimage_About.webp');
+			height:680px;
 			background-repeat:no-repeat;
 	        background-attachment: fixed;
 	        background-size: 100% 100%;
@@ -235,17 +241,17 @@ body{
 				display:flex;
 				justify-content:space-between;
 				margin-top:16em;
-				height:118px;
+				height:105px;
 				border:2px solid white;
 				border-radius:100%;
 				justify-content:space-around;
 				margin-right:1em;
 				img{
-					width:80px;
+					width:70px;
 				}
 				i{
 					color:white;
-					padding:0.5em;
+					padding:0.4em;
 				}
 				&:active,&:visited,&:hover{
 					background-color:#1B5F5E;
@@ -260,8 +266,8 @@ body{
 				padding:1em 1.5em;
 			}
 			@media screen and (max-width:359px) and (min-width:320px){
-			 	min-height:210px;
-			 	background-size: 100% 35%;
+			 	// min-height:210px;
+			 	// background-size: 100% 35%;
 				h1{
 					padding:2em 0 0 1em;
 					margin-top:0;
@@ -291,8 +297,8 @@ body{
 				}
 			}
 			@media screen and (max-width:550px) and (min-width:360px){
-			 	min-height:250px;
-			 	background-size: 100% 40%;
+			 	// min-height:250px;
+			 	// background-size: 100% 40%;
 				h1{
 					padding:2em 0 0 1em;
 					margin-top:0;
@@ -323,8 +329,8 @@ body{
 				}
 			}
 			@media screen and (max-width:899px) and (min-width:551px){
-			 	min-height:430px;
-				background-size: 100% 70%;
+			 	// min-height:430px;
+				// background-size: 100% 70%;
 				h1{
 					padding:3em 0 0 2em;
 					margin-top:0;
@@ -349,8 +355,8 @@ body{
 				}
 			}
 			@media screen and (max-width:1240px) and (min-width:900px){
-				min-height:520px;
-				background-size: 100% 75%;
+				// min-height:520px;
+				// background-size: 100% 75%;
 				h1{
 					padding:3em 0 0 2em;
 					margin-top:0;
@@ -380,8 +386,9 @@ body{
 		}
 	}
 	.about-mdesignRow{
+		margin-top:5em;
 		display: flex;
-		margin-top:6em;
+		// justify-content:center;	
 		.about-mdImageMobile{
 			display:none;	
 		}
@@ -399,13 +406,14 @@ body{
 			justify-content:center;
 			h2{
 				font-family: 'Lato', sans-serif;
+				margin-top:0px;
 			}
 			h3{
 				font-family: 'Lato', sans-serif;
 				margin-top:-0.2em;
 			}
 			p{
-				font-size:16px;
+				font-size:15px;
 				text-align:justify;
 				@media screen and (max-width:1240px) and (min-width:900px){
 					font-size:14px;
@@ -500,14 +508,14 @@ body{
 						margin:2.5em 0;
 						width:80%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/ILA.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/ILA.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 130px 70px;
 	         			vertical-align:middle;
 	         			float:right;
 						&:hover{
 							width:80%;
-							background-image:url('/images/aboutPage/Affiliations/Original/ILA.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/ILA.png');
 							background-repeat: no-repeat;
 							background-size: 130px 70px;
 						}
@@ -516,12 +524,12 @@ body{
 						margin:3.5em 3em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c1.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c1.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 160px 50px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/Intellect.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/Intellect.png');
 							background-repeat: no-repeat;
 							background-size: 160px 	50px;
 						}
@@ -530,12 +538,12 @@ body{
 						margin:3em;
 						width:100%;
 						height:90px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/Arevo.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/Arevo.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 170px 55px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/Arevo.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/Arevo.png');
 							background-repeat: no-repeat;
 							background-size: 170px 55px;
 						}
@@ -544,12 +552,12 @@ body{
 						margin:3.5em 2em;
 						width:100%;
 						height:120px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c4.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c4.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 180px 45px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/Transparent logo.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/Transparent logo.png');
 							background-repeat: no-repeat;
 							background-size: 180px 45px;
 						}
@@ -558,12 +566,12 @@ body{
 						margin:1.8em 5em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c8.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c8.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 80px 100px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/Marico.jpg');
+							background-image:url('../images/aboutPage/Affiliations/Original/Marico.jpg');
 							background-repeat: no-repeat;
 							background-size: 80px 100px;
 						}
@@ -572,12 +580,12 @@ body{
 						margin:3em 1em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c3.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c3.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 190px 75px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/SOL.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/SOL.png');
 							background-repeat: no-repeat;
 							background-size: 190px 75px;
 						}
@@ -586,12 +594,12 @@ body{
 						margin:3em 2em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c6.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c6.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 180px 60px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/Apporbit.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/Apporbit.png');
 							background-repeat: no-repeat;
 							background-size: 180px 60px;
 						}
@@ -600,12 +608,12 @@ body{
 						margin:2em 4.2em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c5.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c5.png');
 		         		background-repeat: no-repeat;
 		         		background-size: 110px 110px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/northsouth.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/northsouth.png');
 							background-repeat: no-repeat;
 							background-size: 110px 110px;
 						}
@@ -614,12 +622,12 @@ body{
 						margin:4em 2em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c2.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c2.png');
 		         		background-repeat: no-repeat;
 		         		background-size: 180px 50px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/samskrithabharathi.jpg');
+							background-image:url('../images/aboutPage/Affiliations/Original/samskrithabharathi.jpg');
 							background-repeat: no-repeat;
 							background-size: 180px 50px;
 						}
@@ -628,12 +636,12 @@ body{
 						margin:1.5em 4em;
 						width:100%;
 						height:100px;
-						background-image:url('/images/aboutPage/Affiliations/Grey/c9.png');
+						background-image:url('../images/aboutPage/Affiliations/Grey/c9.png');
 		         		background-repeat: no-repeat;
 		         		background-size: 120px 120px;
 						&:hover{
 							width:100%;
-							background-image:url('/images/aboutPage/Affiliations/Original/Yoga Bharati.png');
+							background-image:url('../images/aboutPage/Affiliations/Original/Yoga Bharati.png');
 							background-repeat: no-repeat;
 							background-size: 120px 120px;
 						}
@@ -1051,16 +1059,27 @@ body{
 				padding-bottom:4em;
 				display:flex;
 				justify-content:center;
+				span{
+					cursor:pointer;
+					.writing-book{
+						margin-left:0;
+						img{
+							width:100%;
+						}
+					}
+				}
 				.writing-book{
 					margin-left:0;
 					img{
 						width:100%;
+						cursor:pointer;
 					}
 				}
 				.writings-bookMobile{
 					display:none;
 				}
 				.writings-content{
+					padding-left:0;
 					h2{
 						font-size:2.4em;
 					}
@@ -1069,7 +1088,12 @@ body{
 					}
 					h3{
 						line-height:1.4em;
-						font-size:1.6em;
+						font-size:1.2em;
+						// text-align:justify;
+					}
+					p{
+						font-size:15px;
+						color:blue;
 					}	
 				}
 				@media screen and (max-width:550px) and (min-width:320px){
@@ -1087,12 +1111,15 @@ body{
 							align:center;
 						}
 					}
-					.writings-content{		
+					.writings-content{	
+						padding:1em;
+						text-align:justify;	
 						h2{
-							font-size:1.6em;
+							text-align:left;
+							font-size:1.4em;
 						}
 						h4{
-							font-size:14px;
+							font-size:12px;
 						}
 						h3{
 							line-height:1.2em;
@@ -1129,14 +1156,14 @@ body{
 					}
 					.writings-content{		
 						h2{
-							font-size:2.2em;
+							font-size:2em;
 						}
 						h4{
 						}
 						h3{
 							line-height:1.2em;
 							// padding-right:0.5em;
-							font-size:1.8em;	
+							font-size:1.4em;	
 						}
 					}
 				}
@@ -1414,31 +1441,33 @@ body{
 }
 .videos-container{
 	margin-bottom:2em;
+	flex-wrap:wrap;
 	.videos-gridLayout{
 		margin-top:5em;
 		padding:0px;
 		margin-right:1em;
 		background-color:#EDEFF1;
 		box-shadow:2px 2px 7px #444;
+		height:640px;
 		iframe{
 			border:none;
 			padding-bottom:1em;
 		}
 		.frame-type1{
 			width:100%;
-			height:706px;
+			height:550px;
 		}
 		.frame-type2{
 			width:100%;
-			height:400px;
+			height:550px;
 		}
 		.frame-type3{
 			width:100%;
-			height:380px;
+			height:550px;
 		}
 		.frame-type4{
 			width:100%;
-			height:380px;
+			height:550px;
 		}
 		.videos-title{
 			background-color:#EDEFF1;
@@ -1458,6 +1487,8 @@ body{
 		}
 		@media screen and (max-width:550px) and (min-width:320px){
 			margin:1em;
+			height:420px;
+			// display:inline;
 			.frame-type1{
 				width:100%;
 				height:350px;
@@ -1488,6 +1519,22 @@ body{
 	.frame-top{
 		margin-top:8em;
 		@media screen and (max-width:550px) and (min-width:320px){
+			margin-top:5em;
+		}
+	}
+}
+.webvisible{
+	display:block;
+	@media screen and (max-width:550px) and (min-width:320px){
+		display:none;
+	}	
+}
+.mobilevisible{
+	display:none;
+	@media screen and (max-width:550px) and (min-width:320px){
+		display:block;
+		margin:-1.2em 1em 1em -1em;
+		.videos-gridLayout{
 			margin-top:5em;
 		}
 	}
@@ -1718,10 +1765,10 @@ body{
 .git-container{
 	.git-heroImg{
 		margin-top:5em;
-		background-image: url("/images/getInTouch/Hero.png");
+		background-image: url("../images/getInTouch/Hero.webp");
 	    background-repeat:no-repeat;
 	    .git-gradientImg{
-	    	background-image: url('/images/getInTouch/Editedgradient.png');
+	    	background-image: url('../images/getInTouch/Editedgradient.webp');
 	    	background-size:cover;
 	    	background-repeat:no-repeat;
 	    	.git-heroHeading{
@@ -1741,6 +1788,8 @@ body{
 	    		h2{
 	    			color:white;
 	    			padding-top:1.5em;
+	    			padding-left:3em;
+	    			float:left;
 	    		}
 	    	}
 	    }
@@ -1763,7 +1812,9 @@ body{
 		    		}
 		    		h2{
 		    			font-size:9px;
-		    			padding-top:0.4em;
+		    			padding-top:0.1em;
+		    			padding-left:1em;
+		    			margin-top:12px;
 		    		}
 		    	}
 		    }
@@ -1783,11 +1834,13 @@ body{
 		    	}
 		    	.git-heroContent{
 		    		.topH2{
-		    			margin-top:38%;
+		    			margin-top:42%;
 		    		}
 		    		h2{
-		    			font-size:12px;
-		    			padding-top:0.8em;
+		    			font-size:11px;
+		    			padding-top:0.4em;
+		    			padding-left:1em;
+		    			margin-top:15px;
 		    		}
 		    	}
 		    }
@@ -1810,7 +1863,7 @@ body{
 		    			margin-top:34%;
 		    		}
 		    		h2{
-		    			font-size:24px;
+		    			font-size:20px;
 		    			padding-top:0.8em;
 		    		}
 		    	}
@@ -1831,11 +1884,12 @@ body{
 		    	}
 		    	.git-heroContent{
 		    		.topH2{
-		    			margin-top:34%;
+		    			margin-top:30%;
 		    		}
 		    		h2{
 		    			font-size:26px;
 		    			padding-top:1em;
+		    			padding-left:4em;
 		    		}
 		    	}
 		    }
@@ -1881,13 +1935,13 @@ body{
 			}
 			
 			.number1{
-				background-image:url('/images/getInTouch/Number1.png');
+				background-image:url('../images/getInTouch/Number1.png');
 				background-repeat:no-repeat;
 				border:1px solid transparent;
 				width:100%;
 			}
 			.number2{
-				background-image:url('/images/getInTouch/Number2.png');
+				background-image:url('../images/getInTouch/Number2.png');
 				background-repeat:no-repeat;
 				border:1px solid transparent;
 				h4{
@@ -1895,7 +1949,7 @@ body{
 				}
 			}
 			.number3{
-				background-image:url('/images/getInTouch/Number3.png');
+				background-image:url('../images/getInTouch/Number3.png');
 				background-repeat:no-repeat;
 				border:1px solid transparent;
 			}
@@ -1960,27 +2014,27 @@ body{
 			}
 			@media screen and (max-width:899px) and (min-width:551px){	
 				.cardArea{
-					height:260px;
+					height:200px;
 					h3{
-						font-size:17px;
+						font-size:11px;
 					}
 					h4{
-						font-size:11px;
+						font-size:9px;
 						line-height:1.3em;
 						margin-top:5em;
 					}
 				}
 				.number1{
-					background-size:100% 55%;
+					background-size:100% 95%;
 				}
 				.number2{
-					background-size:100% 72%;
+					background-size:100% 95%;
 					h4{
 						margin-top:6em;
 					}
 				}
 				.number3{
-					background-size:100% 72%;
+					background-size:100% 95%;
 				}
 			}
 			@media screen and (max-width:1240px) and (min-width:900px){	

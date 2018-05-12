@@ -14,10 +14,10 @@
                 <li><a href="academia"><b>ACADEMIA</b></a></li>
                 <li><a href="getInTouch"><b>GET IN TOUCH</b></a></li>
             </ul>
-            <!-- <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-bars fa-2x toggle-button toggle"  onclick="navbarModal('connectModal')"></i></a>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a><i class="fa fa-bars fa-2x toggle-button toggle"  onclick="navbarModal('connectModal')"></i></a>
                 </li>
-            </ul> -->
+            </ul>
         </div>    
     </nav>
 </section>
@@ -33,7 +33,7 @@
                 </a>
             </div>    
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-bars fa-2x toggle-button toggle"  onclick="navbarModal('mobileNav')"></i></a>
+                <li><a><i class="fa fa-bars fa-2x toggle-button toggle"  onclick="navbarModal('mobileNav')"></i></a>
                 </li>
             </ul>
         </div>    
@@ -42,7 +42,7 @@
  
 
 <!-- Navigation bar screen for web-->
-<!-- <div id="connectModal" class="modal modalNavbar" align="center" style="display:none;">
+<div id="connectModal" class="modal modalNavbar" align="center" style="display:none;">
    <div class="modal-content modalNavbar-content">
       <button type="button" class="close" onclick="modelClose('connectModal')" data-dismiss="modal" aria-label="Close">
          <span aria-hidden="true">&times;</span>
@@ -61,13 +61,15 @@
       </div>
       <div align="center" class="nav-item">             
          <ul>
-            <li><b>Prasad's Photography</b></li>
-            <li><b>Learnings from Bhagavad Gita</b></li>
-            <li><b>Mithya Foundation</b></li>
+            <li><b><a>Prasad's Photography</a></b></li>
+            <li><b><a>Learnings from Bhagavad Gita</a></b></li>
+            <li><b><a href=" http://mithya.prasadkaipa.com/" target="_blank">Mithya Foundation</a></b></li>
+            <li><b><a href="http://selfcorp.prasadkaipa.com/" target="_blank">SelfCorp</a></b></li>
+            <li><b><a href="http://kaipagroup.com/publications/" target="_blank">Kaipa Group's Publication</a></b></li>
          </ul>              
       </div>                    
    </div>
-</div> -->
+</div>
 
 
 
@@ -97,11 +99,13 @@
                 <li><a href="getInTouch"><b>GET IN TOUCH</b></a></li>
             </ul>
             <hr style="border:none;border-bottom:1px solid #535353;width:80%;" align="center">
-            <!-- <ul class="nav navbar-nav">
-                <li><b>Prasad's Photography</b></li>
-                <li><b>Learnings from Bhagavad Gita</b></li>
-                <li><b>Mithya Foundation</b></li>
-            </ul> -->              
+            <ul class="nav navbar-nav">
+                <li><b><a>Prasad's Photography</a></b></li>
+                <li><b><a>Learnings from Bhagavad Gita</a></b></li>
+                <li><b><a href="http://mithya.prasadkaipa.com/" target="_blank">Mithya Foundation</a></b></li>
+                <li><b><a href="http://selfcorp.prasadkaipa.com/" target="_blank">SelfCorp</a></b></li>
+                <li><b><a href="http://kaipagroup.com/publications/" target="_blank">Kaipa Group's Publication</a></b></li>
+            </ul>              
         </div>                    
     </div>
 </div>

@@ -184,7 +184,7 @@ body{
 			}
        	}
        	.social-icons{
-       		margin-top:14em;
+       		margin-top:8em;
        		img{
        			width:80px;
        			margin:0 2em;
@@ -198,6 +198,10 @@ body{
        				color:white;
        				font-size:26px;
        				padding:0.4em 0;
+       				a{
+       					text-decoration:none;
+       					color:white;
+       				}
        			}
        		}
        	}

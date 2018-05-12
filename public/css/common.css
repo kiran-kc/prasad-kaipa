@@ -127,7 +127,7 @@ body {
         font-size: 2em;
         opacity: 2; } }
   .modalNavbar .modalNavbar-content .social-icons {
-    margin-top: 14em; }
+    margin-top: 8em; }
     .modalNavbar .modalNavbar-content .social-icons img {
       width: 80px;
       margin: 0 2em; }
@@ -138,6 +138,9 @@ body {
       color: white;
       font-size: 26px;
       padding: 0.4em 0; }
+      .modalNavbar .modalNavbar-content .nav-item ul li a {
+        text-decoration: none;
+        color: white; }
 
 /**********************************************/
 /**********************************************/

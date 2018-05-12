@@ -22,6 +22,10 @@ Route::get('speaking', 'WelcomeController@speaking');
 Route::get('academia', 'WelcomeController@academia');
 // getintouch tab
 Route::get('getInTouch', 'WelcomeController@getInTouch');
+// Photography tab
+Route::get('photography', 'WelcomeController@photography');
+// Learning From Bhagavad Geeta tab
+Route::get('learningsFromBhagavadGeeta', 'WelcomeController@learningsFromBhagavadGeeta');
 
 
 Route::post('submitContactForm', 'WelcomeController@submitContactForm');

@@ -1438,6 +1438,9 @@ body{
 	@media screen and (max-width:899px) and (min-width:551px){
 		height:40px;   
 	}
+	@media screen and (max-width:1200px) and (min-width:900px){
+		height:58px;   
+	}
 }
 .videos-container{
 	margin-bottom:2em;
@@ -2105,6 +2108,48 @@ body{
 						}
 					}
 				}
+			}
+		}
+	}
+}
+
+/**********************************************/
+/**********************************************/
+
+
+/***********************************************/
+/*    CSS for photography Page Starts here     */
+/*              By Kiran Joshi                 */
+/*         use prefix photoFrame-*             */
+/***********************************************/
+.photoFrame-container{
+	.photoFrame-box{
+		padding:0;
+		iframe{
+			width:100%;
+			height:100vh;
+			margin-top:5em;
+			border:none;
+		}
+	}
+	@media screen and (max-width:550px) and (min-width:320px){
+		.photoFrame-box{
+			iframe{
+			margin-top:3em;
+			}
+		}
+	}
+	@media screen and (max-width:899px) and (min-width:551px){
+		.photoFrame-box{
+			iframe{
+			margin-top:2.9em;
+			}
+		}
+	} 
+	@media screen and (max-width:1200px) and (min-width:900px){
+		.photoFrame-box{
+			iframe{
+			margin-top:4em;
 			}
 		}
 	}

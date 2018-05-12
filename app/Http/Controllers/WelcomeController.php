@@ -70,6 +70,7 @@ class WelcomeController extends Controller {
 	  } else {
 	    $response = "F";
 	  }
+	  return view('index');
 
 	}
 
@@ -86,4 +87,14 @@ class WelcomeController extends Controller {
 	// 	}
 
 	// }
+
+
+
+	public function photography(){
+		return view('photography');
+	}
+
+	public function learningsFromBhagavadGeeta(){
+		return view('learningsFromBhagavadGeeta');
+	}
 }

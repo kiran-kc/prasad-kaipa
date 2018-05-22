@@ -18,9 +18,9 @@
 		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
 	<!-- card 1 -->
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
-					<!-- <h1>1</h1> -->
-					<img src="/images/getInTouch/Number1.png" style="background-attachment:fixed;width:120px;">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText1">
+					<h1>1</h1>
+					<!-- <img src="/images/getInTouch/Number1.png" style="background-attachment:fixed;width:120px;"> -->
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
 					<h1>We have the body but are not the body. </h1>
@@ -31,9 +31,9 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 2 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
-					<!-- <h1>2</h1> -->
-					<img src="/images/getInTouch/Number2.png" style="background-attachment:fixed;width:100%;">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText2">
+					<h1>2</h1>
+					<!-- <img src="/images/getInTouch/Number2.png" style="background-attachment:fixed;width:100%;"> -->
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
 					<h1>Moods or Gunas are part of our nature or Prakriti.</h1>
@@ -43,7 +43,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 3 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText3">
 					<h1>3</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -54,7 +54,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 4 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText4">
 					<h1>4</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -65,7 +65,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 5 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText5">
 					<h1>5</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -76,7 +76,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 6 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText6">
 					<h1>6</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -87,7 +87,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 7 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText7">
 					<h1>7</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -98,7 +98,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 8 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText8">
 					<h1>8</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -109,7 +109,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 9 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText9">
 					<h1>9</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -120,7 +120,7 @@ This is Prasad’s most rewarding lesson.
 			</div>
 	<!-- card 10 -->		
 			<div class="row bg-cardsOuterArea">
-				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText">
+				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText10">
 					<h1>10</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
@@ -141,7 +141,7 @@ This is Prasad’s most rewarding lesson.
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 bg-rightSide">
 					<h3>International Gita Conference 17 Dr. Prasad Kaipa</h3>
-					<p>Prasad spreading the eternal message of Bhagavad Gita and providing practical tools which are needed more than ever today.</p>
+					<p>Prasad’s contribution to spreading the eternal message of Bhagavad Gita. In this video, he speaks about the applicability of Gita in one’s professional life.</p>
 				</div>
 			</div>
 			<div class="row bg-videoFrame">
@@ -150,22 +150,11 @@ This is Prasad’s most rewarding lesson.
 				</div>
 				<div class="col-lg-5 col-md-5 col-sm-5 col-xs-12 bg-rightSide">
 					<h3>"10 Lessons I've  Learned from the Gita", by Dr. Prasad Kaipa</h3>
-					<p>Prasad talks about the 10 lessons he has learned from the Geeta.</p>
+					<p>A discussion led by Prasad at Natural Medicine & Ayurveda Clinic in San Jose, CA. These lessons are pertinent at every stage and in every sphere of life - professional, personal or otherwise.</p>
 				</div>
 			</div>
 		</div>
 	</div>
 </section>
-
-<script type="text/javascript">
-	var sdegree = 0;
-
-$(window).scroll(function() {
-    
-    sdegree ++ ;
-    sdegree = sdegree + 2 ;
-    var srotate = "translateY(" + sdegree + "deg)";
-    $(".bg-leftText img").css({"-moz-transform" : srotate, "-webkit-transform" : srotate});
-});
-</script>
+<script src="/js/learnings.js"></script>
 @stop

@@ -161,7 +161,8 @@ body {
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: cover; }
+    background-size: cover;
+    transform: scale(1); }
     .about-container .container-fluid .about-heroImg h1 {
       font-family: 'Lato', sans-serif;
       color: white;
@@ -1546,7 +1547,7 @@ body {
 /**********************************************/
 /**********************************************/
 /***********************************************/
-/*   CSS for learningsbyBG Page Starts here    */
+/*  CSS for learningsfromBG Page Starts here   */
 /*              By Kiran Joshi                 */
 /*              use prefix bg-*                */
 /***********************************************/
@@ -1560,25 +1561,36 @@ body {
     width: 100%;
     display: flex;
     align-items: center; }
-    .bg-container .bg-box .bg-outerArea .bg-text h2 {
-      font-size: 55px;
-      text-align: center;
-      color: white; }
-    .bg-container .bg-box .bg-outerArea .bg-text h1 {
-      font-size: 70px;
-      text-align: center;
-      color: white; }
+    .bg-container .bg-box .bg-outerArea .bg-text {
+      margin-top: 1em;
+      padding-left: 6em; }
+      .bg-container .bg-box .bg-outerArea .bg-text h2 {
+        font-size: 55px;
+        text-align: left;
+        color: white; }
+      .bg-container .bg-box .bg-outerArea .bg-text h1 {
+        font-size: 70px;
+        text-align: left;
+        color: white; }
     .bg-container .bg-box .bg-outerArea .bg-image img {
-      width: 85%; }
+      width: 70%; }
 .bg-container .bg-cards {
   padding: 6em 2em; }
   .bg-container .bg-cards .bg-cardsOuterArea {
     margin: 0;
     margin-top: 6em; }
-    .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText h1 {
-      font-size: 60px;
-      text-align: center;
-      color: #aeaeae; }
+    .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText {
+      height: 200px; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText h1 {
+        margin-top: 4em;
+        position: absolute;
+        font-size: 60px;
+        text-align: center;
+        color: #aeaeae; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText img {
+        background-attachment: fixed; }
+      .bg-container .bg-cards .bg-cardsOuterArea .bg-leftText .bg-margin {
+        margin-top: 5em; }
     .bg-container .bg-cards .bg-cardsOuterArea .bg-rightText {
       background-color: white;
       padding: 1em 3em; }
@@ -1595,7 +1607,9 @@ body {
   .bg-container .bg-videos .bg-videoFrame .bg-leftSide iframe {
     width: 100%;
     height: 60vh;
-    border: none; }
+    border: none;
+    border-radius: 4px;
+    box-shadow: 4px 5px 10px slategrey; }
   .bg-container .bg-videos .bg-videoFrame .bg-rightSide h3 {
     color: #1b5f5e;
     font-size: 30px; }

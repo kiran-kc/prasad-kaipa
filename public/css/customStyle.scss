@@ -222,6 +222,7 @@ body{
 			background-repeat:no-repeat;
 	        background-attachment: fixed;
 	        background-size:cover;
+			transform: scale(1);
 			h1{
 				font-family: 'Lato', sans-serif;
 				color:white;
@@ -2158,7 +2159,7 @@ body{
 
 
 /***********************************************/
-/*   CSS for learningsbyBG Page Starts here    */
+/*  CSS for learningsfromBG Page Starts here   */
 /*              By Kiran Joshi                 */
 /*              use prefix bg-*                */
 /***********************************************/
@@ -2175,20 +2176,23 @@ body{
 			display:flex;
 			align-items:center;
 			.bg-text{
+				margin-top:1em;
+				padding-left:6em;
 				h2{
 					font-size:55px;
-					text-align:center;
+					text-align:left;
 					color:white;
 				}
 				h1{
 					font-size:70px;
-					text-align:center;
+					text-align:left;
 					color:white;
 				}
 			}
 			.bg-image{
 				img{
-					width:85%;
+					width:70%;
+
 				}
 			}
 		}
@@ -2199,10 +2203,19 @@ body{
 			margin:0;
 			margin-top:6em;
 			.bg-leftText{
+				height:200px;
 				h1{
+					margin-top:4em;
+					position:absolute;
 					font-size:60px;
 					text-align:center;
 					color:#aeaeae;
+				}
+				img{
+					background-attachment:fixed;
+				}
+				.bg-margin{
+					margin-top:5em;
 				}
 			}
 			.bg-rightText{
@@ -2229,6 +2242,8 @@ body{
 					width:100%;
 					height:60vh;
 					border:none;
+					border-radius:4px;
+					box-shadow:4px 5px 10px slategrey;
 				}
 			}
 			.bg-rightSide{
@@ -2307,27 +2322,27 @@ body{
 			}
 		}
 		.bg-cards{
-		padding:3em 1.5em;
-		.bg-cardsOuterArea{
-			margin:0;
-			margin-top:4em;
-			.bg-leftText{
-				h1{
-					font-size:40px;
+			padding:3em 1.5em;
+			.bg-cardsOuterArea{
+				margin:0;
+				margin-top:4em;
+				.bg-leftText{
+					h1{
+						font-size:40px;
+					}
 				}
-			}
-			.bg-rightText{
-				padding:1em 3em;
-				h1{
-					font-size:16px;
-				}
-				h3{
-					font-size:10px;
-					padding-bottom:2em;
+				.bg-rightText{
+					padding:1em 3em;
+					h1{
+						font-size:16px;
+					}
+					h3{
+						font-size:10px;
+						padding-bottom:2em;
+					}
 				}
 			}
 		}
-	}
 	}
 	@media screen and (max-width:1200px) and (min-width:900px){
 		.bg-box{

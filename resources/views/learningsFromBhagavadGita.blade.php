@@ -134,7 +134,7 @@ This is Prasad’s most rewarding lesson.
 </section>
 <section class="container-fluid bg-container">
 	<div class="row bg-videos">
-		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
+		<div class="col-lg-10 col-lg-offset-1 col-md-12 col-sm-12 col-xs-12">
 			<div class="row bg-videoFrame">
 				<div class="col-lg-7 col-md-7 col-sm-7 col-xs-12 bg-leftSide">
 					<iframe src="https://www.youtube.com/embed/LBmXr7f6hZI"></iframe>

@@ -216,175 +216,185 @@ body{
 .about-container{
 	background-color:#F3F3F3;
 	.container-fluid{
-		.about-heroImg{
-			background-image: url('../images/aboutPage/Heroimage_About.webp');
-			height:100vh;
-			background-repeat:no-repeat;
-	        background-attachment: fixed;
-	        background-size:cover;
-			transform: scale(1);
-			h1{
-				font-family: 'Lato', sans-serif;
-				color:white;
-				padding:3em 0 0 3em;
-				margin-top:0;
-				font-size:4em;
-			}
-			h2{
-				font-family: 'Lato', sans-serif;
-				color:white;
-				padding:0 0 0 4em;
-				margin-top:0;
-				font-size:3em;
-			}
-			.about-icons{
-				display:flex;
-				justify-content:space-between;
-				margin-top:16em;
-				height:105px;
-				border:2px solid white;
-				border-radius:100%;
-				justify-content:space-around;
-				margin-right:1em;
-				img{
-					width:70px;
-				}
-				i{
-					color:white;
-					padding:0.4em;
-				}
-				&:active,&:visited,&:hover{
-					background-color:#1B5F5E;
-					border:2px solid white;
-					i{
-						color:white;
-					}
-				}
-				
-			}
-			.about-Img{
-				padding:1em 1.5em;
-			}
-			@media screen and (max-width:359px) and (min-width:320px){
-				background-size:100% 35%;
-			 	height:35vh;
+		.about-row1{
+			height:auto;
+			display:flex;
+			align-items:flex-start;
+			justify-content:center;
+			.about-heroImg{
+				background-image: url('../images/aboutPage/Heroimage_About.webp');
+				background-repeat:no-repeat;
+		        background-attachment: fixed;
+		        background-size:100% auto;
+		        padding:8em 0 5em 5em;
 				h1{
-					padding:2em 0 0 1em;
-					margin-top:0;
-					font-size:1.8em;
+					align-items:center;
+					font-family: 'Lato', sans-serif;
+					color:white;
+					font-size:4em;
 				}
 				h2{
-					padding:0 0 0 1.5em;
-					margin-top:0;
-					font-size:1.1em;
+					font-family: 'Lato', sans-serif;
+					color:white;
+					font-size:3em;
 				}
 				.about-icons{
-					height:40px;
+					display:flex;
+					justify-content:space-between;
+					margin-top:14em;
+					height:100px;
+					width:100px;
+					border:2px solid white;
+					border-radius:50%;
+					justify-content:space-around;
 					margin-right:1em;
-					margin-top:3em;
 					img{
-						width:20px;
-						height:20px;
-						margin-top:-0.2em;
+						width:70px;
 					}
 					i{
-						font-size:1.2em;
-						padding:0.6em;
+						color:white;
+						padding:0.4em;
 					}
+					&:active,&:visited,&:hover{
+						background-color:#1B5F5E;
+						border:2px solid white;
+						i{
+							color:white;
+						}
+					}	
 				}
 				.about-Img{
-					padding:0.8em 1em;
+					padding:1em 1.5em;
+				}
+			}
+			@media screen and (max-width:359px) and (min-width:320px){
+				height:auto;
+				.about-heroImg{
+					background-size:contain;
+					padding:1.6em 0 1em 1em;
+					h1{
+						font-size:1.2em;
+						margin-bottom:4px;
+					}
+					h2{
+						font-size:0.8em;
+						margin-top:-0.5em;
+						padding-bottom:1.5em;
+					}
+					.about-icons{
+						height:35px;
+						width:35px;
+						margin-right:1em;
+						margin-top:1em;
+						align-items:center;
+
+						img{
+							width:15px;
+							height:15px;
+							margin-top:-0.2em;
+						}
+						i{
+							font-size:1em;
+							padding:0.4em;
+						}
+					}
+					.about-Img{
+						padding:0.8em 1em;
+					}
 				}
 			}
 			@media screen and (max-width:550px) and (min-width:360px){
-				background-size:100% 100%;
-			 	height:35vh;
-				h1{
-					padding:2em 0 0 1em;
-					margin-top:0;
-					font-size:2em;
-				}
-				h2{
-					padding:0 0 0 1.5em;
-					margin-top:0;
-					font-size:1.2em;
-				}
-				.about-icons{
-					height:40px;
-					padding: auto 2em; 
-					margin-right:1em;
-					margin-top:4em;
-					img{
-						width:20px;
-						height:20px;
-						margin-top:-0.2em;
+				height:auto;
+				.about-heroImg{
+					background-size:100% auto;
+					padding:1em 0 1em 2em;
+					h1{
+						font-size:1.4em;
 					}
-					i{
-						font-size:1.2em;
-						padding:0.6em;
+					h2{
+						margin-top:-0.5em;
+						font-size:1em;
+						padding-bottom:1.5em;
 					}
-				}
-				.about-Img{
-					padding:0.8em 1.1em;
-				}
-			}
-			@media screen and (max-width:899px) and (min-width:551px){
-				background-size:100% 68%;
-			 	height:68vh;
-				h1{
-					padding:3em 0 0 2em;
-					margin-top:0;
-					font-size:3.5em;
-				}
-				h2{
-					padding:0 0 0 3.5em;
-					margin-top:0;
-					font-size:2em;
-				}
-				.about-icons{
-					height:65px;
-					margin-right:1.8em;
-					margin-top:4em;
-					img{
-						width:38px;
+					.about-icons{
+						height:40px;
+						width:40px;
+						padding: auto 2em; 
+						margin-right:1em;
+						margin-top:2em;
+						img{
+							width:20px;
+							height:20px;
+							margin-top:-0.2em;
+						}
+						i{
+							font-size:1.2em;
+							padding:0.6em;
+						}
 					}
-					i{
-						font-size:2.2em;
-						padding:0.5em;
+					.about-Img{
+						padding:0.8em 1.1em;
 					}
-				}
-			}
-			@media screen and (max-width:1240px) and (min-width:900px){
-				background-size:100% 65%;
-				height:65vh;
-				h1{
-					padding:3em 0 0 2em;
-					margin-top:0;
-					font-size:3.5em;
-				}
-				h2{
-					padding:0 0 0 3.5em;
-					margin-top:0;
-					font-size:2em;
-				}
-				.about-icons{
-					height:95px;
-					margin-right:1.8em;
-					margin-top:9em;
-					img{
-						width:60px;
-					}
-					i{
-						font-size:3em;
-						padding:0.6em;
-					}
-				}
-				.about-Img{
-					padding:1.1em 1.2em;
 				}
 			}	
+			@media screen and (max-width:899px) and (min-width:551px){
+				height:auto;
+				.about-heroImg{
+					background-size:100% auto;
+					padding:6em 0 2em 4em;
+					h1{
+						font-size:3.5em;
+					}
+					h2{
+						font-size:2em;
+					}
+					.about-icons{
+						height:65px;
+						width:65px;
+						border-radius:50%;
+						margin-right:1.8em;
+						margin-top:4em;
+						img{
+							width:38px;
+						}
+						i{
+							font-size:2.2em;
+							padding:0.5em;
+						}
+					}
+				}
+			}	
+			@media screen and (max-width:1240px) and (min-width:900px){
+				height:auto;
+				.about-heroImg{
+					background-size:100% auto;
+					padding:8em 0 4em 6em;
+					h1{
+						font-size:3.5em;
+					}
+					h2{
+						font-size:2em;
+					}
+					.about-icons{
+						align-items:flex-end;
+						height:95px;
+						margin-right:1.8em;
+						margin-top:9em;
+						img{
+							width:60px;
+						}
+						i{
+							font-size:3em;
+							padding:0.6em;
+						}
+					}
+					.about-Img{
+						padding:1.1em 1.2em;
+					}
+				}
+			}		
 		}
-	}
+	}	
 	.about-mdesignRow{
 		margin-top:5em;
 		display: flex;
@@ -507,14 +517,14 @@ body{
 						margin:2.5em 0;
 						width:80%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/ILA.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/ILA.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 130px 70px;
 	         			vertical-align:middle;
 	         			float:right;
 						&:hover{
 							width:80%;
-							background-image:url('../images/aboutPage/Affiliations/Original/ILA.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/ILA.webp');
 							background-repeat: no-repeat;
 							background-size: 130px 70px;
 						}
@@ -523,12 +533,12 @@ body{
 						margin:3.5em 3em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c1.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c1.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 160px 50px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/Intellect.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/Intellect.webp');
 							background-repeat: no-repeat;
 							background-size: 160px 	50px;
 						}
@@ -537,12 +547,12 @@ body{
 						margin:3em;
 						width:100%;
 						height:90px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/Arevo.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/Arevo.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 170px 55px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/Arevo.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/Arevo.webp');
 							background-repeat: no-repeat;
 							background-size: 170px 55px;
 						}
@@ -551,12 +561,12 @@ body{
 						margin:3.5em 2em;
 						width:100%;
 						height:120px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c4.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c4.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 180px 45px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/Transparent logo.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/TransparentLogo.webp');
 							background-repeat: no-repeat;
 							background-size: 180px 45px;
 						}
@@ -565,12 +575,12 @@ body{
 						margin:1.8em 5em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c8.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c8.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 80px 100px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/Marico.jpg');
+							background-image:url('../images/aboutPage/Afilliations/Original/Marico.webp');
 							background-repeat: no-repeat;
 							background-size: 80px 100px;
 						}
@@ -579,12 +589,12 @@ body{
 						margin:3em 1em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c3.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c3.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 190px 75px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/SOL.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/SOL.webp');
 							background-repeat: no-repeat;
 							background-size: 190px 75px;
 						}
@@ -593,12 +603,12 @@ body{
 						margin:3em 2em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c6.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c6.webp');
 	         			background-repeat: no-repeat;
 	         			background-size: 180px 60px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/Apporbit.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/Apporbit.webp');
 							background-repeat: no-repeat;
 							background-size: 180px 60px;
 						}
@@ -607,12 +617,12 @@ body{
 						margin:2em 4.2em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c5.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c5.webp');
 		         		background-repeat: no-repeat;
 		         		background-size: 110px 110px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/northsouth.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/northsouth.webp');
 							background-repeat: no-repeat;
 							background-size: 110px 110px;
 						}
@@ -621,12 +631,12 @@ body{
 						margin:4em 2em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c2.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c2.webp');
 		         		background-repeat: no-repeat;
 		         		background-size: 180px 50px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/samskrithabharathi.jpg');
+							background-image:url('../images/aboutPage/Afilliations/Original/samskrithabharathi.webp');
 							background-repeat: no-repeat;
 							background-size: 180px 50px;
 						}
@@ -635,12 +645,12 @@ body{
 						margin:1.5em 4em;
 						width:100%;
 						height:100px;
-						background-image:url('../images/aboutPage/Affiliations/Grey/c9.png');
+						background-image:url('../images/aboutPage/Afilliations/Grey/c9.webp');
 		         		background-repeat: no-repeat;
 		         		background-size: 120px 120px;
 						&:hover{
 							width:100%;
-							background-image:url('../images/aboutPage/Affiliations/Original/Yoga Bharati.png');
+							background-image:url('../images/aboutPage/Afilliations/Original/YogaBharati.webp');
 							background-repeat: no-repeat;
 							background-size: 120px 120px;
 						}
@@ -1240,6 +1250,25 @@ body{
 									font-size:7px;
 								}
 							}
+							.writings-hoverEffect{
+								padding-top:0.6em;
+								height:84px;		
+								sup{
+									img{
+										width:25px;
+										padding-right:10px;
+									}
+								}
+								h4{
+									font-size:12px
+								}
+								sub{
+									img{ 
+										width:25px;
+										padding-right:10px;
+									}
+								}
+							}
 						}
 					}	
 				}
@@ -1262,6 +1291,25 @@ body{
 								}
 								h6{
 									font-size:10px;
+								}
+							}
+							.writings-hoverEffect{
+								padding-top:0.8em;
+								height:84px;		
+								sup{
+									img{
+										width:35px;
+										padding-right:10px;
+									}
+								}
+								h4{
+									font-size:16px
+								}
+								sub{
+									img{ 
+										width:35px;
+										padding-right:10px;
+									}
 								}
 							}
 						}
@@ -1357,6 +1405,15 @@ body{
 									font-size:9px;
 								}
 							}
+							.writings-rpHover{
+								display:none;
+								padding-top:0;		
+								background-color:#1B5F5E;
+								color:white;
+								h4{
+									font-size:12px;
+								}
+							}
 						}
 					}	
 				}
@@ -1374,6 +1431,12 @@ body{
 								}
 								h6{
 									font-size:10px;
+								}
+							}
+							.writings-rpHover{
+								color:white;
+								h4{
+									font-size:12px;
 								}
 							}
 						}
@@ -2164,7 +2227,7 @@ body{
 /*              use prefix bg-*                */
 /***********************************************/
 .bg-container{
-	// background-color:#f2f2f2;
+	background-color:#f2f2f2;
 	.bg-box{
 		background-color:black;
 		height:80vh;
@@ -2192,7 +2255,6 @@ body{
 			.bg-image{
 				img{
 					width:65%;
-
 				}
 			}
 		}

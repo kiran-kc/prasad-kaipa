@@ -2,12 +2,12 @@
 @section('content')
 <section class="about-container">
     <div class="container-fluid">
-      <div class="row">
-        <div class="about-heroImg">
+      <div class="row about-row1">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 about-heroImg">
           <h1>AN INSIGHT</h1> 
           <h2><i>Prasad's Life and Contributions</i></h2>
           <a href="#Purpose">
-            <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 col-sm-1 col-sm-offset-1 col-xs-1 col-xs-offset-1 about-icons about-Img">
+            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 about-icons about-Img">
               <img src="/images/aboutPage/Target_thin_white.png"> 
             </div>
           </a>

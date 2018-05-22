@@ -179,6 +179,11 @@ body {
       .modalNavbar2 .modalNavbar-content .nav-item ul li a {
         color: white;
         padding: 5px 10px; }
+      .modalNavbar2 .modalNavbar-content .nav-item ul li:hover, .modalNavbar2 .modalNavbar-content .nav-item ul li:focus {
+        background-color: transparent; }
+        .modalNavbar2 .modalNavbar-content .nav-item ul li:hover a, .modalNavbar2 .modalNavbar-content .nav-item ul li:focus a {
+          color: #adadad;
+          background-color: transparent; }
 
 /**********************************************/
 /**********************************************/

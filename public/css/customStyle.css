@@ -162,7 +162,7 @@ body {
     align-items: flex-start;
     justify-content: center; }
     .about-container .container-fluid .about-row1 .about-heroImg {
-      background-image: url("../images/aboutPage/Heroimage_About.webp");
+      background-image: url("../images/aboutPage/Heroimage_About.png");
       background-repeat: no-repeat;
       background-attachment: fixed;
       background-size: 100% auto;
@@ -389,122 +389,122 @@ body {
             margin: 2.5em 0;
             width: 80%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/ILA.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/ILA.png");
             background-repeat: no-repeat;
             background-size: 130px 70px;
             vertical-align: middle;
             float: right; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img1:hover {
+              background-image: url("../images/aboutPage/Afilliations/Original/ILA.png");
               width: 80%;
-              background-image: url("../images/aboutPage/Afilliations/Original/ILA.webp");
               background-repeat: no-repeat;
               background-size: 130px 70px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img2 {
             margin: 3.5em 3em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c1.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c1.png");
             background-repeat: no-repeat;
             background-size: 160px 50px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img2:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/Intellect.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/Intellect.png");
               background-repeat: no-repeat;
               background-size: 160px 	50px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img3 {
             margin: 3em;
             width: 100%;
             height: 90px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/Arevo.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/Arevo.png");
             background-repeat: no-repeat;
             background-size: 170px 55px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img3:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/Arevo.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/Arevo.png");
               background-repeat: no-repeat;
               background-size: 170px 55px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img4 {
             margin: 3.5em 2em;
             width: 100%;
             height: 120px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c4.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c4.png");
             background-repeat: no-repeat;
             background-size: 180px 45px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img4:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/TransparentLogo.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/TransparentLogo.png");
               background-repeat: no-repeat;
               background-size: 180px 45px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img5 {
             margin: 1.8em 5em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c8.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c8.png");
             background-repeat: no-repeat;
             background-size: 80px 100px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img5:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/Marico.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/Marico.jpg");
               background-repeat: no-repeat;
               background-size: 80px 100px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img6 {
             margin: 3em 1em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c3.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c3.png");
             background-repeat: no-repeat;
             background-size: 190px 75px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img6:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/SOL.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/SOL.png");
               background-repeat: no-repeat;
               background-size: 190px 75px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img7 {
             margin: 3em 2em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c6.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c6.png");
             background-repeat: no-repeat;
             background-size: 180px 60px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img7:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/Apporbit.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/Apporbit.png");
               background-repeat: no-repeat;
               background-size: 180px 60px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img8 {
             margin: 2em 4.2em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c5.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c5.png");
             background-repeat: no-repeat;
             background-size: 110px 110px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img8:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/northsouth.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/northsouth.png");
               background-repeat: no-repeat;
               background-size: 110px 110px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img9 {
             margin: 4em 2em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c2.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c2.png");
             background-repeat: no-repeat;
             background-size: 180px 50px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img9:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/samskrithabharathi.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/samskrithabharathi.jpg");
               background-repeat: no-repeat;
               background-size: 180px 50px; }
           .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img10 {
             margin: 1.5em 4em;
             width: 100%;
             height: 100px;
-            background-image: url("../images/aboutPage/Afilliations/Grey/c9.webp");
+            background-image: url("../images/aboutPage/Afilliations/Grey/c9.png");
             background-repeat: no-repeat;
             background-size: 120px 120px; }
             .about-container .about-affliations .about-logoBox .about-logos .about-logoCards .img10:hover {
               width: 100%;
-              background-image: url("../images/aboutPage/Afilliations/Original/YogaBharati.webp");
+              background-image: url("../images/aboutPage/Afilliations/Original/YogaBharati.png");
               background-repeat: no-repeat;
               background-size: 120px 120px; }
           @media screen and (max-width: 550px) and (min-width: 320px) {
@@ -1308,11 +1308,11 @@ body {
 /*              use prefix git-*               */
 /***********************************************/
 .git-container .git-heroImg {
+  background-image: url("../images/getInTouch/Hero.png");
   margin-top: 5em;
-  background-image: url("../images/getInTouch/Hero.webp");
   background-repeat: no-repeat; }
   .git-container .git-heroImg .git-gradientImg {
-    background-image: url("../images/getInTouch/Editedgradient.webp");
+    background-image: url("../images/getInTouch/Editedgradient.png");
     background-size: cover;
     background-repeat: no-repeat; }
     .git-container .git-heroImg .git-gradientImg .git-heroHeading {
@@ -1416,7 +1416,9 @@ body {
       font-size: 24px; } }
   .git-container .git-content .git-cards {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-around;
+    webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; }
     .git-container .git-content .git-cards .cardArea {
       padding: 0.6em 2.2em;
       height: 340px;

@@ -20,8 +20,6 @@
 			<div class="row bg-cardsOuterArea">
 				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText1">
 					<h1>1</h1>
-					<!-- <img src="/images/getInTouch/Number1.png" style="background-attachment:fixed;width:120px;"> -->
-				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
 					<h1>We have the body but are not the body. </h1>
 					<h3>We have different emotions, actions or moods, but we are not those emotions, actions or moods. We are more than our body, intellect and ambition. We have something that is eternal, and can operate from there. There is ‘divinity’ within us, in the form of Atman. One Atman in all bodies --- or we are all one!
@@ -33,7 +31,6 @@ This is Prasad’s most rewarding lesson.
 			<div class="row bg-cardsOuterArea">
 				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText2">
 					<h1>2</h1>
-					<!-- <img src="/images/getInTouch/Number2.png" style="background-attachment:fixed;width:100%;"> -->
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
 					<h1>Moods or Gunas are part of our nature or Prakriti.</h1>

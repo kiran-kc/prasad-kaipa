@@ -22,7 +22,7 @@
 			</div>
 		</div>	
 		<div class="row git-content">
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">			
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="left">			
 				<div class="row git-cards" style="margin:0 padding:0;" align="center">
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-8 cardArea">
 						<h3><b>SAGE ON THE STAGE</b></h3>

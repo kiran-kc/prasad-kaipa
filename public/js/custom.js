@@ -43,121 +43,121 @@ $("document").ready(function(){
 // About section
     if(navigator.userAgent.indexOf("Chrome") != -1 ){
         $('.about-heroImg').css({
-            'background-image': 'url("public/images/aboutPage/Heroimage_About.webp")'
+            'background-image': 'url("/images/aboutPage/Heroimage_About.webp")'
         });
         $('.git-heroImg').css({
-            'background-image': 'url("public/images/getInTouch/Hero.webp")'
+            'background-image': 'url("/images/getInTouch/Hero.webp")'
         });
 // GetInTouch section
         $('.git-gradientImg').css({
-            'background-image': 'url("public/images/getInTouch/Editedgradient.webp")'
+            'background-image': 'url("/images/getInTouch/Editedgradient.webp")'
         });
 // Affiliation section
 // image1
         $('.about-logoCards .img1').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/ILA.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/ILA.webp")'
         });
         $(".about-logoCards .img1").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/ILA.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/ILA.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/ILA.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/ILA.webp')");
         });
 // image2
         $('.about-logoCards .img2').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c1.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c1.webp")'
         });
         $(".about-logoCards .img2").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/Intellect.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/Intellect.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c1.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c1.webp')");
         });
 // image3
         $('.about-logoCards .img3').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/Arevo.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/Arevo.webp")'
         });
         $(".about-logoCards .img3").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/Arevo.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/Arevo.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/Arevo.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/Arevo.webp')");
         });
 // image4
         $('.about-logoCards .img4').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c4.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c4.webp")'
         });
         $(".about-logoCards .img4").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/TransparentLogo.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/TransparentLogo.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c4.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c4.webp')");
         });
 // image5
         $('.about-logoCards .img5').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c8.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c8.webp")'
         });
         $(".about-logoCards .img5").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/Marico.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/Marico.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c8.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c8.webp')");
         });
 // image6
         $('.about-logoCards .img6').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c3.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c3.webp")'
         });
         $(".about-logoCards .img6").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/SOL.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/SOL.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c3.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c3.webp')");
         }); 
 // image7
         $('.about-logoCards .img7').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c6.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c6.webp")'
         });
         $(".about-logoCards .img7").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/Apporbit.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/Apporbit.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c6.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c6.webp')");
         });
 // image8
         $('.about-logoCards .img8').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c5.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c5.webp")'
         });
         $(".about-logoCards .img8").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/northsouth.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/northsouth.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c5.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c5.webp')");
         });
 // image9
         $('.about-logoCards .img9').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c2.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c2.webp")'
         });
         $(".about-logoCards .img9").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/samskrithabharathi.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/samskrithabharathi.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c2.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c2.webp')");
         });
 // image10
         $('.about-logoCards .img10').css({
-            'background-image': 'url("public/images/aboutPage/Afilliations/Grey/c9.webp")'
+            'background-image': 'url("/images/aboutPage/Afilliations/Grey/c9.webp")'
         });
         $(".about-logoCards .img10").hover(function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Original/YogaBharati.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Original/YogaBharati.webp')");
             }, function(){
-            $(this).css("background-image", "url('public/images/aboutPage/Afilliations/Grey/c9.webp')");
+            $(this).css("background-image", "url('/images/aboutPage/Afilliations/Grey/c9.webp')");
         });
 // Home
-        $(".hp-heroImg img").attr("src","public/images/homePage/Heroimage.webp"); 
+        $(".hp-heroImg img").attr("src","/images/homePage/Heroimage.webp"); 
 // Learnings
-        $(".bg-image img").attr("src","public/images/learnings/chariot.webp"); 
+        $(".bg-image img").attr("src","/images/learnings/chariot.webp"); 
 // Writings Books
-        $(".Wb1 img").attr("src","public/images/writingPage/Books/Book1.webp");
-        $(".Wb2 img").attr("src","public/images/writingPage/Books/Book2.webp");
-        $(".Wb3 img").attr("src","public/images/writingPage/Books/Book3.webp"); 
+        $(".Wb1 img").attr("src","/images/writingPage/Books/Book1.webp");
+        $(".Wb2 img").attr("src","/images/writingPage/Books/Book2.webp");
+        $(".Wb3 img").attr("src","/images/writingPage/Books/Book3.webp"); 
 // Writings logos
-        $(".Wb4 img").attr("src","public/images/writingPage/PublishedArticles/CNBC.webp"); 
-        $(".Wb5 img").attr("src","public/images/writingPage/PublishedArticles/Forbes.webp"); 
-        $(".Wb6 img").attr("src","public/images/writingPage/PublishedArticles/HBR.webp"); 
-        $(".Wb7 img").attr("src","public/images/writingPage/PublishedArticles/ET.webp"); 
-        $(".Wb8 img").attr("src","public/images/writingPage/PublishedArticles/Fortune.webp"); 
-        $(".Wb9 img").attr("src","public/images/writingPage/PublishedArticles/HBR.webp");  
+        $(".Wb4 img").attr("src","/images/writingPage/PublishedArticles/CNBC.webp"); 
+        $(".Wb5 img").attr("src","/images/writingPage/PublishedArticles/Forbes.webp"); 
+        $(".Wb6 img").attr("src","/images/writingPage/PublishedArticles/HBR.webp"); 
+        $(".Wb7 img").attr("src","/images/writingPage/PublishedArticles/ET.webp"); 
+        $(".Wb8 img").attr("src","/images/writingPage/PublishedArticles/Fortune.webp"); 
+        $(".Wb9 img").attr("src","/images/writingPage/PublishedArticles/HBR.webp");  
     }
 });
 

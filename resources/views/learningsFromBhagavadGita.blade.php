@@ -3,13 +3,13 @@
 <section class="container-fluid bg-container">
 	<div class="row bg-box">
 		<div class="row bg-outerArea">
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-text">
-			<h2>10 lessons from</h2>
-			<h1>Bhagavad Gita</h1>
-		</div>
-		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-image">
-			<img src="/images/learnings/chariot.png">
-		</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-text">
+				<h2>10 lessons from</h2>
+				<h1>Bhagavad Gita</h1>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 bg-image">
+				<img src="../images/learnings/chariot.png">
+			</div>
 		</div>
 	</div>
 </section>
@@ -20,8 +20,9 @@
 			<div class="row bg-cardsOuterArea">
 				<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 bg-leftText" id="leftText1">
 					<h1>1</h1>
+				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
-					<h1>We have the body but are not the body. </h1>
+					<h1>We have the body but <i>are</i> not the body. </h1>
 					<h3>We have different emotions, actions or moods, but we are not those emotions, actions or moods. We are more than our body, intellect and ambition. We have something that is eternal, and can operate from there. There is ‘divinity’ within us, in the form of Atman. One Atman in all bodies --- or we are all one!
 This is Prasad’s most rewarding lesson.
 					</h3>
@@ -55,7 +56,7 @@ This is Prasad’s most rewarding lesson.
 					<h1>4</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
-					<h1>Multiple paths like Bhatki (Love or devotion), karma (action) and jnana (Perspective/knowledge) lead to same end.</h1>
+					<h1>Multiple paths like Bhakti (Love or devotion), karma (action) and jnana (Perspective/knowledge) lead to the same end.</h1>
 					<h3>We follow the path of love because we surrender to a force that is bigger than our own ego and identity. We follow a path of action because some things just ‘need to be done’.  On the path of knowledge, a bigger perspective and larger purpose helps us connect the dots and create meaning, not just understanding. Different paths lead to you taking responsibility and realising it begins and ends with you.
 					</h3>
 				</div>
@@ -99,7 +100,7 @@ This is Prasad’s most rewarding lesson.
 					<h1>8</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
-					<h1>Practicing and acting without focus on the outcome help us reach higher goals and gain support of one and all.</h1>
+					<h1>Practicing and acting without focus on the outcome helps us reach higher goals and gain support of one and all.</h1>
 					<h3>Once we become detached and develop humility and gratitude, that attitude will possibly attract so much goodwill that an even larger and more positive outcome is plausible. The Gita teaches us to “Do what you can, don’t do it for the outcome”.
 					</h3>
 				</div>
@@ -110,7 +111,7 @@ This is Prasad’s most rewarding lesson.
 					<h1>9</h1>
 				</div>
 				<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-9 col-xs-offset-1 bg-rightText">
-					<h1>Be a witness and gain perspective to whatever happening -- whether it is good or bad.</h1>
+					<h1>Be a witness and gain perspective to whatever is happening, whether good or bad.</h1>
 					<h3>After producing results, we should look at ourselves from a bird’s eye perspective - do others appreciate us only because they gained from our action? When we gain a witness perspective, we can scrutinise our contributions and those of others, and that allows us to develop appreciation for those around us. 
 					</h3>
 				</div>
@@ -153,5 +154,6 @@ This is Prasad’s most rewarding lesson.
 		</div>
 	</div>
 </section>
-<script src="/js/learnings.js"></script>
+<script src="../js/learnings.js"></script>
+
 @stop

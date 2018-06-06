@@ -52,6 +52,7 @@ class WelcomeController extends Controller {
 
 
 
+
 	public function submitContactForm(){
 		 // Iterate form fields --------------------------------------------------
 	  $userName = $_POST["userName"];
@@ -96,5 +97,8 @@ class WelcomeController extends Controller {
 
 	public function learningsFromBhagavadGita(){
 		return view('learningsFromBhagavadGita');
+	}
+	public function articles(){
+		return view('articles');
 	}
 }

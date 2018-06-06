@@ -159,55 +159,126 @@ body{
 
 
 /***********************************************/
-/*  CSS for NAVIGATION BAR MODAL Starts here   */
-/*              By Kiran Joshi                 */
+/*  CSS for hamburger Starts here   */
+/*              By Ayushi Sood                 */
 /***********************************************/
-.modalNavbar{
-   .modalNavbar-content{
-      	background-color:rgba(0, 0, 0, 0.9);
-       	width:100%;
-       	height:100%;
-       	padding-bottom:5em;
-       	.close{
-          	padding:4px 0;
-          	cursor:pointer;
-          	span{
-             	margin-left:-1.5em;
-             	color:white;
-             	font-size:3em;
-             	opacity:2;
-          	}
-          	@media screen and (max-width:1200px) and (min-width:900px){
-				span{
-             		font-size:2em;
-             		opacity:2;
-          		}
-			}
-       	}
-       	.social-icons{
-       		margin-top:8em;
-       		img{
-       			width:80px;
-       			margin:0 2em;
-       		}
-       	}
-       	.nav-item{
-       		margin-top:4em;
-       		ul{
-       			li{
-       				list-style-type:none;
-       				color:white;
-       				font-size:26px;
-       				padding:0.4em 0;
-       				a{
-       					text-decoration:none;
-       					color:white;
-       				}
-       			}
-       		}
-       	}
-    }      
-} 
+label {
+	.menu {
+	    position: absolute;
+	    right: -75px;
+	    top: -100px;
+	    z-index: 100;
+	    width: 200px;
+	    height: 200px;
+	    // background: rgba(0,0,0,0.9);
+	    border-radius: 50% 50% 50% 50%;
+	    transition: .5s ease-in-out;
+	    box-shadow: 0 0 0 0 rgba(0,0,0,0.9) , 0 0 0 0 rgba(0,0,0,0.9);
+	    cursor: pointer;
+	}
+  	.hamburger {
+	    position: absolute;
+	    top: 135px;
+	    left: 50px;
+	    width: 30px;
+	    height: 2px;
+	    background: white;
+	    display: block;
+	    transform-origin: center;
+	    transition: .5s ease-in-out;
+	    &:after,
+	    &:before {
+	      transition: .5s ease-in-out;
+	      content: "";
+	      position: absolute;
+	      display: block;
+	      width: 100%;
+	      height: 100%;
+	      background: white;
+	    }
+	    &:before {
+	      top: -10px;
+	    } 
+	    &:after {
+	      bottom: -10px;
+	    }
+	}
+	input {
+	   display: none;
+	}
+  	input:checked + .menu{
+	    box-shadow: 0 0 0 100vw rgba(0,0,0,0.9), 0 0 0 100vh transparent;
+	    border-radius: 0;
+	    background-color:rgba(0,0,0,0.9);
+    	.hamburger{
+	    	transform: rotate(45deg);
+	      	&:after {
+		        transform: rotate(90deg);
+		        bottom: 0;
+	      	}
+	        &:before {
+		        transform: rotate(90deg);
+		        top: 0;
+	        }
+        }
+    }
+	input:checked + .menu + .social-icons{
+	  	display:block;
+	}
+	input:checked + .menu + .social-icons + ul {
+	   display:block;
+	}
+	
+	.social-icons{
+		display:flex;
+		width:100%;
+		left:34%;
+		// justify-content:space-around;
+	 	z-index:200;
+	  	position: absolute;
+	  	// transform: translate(-50%,-50%);
+	    display:none;
+	    transition: .25s 0s ease-in-out;
+	    margin-top:5em;
+	    img{
+	    	width:80px;
+	    	margin:0 2em;
+	    }
+	}
+	.centerAlign{
+		text-align:center;
+	}
+	ul{
+		// display:flex;
+		// flex-direction:column;
+		// align-items:center;
+	    z-index: 300;
+	    position: absolute;
+	    top: 18em;
+	    left: 32%;
+	    // transform: translate(-50%,-50%);
+	    display:none;
+	    transition: .25s 0s ease-in-out;
+	    li{
+	    	list-style-type:none;
+	    	font-size:26px;
+	    	padding:0.4em 0;
+	    	color:white;
+	    }
+	    
+	}
+	a{
+	    margin-bottom: 1em;
+	    color: white;
+	    text-decoration: none;
+	    
+	}
+	a:hover{
+		color:#adadad;
+		text-decoration:none;
+	}
+
+}
 
 /**********************************************/
 /**********************************************/

@@ -1,4 +1,4 @@
-    $(document).ready(function(){
+$(document).ready(function(){
 // pa card 1
         $(".paCard1").hover(function(){
             $('.card1').css("display", "none");
@@ -59,7 +59,138 @@
             $('#articleCard6').css("background-color", "#f5f5f5");
             $('.card6').css("display", "block");
         });
-    });
+// pa card 7        
+        $(".paCard7").hover(function(){
+            $('.card7').css("display", "none");
+            $('.hoverOver7').css("display", "block");
+            $('#articleCard7').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver7').css("display", "none");
+            $('#articleCard7').css("background-color", "#f5f5f5");
+            $('.card7').css("display", "block");
+        });
+// pa card 8        
+        $(".paCard8").hover(function(){
+            $('.card8').css("display", "none");
+            $('.hoverOver8').css("display", "block");
+            $('#articleCard8').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver8').css("display", "none");
+            $('#articleCard8').css("background-color", "#f5f5f5");
+            $('.card8').css("display", "block");
+        });
+// pa card 9        
+        $(".paCard9").hover(function(){
+            $('.card9').css("display", "none");
+            $('.hoverOver9').css("display", "block");
+            $('#articleCard9').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver9').css("display", "none");
+            $('#articleCard9').css("background-color", "#f5f5f5");
+            $('.card9').css("display", "block");
+        });
+// pa card 10        
+        $(".paCard10").hover(function(){
+            $('.card10').css("display", "none");
+            $('.hoverOver10').css("display", "block");
+            $('#articleCard10').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver10').css("display", "none");
+            $('#articleCard10').css("background-color", "#f5f5f5");
+            $('.card10').css("display", "block");
+        });
+// pa card 11        
+        $(".paCard11").hover(function(){
+            $('.card11').css("display", "none");
+            $('.hoverOver11').css("display", "block");
+            $('#articleCard11').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver11').css("display", "none");
+            $('#articleCard11').css("background-color", "#f5f5f5");
+            $('.card11').css("display", "block");
+        });
+// pa card 12        
+        $(".paCard12").hover(function(){
+            $('.card12').css("display", "none");
+            $('.hoverOver12').css("display", "block");
+            $('#articleCard12').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver12').css("display", "none");
+            $('#articleCard12').css("background-color", "#f5f5f5");
+            $('.card12').css("display", "block");
+        });
+// pa card 13        
+        $(".paCard13").hover(function(){
+            $('.card13').css("display", "none");
+            $('.hoverOver13').css("display", "block");
+            $('#articleCard13').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver13').css("display", "none");
+            $('#articleCard13').css("background-color", "#f5f5f5");
+            $('.card13').css("display", "block");
+        });
+// pa card 14        
+        $(".paCard14").hover(function(){
+            $('.card14').css("display", "none");
+            $('.hoverOver14').css("display", "block");
+            $('#articleCard14').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver14').css("display", "none");
+            $('#articleCard14').css("background-color", "#f5f5f5");
+            $('.card14').css("display", "block");
+        });
+// pa card 15        
+        $(".paCard15").hover(function(){
+            $('.card15').css("display", "none");
+            $('.hoverOver15').css("display", "block");
+            $('#articleCard15').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver15').css("display", "none");
+            $('#articleCard15').css("background-color", "#f5f5f5");
+            $('.card15').css("display", "block");
+        });
+// pa card 16        
+        $(".paCard16").hover(function(){
+            $('.card16').css("display", "none");
+            $('.hoverOver16').css("display", "block");
+            $('#articleCard16').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver16').css("display", "none");
+            $('#articleCard16').css("background-color", "#f5f5f5");
+            $('.card16').css("display", "block");
+        });
+// pa card 17        
+        $(".paCard17").hover(function(){
+            $('.card17').css("display", "none");
+            $('.hoverOver17').css("display", "block");
+            $('#articleCard17').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver17').css("display", "none");
+            $('#articleCard17').css("background-color", "#f5f5f5");
+            $('.card17').css("display", "block");
+        });
+// pa card 18        
+        $(".paCard18").hover(function(){
+            $('.card18').css("display", "none");
+            $('.hoverOver18').css("display", "block");
+            $('#articleCard18').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver18').css("display", "none");
+            $('#articleCard18').css("background-color", "#f5f5f5");
+            $('.card18').css("display", "block");
+        });
+// pa card 19        
+        $(".paCard19").hover(function(){
+            $('.card19').css("display", "none");
+            $('.hoverOver19').css("display", "block");
+            $('#articleCard19').css("background-color", "#1B5F5E");
+        }, function(){
+            $('.hoverOver19').css("display", "none");
+            $('#articleCard19').css("background-color", "#f5f5f5");
+            $('.card19').css("display", "block");
+        });
+
+});
 
 $(document).ready(function(){
 // rp card 1

@@ -48,7 +48,7 @@ body{
 					p{
 						padding:1em 2em;
 						color:#0000EE;
-						margin-top:3em;
+						// margin-top:3em;
 					}
 				}	
 			}
@@ -73,7 +73,7 @@ body{
 						}
 						p{
 							font-size:1em;
-							margin-top:0;
+							// margin-top:0;
 						}
 					}
 				}
@@ -91,7 +91,7 @@ body{
 							font-size:1em;
 						}
 						p{
-							margin-top:1em;
+							// margin-top:1em;
 						}
 					}
 				}
@@ -108,7 +108,7 @@ body{
 							font-size:1.4em;
 						}
 						p{
-							margin-top:2em;
+							// margin-top:2em;
 						}
 					}
 				}
@@ -517,29 +517,31 @@ body{
 						margin:2.5em 0;
 						width:80%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/ILA.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/ILA.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 130px 70px;
 	         			vertical-align:middle;
 	         			float:right;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
-							background-image: url('../images/aboutPage/Afilliations/Original/ILA.png');
 							width:80%;
 							background-repeat: no-repeat;
 							background-size: 130px 70px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img2{
 						margin:3.5em 3em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c1.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/Intellect.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 160px 50px;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/Intellect.png');
 							background-repeat: no-repeat;
+							-webkit-filter:grayscale(0);
 							background-size: 160px 	50px;
 						}
 					}
@@ -547,112 +549,120 @@ body{
 						margin:3em;
 						width:100%;
 						height:90px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/Arevo.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/Arevo.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 170px 55px;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/Arevo.png');
 							background-repeat: no-repeat;
 							background-size: 170px 55px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img4{
 						margin:3.5em 2em;
 						width:100%;
 						height:120px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c4.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/TransparentLogo.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 180px 45px;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/TransparentLogo.png');
 							background-repeat: no-repeat;
 							background-size: 180px 45px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img5{
 						margin:1.8em 5em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c8.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/Marico.jpg');
 	         			background-repeat: no-repeat;
 	         			background-size: 80px 100px;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/Marico.jpg');
 							background-repeat: no-repeat;
 							background-size: 80px 100px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img6{
 						margin:3em 1em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c3.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/SOL.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 190px 75px;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/SOL.png');
 							background-repeat: no-repeat;
 							background-size: 190px 75px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img7{
 						margin:3em 2em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c6.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/Apporbit.png');
 	         			background-repeat: no-repeat;
 	         			background-size: 180px 60px;
+	         			-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/Apporbit.png');
 							background-repeat: no-repeat;
 							background-size: 180px 60px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img8{
 						margin:2em 4.2em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c5.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/northsouth.png');
 		         		background-repeat: no-repeat;
 		         		background-size: 110px 110px;
+		         		-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/northsouth.png');
 							background-repeat: no-repeat;
 							background-size: 110px 110px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img9{
 						margin:4em 2em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c2.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/samskrithabharathi.jpg');
 		         		background-repeat: no-repeat;
 		         		background-size: 180px 50px;
+		         		-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/samskrithabharathi.jpg');
 							background-repeat: no-repeat;
 							background-size: 180px 50px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					.img10{
 						margin:1.5em 4em;
 						width:100%;
 						height:100px;
-						background-image: url('../images/aboutPage/Afilliations/Grey/c9.png');
+						background-image: url('../images/aboutPage/Afilliations/Original/YogaBharati.png');
 		         		background-repeat: no-repeat;
 		         		background-size: 120px 120px;
+		         		-webkit-filter:grayscale(1);
 						&:hover{
 							width:100%;
-							background-image: url('../images/aboutPage/Afilliations/Original/YogaBharati.png');
 							background-repeat: no-repeat;
 							background-size: 120px 120px;
+							-webkit-filter:grayscale(0);
 						}
 					}
 					@media screen and (max-width:550px) and (min-width:320px){
@@ -896,6 +906,9 @@ body{
 			border:none;
 			border-left:6px solid #256F76;
 			margin-top:4em;
+			&:hover{
+				box-shadow: 1px 1px 7px slategrey;
+			}
 			.about-innerMargin{
 				padding:2em;
 				h4{
@@ -1027,6 +1040,11 @@ body{
 				color:grey;
 				font-size:1.4em;
 				text-decoration:none;
+			}
+			.articles-seemore{
+				color:#0000EE;
+				font-size:19px;
+				
 			}
 			.writings-seeless{
 				color:grey;
@@ -1176,6 +1194,7 @@ body{
 						}
 					}
 				}
+				
 			}
 			.writings-publishedArticle{
 				margin:0;
@@ -1190,7 +1209,7 @@ body{
 						.writings-logos{
 							padding:0px;
 							img{
-								height:130px;
+								height:128px;
 								background-size:cover;
 							}
 						}
@@ -1477,12 +1496,20 @@ body{
 			.addPadding{
 				padding-bottom:1.5em;
 			}
+			
 		}
 		.removePadding{
 			padding-bottom:0;
 		}
+		.removeMargin{
+			margin-left:0;
+		}
 	}
 } 
+
+
+
+
 /**********************************************/
 /**********************************************/
 
@@ -1513,26 +1540,30 @@ body{
 		margin-right:1em;
 		background-color:#EDEFF1;
 		box-shadow:2px 2px 7px #444;
-		height:640px;
+		height:467px;
 		iframe{
 			border:none;
 			padding-bottom:1em;
 		}
+		.frame-type{
+			width:100%;
+			height:400px;
+		}
 		.frame-type1{
 			width:100%;
-			height:550px;
+			height:400px;
 		}
 		.frame-type2{
 			width:100%;
-			height:550px;
+			height:400px;
 		}
 		.frame-type3{
 			width:100%;
-			height:550px;
+			height:400px;
 		}
 		.frame-type4{
 			width:100%;
-			height:550px;
+			height:400px;
 		}
 		.videos-title{
 			background-color:#EDEFF1;
@@ -1554,6 +1585,10 @@ body{
 			margin:1em;
 			height:420px;
 			// display:inline;
+			.frame-type{
+				width:100%;
+				height:325px;
+			}
 			.frame-type1{
 				width:100%;
 				height:350px;
@@ -1856,6 +1891,13 @@ body{
 	    			padding-left:3em;
 	    			float:left;
 	    		}
+	    		a{
+	    			color:white;
+	    			padding-top:1.5em;
+	    			padding-left:3em;
+	    			float:left;
+	    			font-size:30px;
+	    		}
 	    	}
 	    }
 	    @media screen and (max-width:359px) and (min-width:320px){
@@ -1881,6 +1923,12 @@ body{
 		    			padding-left:1em;
 		    			margin-top:12px;
 		    		}
+		    		a{
+		    			font-size:9px;
+		    			padding-top:0.1em;
+		    			padding-left:5px;
+		    			margin-top:12px;
+		    		}
 		    	}
 		    }
 	    }
@@ -1902,6 +1950,12 @@ body{
 		    			margin-top:42%;
 		    		}
 		    		h2{
+		    			font-size:11px;
+		    			padding-top:0.4em;
+		    			padding-left:1em;
+		    			margin-top:15px;
+		    		}
+		    		a{
 		    			font-size:11px;
 		    			padding-top:0.4em;
 		    			padding-left:1em;
@@ -1931,6 +1985,11 @@ body{
 		    			font-size:20px;
 		    			padding-top:0.8em;
 		    		}
+		    		a{
+		    			font-size:20px;
+		    			padding-top:0.8em;
+		    			padding-left:2.5em;
+		    		}
 		    	}
 		    }
 	    }
@@ -1952,6 +2011,11 @@ body{
 		    			margin-top:30%;
 		    		}
 		    		h2{
+		    			font-size:26px;
+		    			padding-top:1em;
+		    			padding-left:4em;
+		    		}
+		    		a{
 		    			font-size:26px;
 		    			padding-top:1em;
 		    			padding-left:4em;
@@ -2267,7 +2331,7 @@ body{
 			margin:0;
 			margin-top:6em;
 			.bg-leftText{
-				height:200px;
+				// height:200px;
 				h1{
 					margin-top:4em;
 					position:absolute;
@@ -2357,6 +2421,7 @@ body{
 				}
 				.bg-rightText{
 					padding:1em 1em;
+					margin-bottom:1em;
 					h1{
 						font-size:12px;
 					}
@@ -2395,7 +2460,7 @@ body{
 	}
 	@media screen and (max-width:899px) and (min-width:551px){
 		.bg-box{
-			height:72vh;
+			height:70vh;
 			.bg-outerArea{
 				.bg-text{
 					h2{
@@ -2423,6 +2488,7 @@ body{
 				}
 				.bg-rightText{
 					padding:1em 3em;
+					margin-bottom:3em;
 					h1{
 						font-size:16px;
 					}
@@ -2483,6 +2549,7 @@ body{
 				}
 				.bg-rightText{
 					padding:1em 3em;
+					margin-bottom:3em;
 					h1{
 						font-size:22px;
 					}
